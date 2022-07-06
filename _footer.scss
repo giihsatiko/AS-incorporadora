@@ -1,0 +1,150 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+.box-email {
+  background-color: black;
+  min-height: 458px;
+  max-height: fit-content;
+}
+.email {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  h1 {
+    padding-top: 128px;
+    width: 400px;
+  }
+  span {
+    height: 9px;
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 100%;
+    margin-top: 23px;
+    margin-bottom: 50px;
+  }
+  form {
+    display: flex;
+    gap: 50px;
+    .form-item {
+      display: flex;
+      gap: 30px;
+    }
+    input {
+      padding: 10px 80px;
+    }
+    button {
+      color: white;
+      background-color: #8A1002;
+      width: 292px;
+    }
+  }
+}
+
+.atendimento {
+  padding-bottom: 80px;
+  p {
+    padding-top: 15px;
+  }
+}
+.links-rodape {
+  display: flex;
+  padding-top: 50px;
+}
+.links {
+  display: flex;
+  gap: 90px;
+}
+.atendimento {
+  div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    p {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21.94px;
+      &:first-of-type {
+        width: 110px;
+      }
+    }
+  }
+}
+.links-itens {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  gap: 40px;
+  div {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    a {
+      color: black;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 35px;
+    }
+    &:nth-of-type(1) a {
+      text-decoration: none;
+    }
+    &:nth-of-type(2) a {
+      text-decoration: none;
+    }
+  }
+}
+
+
+.botoes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 26px;
+  div {
+    display: flex;
+    justify-content: space-around;
+    i {
+      color: black;
+    }
+  }
+}
+
+.direitos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  border-top: 1px solid #C4C4C4;
+  p {
+    color: #767676;
+    font-weight: 500;
+    font-size: 14px;
+  }
+}
+.rodape {
+  background-color: #028A49;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  .contato-rodape {
+    display: flex;
+    justify-content: space-around;
+    a {
+      display: flex;
+      align-items: center;
+      color: white;
+      text-decoration: none;
+      p {
+        padding-top: 15px;
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.94px;
+        span {
+          font-weight: 700;
+        }
+      }
+      
+    }
+  }
+}
