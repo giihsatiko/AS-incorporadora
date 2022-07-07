@@ -1,53 +1,36 @@
-.conteudo-header {
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .btn {
+    display: none;
+  }
+ .logo {
+  margin-bottom: -80px;
+ }
+ ul {
+  display: flex;
+  padding: 0;
+  list-style: none;
+  margin: 0;
+ }
+ .desktop-list {
+  li {
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 20px 30px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+}
+
+
+.botao-nav {
   display: flex;
   align-items: center;
-  z-index: 1000;
-  background-color: white;
-  &>img {
-    margin-bottom: -70px;
-  }
-  ul {
-    display: flex;
-    list-style: none;
-    a {
-      padding: 25px 40px;
-      text-decoration: none;
-      color: black;
-      border-right: 1px solid #110000;
-    }
-  }
-  div {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 20px;
-    a {
-      text-decoration: none;
-      color: white;
-      border-radius: 3px;
-      img {
-        padding-right: 6px;
-      }
-
-    }
-  }
-}
-.botao-colab {
-  background-color: black;
-  padding: 12px 20px;
-  color: white;
-  text-decoration: none;
-  border-radius: 3px;
-  text-align: center;
-  width: 221px;
-}
-.botao-cliente {
-  background-color: #8A1002;
-  padding: 14px 20px;
-  color: white;
-  text-decoration: none;
-  border-radius: 3px;
-  text-align: center;
-  width: 221px;
+  justify-content: center;
+  list-style: none;
+  gap: 30px;
 }

@@ -1,0 +1,118 @@
+$vermelho: #8a1002;
+$cinza-claro: #F6F6F6;
+$cinza-escuro: #4A4A4A;
+$verde: #028A49;
+.botao-preto {
+  background-color: black;
+  padding: 14px 20px;
+  border-radius: 3px;
+  text-align: center;
+  a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    img {
+      padding-right: 8px;
+    }
+  }
+}
+.botao-vermelho {
+  background-color: $vermelho;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 3px;
+  text-align: center;
+  color: white;
+  a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    img {
+      padding-right: 8px;
+    }
+  }
+}
+
+.box-titulo {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 252px;
+  div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    h1 {
+      color: white;
+      font-weight: 700;
+      font-size: 48px;
+      text-align: center;
+      line-height: 40px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 17px;
+      text-align: center;
+      line-height: 20.72px;
+      color: #767676;
+    }
+  }
+}
+
+.box {
+  h2 {
+    color: $vermelho;
+    font-weight: 400;
+    font-size: 30px;
+  }
+  span {
+    display: block;
+    width: 100%;
+    height: 9px;
+    background-color: black;
+    margin-top: 29px;
+    margin-bottom: 23px;
+  }
+  iframe {
+    height: 435px;
+    width: 100%;
+  }
+  .contato-mapa {
+    background-color: black;
+    border-radius: 3px;
+    height: 188px;
+    margin: 113px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .mapa-item {
+      color: $cinza-claro;
+      div {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 18px;
+        h3 {
+          font-weight: 600;
+          margin: 0;
+        }
+        p {
+          font-weight: 400;
+        }
+        img {
+          padding-bottom: 10px;
+        }
+      }
+      &:last-of-type {
+        background-color: $verde;
+        border-radius: 3px;
+        padding-left: 28px;
+        width: 239px;
+        padding-top: 10px;
+      }
+    }
+  }
+}

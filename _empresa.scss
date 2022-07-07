@@ -1,0 +1,18 @@
+.empresa {
+  display: flex;
+  gap: 30px;
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26.77px;
+    color: $cinza-escuro;
+    &:nth-of-type(2) {
+      padding-bottom: 56px;
+    }
+  }
+  a {
+    font-weight: 400;
+    font-size: 18px;
+    color: $vermelho;
+  }
+}

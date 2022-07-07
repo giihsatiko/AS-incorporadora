@@ -1,0 +1,57 @@
+@media (max-width:990px) {
+  ul:first-of-type {
+    display: none;
+  }
+  nav {
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      order: 2;
+     .burguer {
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      justify-content: space-between;
+      span {
+        width: 40px;
+        height: 5px;
+        background-color: black;
+      }
+     }
+     p {
+      margin: 0;
+      font-weight: 700;
+      font-size: 20px;
+      text-align: center;
+    }
+    }
+  }
+  .offcanvas {
+    height: 100%;
+  }
+  .offcanvas-body {
+    height: 100%;
+    ul:first-of-type {
+      display: block;
+      padding-bottom: 30px;
+      li {
+        padding: 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+        a {
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    .botao-nav {
+      display: flex;
+    }
+  }
+}
+
+@media (max-width:576px) {
+  .botao-nav {
+    display: none;
+  }
+}
