@@ -41,14 +41,14 @@
               <div class="links-itens">
                 <div>
                   <a href="index.php"><span>></span> HOME</a>
-                  <a href="">> BLOG</a>
+                  <a href="blog.php">> BLOG</a>
                   <a href="contato.php">> CONTATO</a>
                   <a href="">> TRABALHE CONOSCO</a>
                 </div>
                 <div>
-                  <a href="">> EMPREENDIMENTOS</a>
+                  <a href="listagem.php">> EMPREENDIMENTOS</a>
                   <a href="">> OBRAS CONCLUÍDAS</a>
-                  <a href="">> OBRAS EM ANDAMENTOS</a>
+                  <a href="empreendimento.php">> OBRAS EM ANDAMENTOS</a>
                   <a href="">> OFEREÇA SUA ÁREA</a>
                 </div>
                 <div class="politica">
@@ -99,5 +99,17 @@
         </div>
       </div>
     </footer>
-  </body>
-</html>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+    </body>
+
+    </html>

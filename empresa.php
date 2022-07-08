@@ -24,7 +24,35 @@
         <img src="images/empresa.png" alt="frente da empresa">
       </div>
     </div>
-
+    <div class="vantagens">
+      <div class="box-vantagem">
+        <div>
+          <img src="images/missao.png" alt="topo montanha">
+          <h4>MISSÃO</h4>
+        </div>
+        <div>
+          <p>Empreender soluções imobiliárias inovadoras e com qualidade, tendo sempre como referência as pessoas e a comunidade, com respeito ao meio ambiente, gerando assim um bem estar aos clientes e colaboradores.</p>
+        </div>
+      </div>
+      <div class="box-vantagem">
+        <div>
+          <img src="images/visao.png" alt="olho">
+          <h4>VISÃO</h4>
+        </div>
+        <div>
+          <p>O homem evolui conforme suas conquistas. Acreditamos que as pessoas, em busca da felicidade e qualidade de vida, sempre evoluem em suas aspirações de moradia, lazer e trabalho.</p>
+        </div>
+      </div>
+      <div class="box-vantagem">
+        <div>
+          <img src="images/valores.png" alt="aperto de mão">
+          <h4>VALORES</h4>
+        </div>
+        <div>
+          <p>Conhecimento, Humildade, Inovação, Integridade, Valorização das pessoas, Sustentabilidade, Satisfação do cliente.</p>
+        </div>
+      </div>
+    </div>
 
 
 

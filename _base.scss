@@ -1,7 +1,7 @@
 $vermelho: #8a1002;
-$cinza-claro: #F6F6F6;
-$cinza-escuro: #4A4A4A;
-$verde: #028A49;
+$cinza-claro: #f6f6f6;
+$cinza-escuro: #4a4a4a;
+$verde: #028a49;
 .botao-preto {
   background-color: black;
   padding: 14px 20px;
@@ -33,6 +33,10 @@ $verde: #028A49;
       padding-right: 8px;
     }
   }
+  &:hover {
+    background-color: #C61400;
+    box-shadow: -5px 5px 18px #C61400;
+  }
 }
 
 .box-titulo {
@@ -51,6 +55,7 @@ $verde: #028A49;
       font-size: 48px;
       text-align: center;
       line-height: 40px;
+      padding-bottom: 18px;
     }
     p {
       font-weight: 500;
@@ -63,6 +68,7 @@ $verde: #028A49;
 }
 
 .box {
+  padding-top: 89px;
   h2 {
     color: $vermelho;
     font-weight: 400;
@@ -74,7 +80,7 @@ $verde: #028A49;
     height: 9px;
     background-color: black;
     margin-top: 29px;
-    margin-bottom: 23px;
+    margin-bottom: 62px;
   }
   iframe {
     height: 435px;
@@ -114,5 +120,76 @@ $verde: #028A49;
         padding-top: 10px;
       }
     }
+  }
+}
+
+.pagination-box {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 117px;
+  span {
+    display: block;
+    height: 9px;
+    background-color: black;
+    margin-bottom: 20px;
+  }
+  div {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    a {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid black;
+      border-radius: 3px;
+      font-weight: 500;
+      font-size: 15px;
+      height: 51px;
+      width: 51px;
+      text-decoration: none;
+      color: black;
+      &:hover {
+        background-color: #DADADA;
+      }
+      &:active {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}
+
+.galeria-item {
+  a {
+    text-decoration: none;
+    color: $cinza-claro;
+    &>div {
+      position: relative;
+      height: 100%;
+      width: 100%;
+      img {
+        height: 100%;
+        width: 100%;
+      }
+    }
+    div:nth-of-type(2) {
+      z-index: 2;
+      position: absolute;
+      background-color: $vermelho;
+      width: 114px;
+      height: 114px;
+
+      left: 30px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      img {
+        z-index: 3;
+        width: 22px;
+        height: 22px;
+      }
+    }   
   }
 }

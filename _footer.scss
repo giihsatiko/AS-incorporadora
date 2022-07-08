@@ -121,17 +121,27 @@
 }
 .rodape {
   background-color: $verde;
-  height: 65px;
+  height: fit-content;
   display: flex;
   align-items: center;
   .contato-rodape {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     a {
       display: flex;
       align-items: center;
+      justify-content: center;
       color: white;
       text-decoration: none;
+      width: 100%;
+      &:nth-of-type(2) {
+        border-left: 1px solid rgba(255,255,255,0.1);
+        border-right: 1px solid rgba(255,255,255,0.1);
+
+      }
+      &:hover {
+        background-color:  rgba(0,255,133,0.3);
+      }
       p {
         padding-top: 15px;
         display: flex;

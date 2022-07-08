@@ -1,18 +1,61 @@
 .empresa {
   display: flex;
-  gap: 30px;
+  justify-content: space-between;
+
+  div:first-of-type p {
+    padding-top: 34.67px;
+  }
+  div:nth-of-type(2) p {
+    padding-bottom: 56px;
+  }
   p {
     font-weight: 500;
     font-size: 18px;
     line-height: 26.77px;
     color: $cinza-escuro;
-    &:nth-of-type(2) {
-      padding-bottom: 56px;
-    }
+    width: 542px;
   }
   a {
     font-weight: 400;
     font-size: 18px;
     color: $vermelho;
   }
+}
+
+.vantagens {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-top: 200px;
+  padding-bottom: 180px;
+}
+.box-vantagem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  div {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    h4 {
+      padding-bottom: 26px;
+      font-weight: 600;
+      font-size: 16px;
+      text-align: center;
+    }
+    p {
+      padding-top: 35px;
+      border-top: 2px solid black;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 26.77px;
+      text-align: left;
+    }
+  }
+
 }
