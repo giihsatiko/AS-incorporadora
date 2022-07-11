@@ -39,12 +39,6 @@
   }
 }
 
-.atendimento {
-  padding-bottom: 80px;
-  p {
-    padding-top: 15px;
-  }
-}
 .links-rodape {
   display: flex;
   padding-top: 50px;
@@ -54,11 +48,17 @@
   gap: 90px;
 }
 .atendimento {
+  padding-bottom: 80px;
+  h4 {
+    font-weight: 600;
+    font-size: 18px;
+  }
   div {
     display: flex;
     align-items: center;
     gap: 10px;
     p {
+      padding-top: 15px;
       font-weight: 400;
       font-size: 18px;
       line-height: 21.94px;

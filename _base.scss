@@ -44,11 +44,16 @@ $verde: #028a49;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
   height: 252px;
+  z-index: -2;
   div {
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
     h1 {
       color: white;
       font-weight: 700;
@@ -63,6 +68,13 @@ $verde: #028a49;
       text-align: center;
       line-height: 20.72px;
       color: #767676;
+    }
+    span {
+      width: 80%;
+      height: 9px;
+      background-color: $vermelho;
+      position: absolute;
+      bottom: 0;
     }
   }
 }
@@ -96,10 +108,19 @@ $verde: #028a49;
     align-items: center;
     .mapa-item {
       color: $cinza-claro;
+      &:last-of-type {
+        background-color: $verde;
+        border-radius: 3px;
+        max-width: 239px;
+        width: 100%;
+        padding-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       div {
         display: flex;
         align-items: center;
-        gap: 8px;
         font-size: 18px;
         h3 {
           font-weight: 600;
@@ -111,13 +132,6 @@ $verde: #028a49;
         img {
           padding-bottom: 10px;
         }
-      }
-      &:last-of-type {
-        background-color: $verde;
-        border-radius: 3px;
-        padding-left: 28px;
-        width: 239px;
-        padding-top: 10px;
       }
     }
   }
@@ -161,35 +175,63 @@ $verde: #028a49;
 }
 
 .galeria-item {
+  display: flex;
+  justify-content: center;
   a {
     text-decoration: none;
-    color: $cinza-claro;
-    &>div {
-      position: relative;
-      height: 100%;
-      width: 100%;
-      img {
-        height: 100%;
-        width: 100%;
+    position: relative;
+    .sobrepor-link {
+      &>div {
+        position: absolute;
+        color: $cinza-claro;
+        background-color: $vermelho;
+        width: 114px;
+        height: 114px;
+        top: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        img {
+          width: 22px;
+          height: 22px;
+        }
       }
-    }
-    div:nth-of-type(2) {
-      z-index: 2;
-      position: absolute;
-      background-color: $vermelho;
-      width: 114px;
-      height: 114px;
-
-      left: 30px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      img {
-        z-index: 3;
-        width: 22px;
-        height: 22px;
+    } 
+    .texto-blog {
+      text-align: left;
+      max-width: 412px;
+      color: black;
+      h3 {
+        padding-top: 31px;
+        font-weight: 500;
+        font-size: 20px;
       }
-    }   
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19.5px;
+        height: 80px;
+      }
+      &>div {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        color: $vermelho;
+        padding-bottom: 89px;
+        img {
+          height: 15px;
+          width: 56px;
+        }
+      }
+    }  
   }
+}
+
+.titulo-h2 {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+  padding-bottom: 26px;
+  border-bottom: 2px solid black;
 }

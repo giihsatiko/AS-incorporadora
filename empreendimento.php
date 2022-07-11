@@ -5,6 +5,7 @@
     <div>
       <h1>VEREDAS 3</h1>
       <p>Home | Empreendimentos | Obras Concluídas | Veredas 3</p>
+      <span></span>
     </div>
   </div>
   <div class="introducao-lote">
@@ -79,9 +80,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/galeria-img.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/galeria-img.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -89,9 +92,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/galeria-img2.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/galeria-img2.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -99,9 +104,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/lote5.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/lote5.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -109,9 +116,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/galeria-img.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/galeria-img.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -119,9 +128,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/galeria-img2.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/galeria-img2.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -129,9 +140,11 @@
         <div class="swiper-slide">
           <div class="galeria-item">
             <a href="">
-              <img src="images/lote5.png" alt="rua">
-              <div>
-                <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+              <div class="sobrepor-link">
+                <img src="images/lote5.png" alt="rua">
+                <div>
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                </div>
               </div>
             </a>
           </div>
@@ -147,6 +160,7 @@
     <p class="paragrafo-form">Tem interesse em adquirir um lote ou tirar alguma dúvida sobre o projeto? Preencha o formulário e entraremos em contato o mais breve possível.</p>
     <?php include "formulario.php"; ?>
   </div>
+
 </main>
 
 <?php include "footer.php"; ?>

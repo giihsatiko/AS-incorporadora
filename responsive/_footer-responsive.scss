@@ -22,18 +22,13 @@
       }
     }
   }
-  .links-itens {
-    width: 100%;
-    gap: 35px;
-  }
-  .links-rodape {
-    flex-direction: column;
+  .links {
+    flex-wrap: wrap;
   }
   .botoes {
     flex-direction: row;
     align-items: center;
     div {
-      margin-left: 180px;
       gap: 50px;
     }
   }
