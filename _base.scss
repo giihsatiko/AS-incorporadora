@@ -2,6 +2,12 @@ $vermelho: #8a1002;
 $cinza-claro: #f6f6f6;
 $cinza-escuro: #4a4a4a;
 $verde: #028a49;
+i {
+  color: black;
+  &:hover {
+    color: #767676;
+  }
+}
 .botao-preto {
   background-color: black;
   padding: 14px 20px;
@@ -15,6 +21,9 @@ $verde: #028a49;
     img {
       padding-right: 8px;
     }
+  }
+  &:hover {
+    box-shadow: 0px 10px 20px #767676;
   }
 }
 .botao-vermelho {
@@ -34,8 +43,9 @@ $verde: #028a49;
     }
   }
   &:hover {
-    background-color: #C61400;
-    box-shadow: -5px 5px 18px #C61400;
+    background: #c61400;
+    box-shadow: 0px 10px 20px rgba(198, 20, 0, 0.7);
+    border-radius: 3px;
   }
 }
 
@@ -164,7 +174,7 @@ $verde: #028a49;
       text-decoration: none;
       color: black;
       &:hover {
-        background-color: #DADADA;
+        background-color: #dadada;
       }
       &:active {
         background-color: black;
@@ -181,7 +191,7 @@ $verde: #028a49;
     text-decoration: none;
     position: relative;
     .sobrepor-link {
-      &>div {
+      & > div {
         position: absolute;
         color: $cinza-claro;
         background-color: $vermelho;
@@ -192,12 +202,15 @@ $verde: #028a49;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        &:hover {
+          background-color: #C61400;
+        }
         img {
           width: 22px;
           height: 22px;
         }
       }
-    } 
+    }
     .texto-blog {
       text-align: left;
       max-width: 412px;
@@ -213,7 +226,7 @@ $verde: #028a49;
         line-height: 19.5px;
         height: 80px;
       }
-      &>div {
+      & > div {
         display: flex;
         align-items: center;
         gap: 15px;
@@ -224,10 +237,18 @@ $verde: #028a49;
           width: 56px;
         }
       }
-    }  
+    }
   }
 }
-
+svg:hover {
+  stroke: #767676;
+}
+.botao-swiper {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 20px;
+}
 .titulo-h2 {
   font-weight: 600;
   font-size: 16px;

@@ -53,13 +53,6 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      &:nth-of-type(3) {
-        position: relative;
-        display: block;
-        width: 61.5rem;
-        height: 4px;
-        background-color: $cinza-escuro;
-      }
       &:first-of-type {
         position: absolute;
         display: block;
@@ -67,16 +60,23 @@
         z-index: 2;
         background-color: $verde;
         width: 40.0625rem;
+        &::after {
+          content: "";
+          display: block;
+          width: 14px;
+          height: 14px;
+          z-index: 1;
+          margin-left: auto;
+          background-color: #00dd73;
+          border-radius: 100%;
+        }
       }
       &:nth-of-type(2) {
-        position: absolute;
+        position: relative;
         display: block;
-        width: 14px;
-        height: 14px;
-        z-index: 1;
-        margin-left: 40.0625rem;
-        margin-bottom: 18px;
-        background-color: #00dd73;
+        width: 61.5rem;
+        height: 4px;
+        background-color: $cinza-escuro;
       }
     }
   }

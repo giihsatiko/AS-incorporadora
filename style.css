@@ -1,3 +1,10 @@
+i {
+  color: black;
+}
+i:hover {
+  color: #767676;
+}
+
 .botao-preto {
   background-color: black;
   padding: 14px 20px;
@@ -12,6 +19,9 @@
 }
 .botao-preto a img {
   padding-right: 8px;
+}
+.botao-preto:hover {
+  box-shadow: 0px 10px 20px #767676;
 }
 
 .botao-vermelho {
@@ -32,8 +42,9 @@
   padding-right: 8px;
 }
 .botao-vermelho:hover {
-  background-color: #C61400;
-  box-shadow: -5px 5px 18px #C61400;
+  background: #c61400;
+  box-shadow: 0px 10px 20px rgba(198, 20, 0, 0.7);
+  border-radius: 3px;
 }
 
 .box-titulo {
@@ -164,7 +175,7 @@
   color: black;
 }
 .pagination-box div a:hover {
-  background-color: #DADADA;
+  background-color: #dadada;
 }
 .pagination-box div a:active {
   background-color: black;
@@ -190,6 +201,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.galeria-item a .sobrepor-link > div:hover {
+  background-color: #C61400;
 }
 .galeria-item a .sobrepor-link > div img {
   width: 22px;
@@ -223,6 +237,17 @@
   width: 56px;
 }
 
+svg:hover {
+  stroke: #767676;
+}
+
+.botao-swiper {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  gap: 20px;
+}
+
 .titulo-h2 {
   font-weight: 600;
   font-size: 16px;
@@ -235,6 +260,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 91px;
 }
 nav .btn {
   display: none;
@@ -248,9 +274,14 @@ nav ul {
   list-style: none;
   margin: 0;
 }
+nav .desktop-list {
+  height: 100%;
+}
 nav .desktop-list li {
   border-right: 1px solid rgba(0, 0, 0, 0.25);
   padding: 20px 30px;
+  display: flex;
+  align-items: center;
 }
 nav .desktop-list li:hover {
   background-color: #f6f6f6;
@@ -273,8 +304,6 @@ nav .desktop-list a {
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   background: #fff;
   /* Center slide text vertically */
   display: -webkit-box;
@@ -289,6 +318,13 @@ nav .desktop-list a {
   -ms-flex-align: center;
   -webkit-align-items: center;
   align-items: center;
+}
+.swiper-slide a {
+  color: black;
+  text-decoration: none;
+}
+.swiper-slide a:hover {
+  text-decoration: underline;
 }
 
 .swiper-slide img {
@@ -355,6 +391,119 @@ nav .desktop-list a {
     display: none;
   }
 }
+.box-ano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 958px;
+}
+.box-ano .texto-ano {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+}
+.box-ano .texto-ano .titulo-ano {
+  font-size: 30px;
+  line-height: 40px;
+  color: white;
+  width: 31.25rem;
+}
+.box-ano .texto-ano .titulo-ano h1 {
+  font-weight: 400;
+}
+.box-ano .texto-ano .titulo-ano b {
+  font-weight: 700;
+}
+.box-ano .texto-ano span {
+  height: 9px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  position: absolute;
+  bottom: 40%;
+}
+.box-ano .texto-sobre {
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  padding-top: 96px;
+}
+.box-ano .texto-sobre p {
+  width: 37.625rem;
+  margin: auto;
+}
+.box-ano .texto-sobre p span {
+  font-weight: 700;
+}
+.box-ano .texto-sobre .botoes-sobre {
+  padding-top: 74px;
+  display: flex;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+}
+.box-ano .texto-sobre .botoes-sobre div:nth-of-type(2) a {
+  border: 2px solid #8a1002;
+  border-radius: 3px;
+  color: white;
+  text-decoration: none;
+  padding: 14px 26px;
+}
+.box-ano .texto-sobre .botoes-sobre div:nth-of-type(2) a:hover {
+  border: 2px solid white;
+}
+
+.status-obras-box {
+  height: 100px;
+}
+.status-obras-box .status-obras {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.status-obras-box .status-obras div {
+  position: relative;
+}
+.status-obras-box .status-obras div span {
+  width: 100%;
+  margin-top: 26px;
+  position: absolute;
+  display: block;
+  height: 2px;
+  background-color: #c4c4c4;
+}
+.status-obras-box .status-obras div:hover a {
+  color: #767676;
+}
+.status-obras-box .status-obras div:hover span {
+  background-color: #767676;
+}
+.status-obras-box .status-obras div:active a {
+  color: black;
+}
+.status-obras-box .status-obras div:active span {
+  background-color: black;
+}
+.status-obras-box .status-obras div a {
+  text-decoration: none;
+  color: #767676;
+  font-weight: 600;
+  font-size: 16px;
+}
+.status-obras-box .status-obras div a:hover span {
+  background-color: black;
+  width: 100%;
+}
+.status-obras-box .pagination-span {
+  margin-top: 26px;
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: #c4c4c4;
+}
+
 .formulario {
   display: flex;
   align-items: center;
@@ -502,6 +651,9 @@ nav .desktop-list a {
   color: black;
   text-decoration: none;
 }
+.lotes-box .lotes-item a:hover {
+  text-decoration: underline;
+}
 .lotes-box .lotes-item a span {
   display: block;
   padding-top: 20px;
@@ -582,13 +734,6 @@ nav .desktop-list a {
   justify-content: center;
   align-items: center;
 }
-.progresso-obra .progresso span:nth-of-type(3) {
-  position: relative;
-  display: block;
-  width: 61.5rem;
-  height: 4px;
-  background-color: #4a4a4a;
-}
 .progresso-obra .progresso span:first-of-type {
   position: absolute;
   display: block;
@@ -597,15 +742,22 @@ nav .desktop-list a {
   background-color: #028a49;
   width: 40.0625rem;
 }
-.progresso-obra .progresso span:nth-of-type(2) {
-  position: absolute;
+.progresso-obra .progresso span:first-of-type::after {
+  content: "";
   display: block;
   width: 14px;
   height: 14px;
   z-index: 1;
-  margin-left: 40.0625rem;
-  margin-bottom: 18px;
+  margin-left: auto;
   background-color: #00dd73;
+  border-radius: 100%;
+}
+.progresso-obra .progresso span:nth-of-type(2) {
+  position: relative;
+  display: block;
+  width: 61.5rem;
+  height: 4px;
+  background-color: #4a4a4a;
 }
 
 .obra-vantagens {
@@ -667,6 +819,21 @@ nav .desktop-list a {
   width: 45.875rem;
 }
 
+@media (max-width: 768px) {
+  .lotes-box {
+    justify-content: center;
+  }
+
+  .pagination-box div {
+    margin: auto;
+  }
+}
+@media (max-width: 576px) {
+  .categorias {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 .bg-casa {
   background-image: url(images/bg-casa.png);
   background-repeat: no-repeat;
@@ -879,6 +1046,8 @@ nav .desktop-list a {
 }
 .email form input {
   padding: 10px 80px;
+  color: #DADADA;
+  background-color: black;
 }
 .email form button {
   color: white;
@@ -948,12 +1117,16 @@ nav .desktop-list a {
   gap: 20px;
   padding-bottom: 26px;
 }
+.botoes ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 .botoes div {
   display: flex;
   justify-content: space-around;
-}
-.botoes div i {
-  color: black;
 }
 
 .direitos {

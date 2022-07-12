@@ -1,0 +1,15 @@
+@media (max-width:768px) {
+  .lotes-box {
+    justify-content: center;
+  }
+  .pagination-box div {
+    margin: auto;
+  }
+}
+
+@media (max-width:576px) {
+  .categorias {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

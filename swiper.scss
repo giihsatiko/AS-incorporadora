@@ -4,10 +4,14 @@
 }
 
 .swiper-slide {
-  text-align: center;
-  font-size: 18px;
   background: #fff;
-
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
   /* Center slide text vertically */
   display: -webkit-box;
   display: -ms-flexbox;

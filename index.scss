@@ -1,0 +1,118 @@
+.box-ano {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 958px;
+  .texto-ano {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    .titulo-ano {
+      font-size: 30px;
+      line-height: 40px;
+      color: white;
+      width: 31.25rem;
+      h1 {
+        font-weight: 400;
+      }
+      b {
+        font-weight: 700;
+      }
+    }
+    span {
+      height: 9px;
+      width: 100%;
+      background-color: rgba(255, 255, 255, 0.15);
+      position: absolute;
+      bottom: 40%;
+    }
+  }
+  .texto-sobre {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    padding-top: 96px;
+    p {
+      width: 37.625rem;
+      margin: auto;
+      span {
+        font-weight: 700;
+      }
+    }
+    .botoes-sobre {
+      padding-top: 74px;
+      display: flex;
+      gap: 21px;
+      align-items: center;
+      justify-content: center;
+      div:nth-of-type(2) a {
+        border: 2px solid $vermelho;
+        border-radius: 3px;
+        color: white;
+        text-decoration: none;
+        padding: 14px 26px;
+        &:hover {
+          border: 2px solid white;
+        }
+      }
+    }
+  }
+}
+.status-obras-box {
+  height: 100px;
+  .status-obras {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div {
+      position: relative;
+      span {
+        width: 100%;
+        margin-top: 26px;
+        position: absolute;
+        display: block;
+        height: 2px;
+        background-color: #c4c4c4;
+      }
+      &:hover {
+        a {
+          color: #767676;
+        }
+        span {
+          background-color: #767676;
+        }
+      }
+      &:active {
+        a {
+          color: black;
+        }
+        span {
+          background-color: black;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: #767676;
+        font-weight: 600;
+        font-size: 16px;
+        &:hover {
+          span {
+            background-color: black;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+  }
+  .pagination-span {
+    margin-top: 26px;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #c4c4c4;
+  }
+}

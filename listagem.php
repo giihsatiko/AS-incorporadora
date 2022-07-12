@@ -19,7 +19,7 @@
     <div class="lotes-box">
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote.png" alt="loteamento">
+          <img src="images/lote.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 3</h3>
@@ -30,7 +30,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote2.png" alt="loteamento">
+          <img src="images/lote2.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Rubi</h3>
@@ -41,7 +41,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote3.png" alt="loteamento">
+          <img src="images/lote3.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 2</h3>
@@ -52,7 +52,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote4.png" alt="loteamento">
+          <img src="images/lote4.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 3</h3>
@@ -63,7 +63,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote5.png" alt="loteamento">
+          <img src="images/lote5.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Rubi</h3>
@@ -74,7 +74,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote6.png" alt="loteamento">
+          <img src="images/lote6.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 2</h3>
@@ -85,7 +85,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote.png" alt="loteamento">
+          <img src="images/lote.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 3</h3>
@@ -96,7 +96,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote2.png" alt="loteamento">
+          <img src="images/lote2.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Rubi</h3>
@@ -107,7 +107,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote3.png" alt="loteamento">
+          <img src="images/lote3.png" alt="loteamento" class="img-fluid">
           <div>
             <span>DE 156 A 369m² • 110 LOTES</span>
             <h3>Loteamento Veredas 2</h3>

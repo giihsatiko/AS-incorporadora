@@ -30,6 +30,8 @@
     }
     input {
       padding: 10px 80px;
+      color: #DADADA;
+      background-color: black;
     }
     button {
       color: white;
@@ -98,12 +100,16 @@
   flex-direction: column;
   gap: 20px;
   padding-bottom: 26px;
+  ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   div {
     display: flex;
     justify-content: space-around;
-    i {
-      color: black;
-    }
   }
 }
 

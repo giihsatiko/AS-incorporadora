@@ -2,6 +2,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 91px;
   .btn {
     display: none;
   }
@@ -15,9 +16,12 @@ nav {
   margin: 0;
  }
  .desktop-list {
+  height: 100%;
   li {
     border-right: 1px solid rgba(0, 0, 0, 0.25);
     padding: 20px 30px;
+    display: flex;
+    align-items: center;
     &:hover {
       background-color: $cinza-claro;
     }

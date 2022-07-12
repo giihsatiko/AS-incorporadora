@@ -13,7 +13,7 @@
                   <input type="text" class="form-control" id="email" placeholder="Digite seu e-mail">
                 </div>
               </div>
-              <button type="submit" class="btn">RECEBER NOVIDADES</button>
+              <button type="submit" class=" botao-vermelho">RECEBER NOVIDADES</button>
             </form>
           </div>
         </div>
@@ -63,11 +63,11 @@
                 <div class="botao-vermelho">
                   <a href=""><img src="images/usuario.png" alt="usuario"> CLIENTE</a>
                 </div>
-                <div>
-                  <i class="fa-brands fa-youtube"></i>
-                  <i class="fa-brands fa-facebook-f"></i>
-                  <i class="fa-brands fa-instagram"></i>
-                </div>
+                <ul>
+                  <li><a href=""><i class="fa-brands fa-youtube"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-facebook-f"></i></a></li>
+                  <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                </ul>
               </div>
             </div>
           </div>
@@ -104,9 +104,13 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
         navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
+          nextEl: ".botao-swiper .button-next",
+          prevEl: ".botao-swiper .button-prev",
+          el: ".swiper-pagination",
+          clickable: true,
         },
       });
     </script>

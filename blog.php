@@ -22,7 +22,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/multidao.png" alt="multidao">
+            <img src="images/multidao.png" alt="multidao" class="img-fluid">
             <div>
               <h2>15</h2>
               <p>Ago | 2021</p>
@@ -38,7 +38,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/casa.png" alt="casa">
+            <img src="images/casa.png" alt="casa" class="img-fluid">
             <div>
               <h2>14</h2>
               <p>Ago | 2021</p>
@@ -54,7 +54,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/cofrinho.png" alt="cofrinho de porco">
+            <img src="images/cofrinho.png" alt="cofrinho de porco" class="img-fluid">
             <div>
               <h2>13</h2>
               <p>Ago | 2021</p>
@@ -71,7 +71,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/cidade.png" alt="visao por cima de cidade">
+            <img src="images/cidade.png" alt="visao por cima de cidade" class="img-fluid">
             <div>
               <h2>15</h2>
               <p>Ago | 2021</p>
@@ -88,7 +88,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/feira.png" alt="sacola de feira">
+            <img src="images/feira.png" alt="sacola de feira" class="img-fluid">
             <div>
               <h2>14</h2>
               <p>Ago | 2021</p>
@@ -105,7 +105,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/cidade2.png" alt="cofrinho de porco">
+            <img src="images/cidade2.png" alt="cofrinho de porco" class="img-fluid">
             <div>
               <h2>13</h2>
               <p>Ago | 2021</p>
@@ -122,7 +122,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/multidao.png" alt="multidao">
+            <img src="images/multidao.png" alt="multidao" class="img-fluid">
             <div>
               <h2>15</h2>
               <p>Ago | 2021</p>
@@ -138,7 +138,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/casa.png" alt="casa">
+            <img src="images/casa.png" alt="casa" class="img-fluid">
             <div>
               <h2>14</h2>
               <p>Ago | 2021</p>
@@ -154,7 +154,7 @@
       <div class="galeria-item">
         <a href="">
           <div class="sobrepor-link">
-            <img src="images/cofrinho.png" alt="cofrinho de porco">
+            <img src="images/cofrinho.png" alt="cofrinho de porco" class="img-fluid">
             <div>
               <h2>13</h2>
               <p>Ago | 2021</p>
@@ -169,7 +169,7 @@
         </a>
       </div>
     </div>
+    <?php include "pagination.php"; ?>
   </div>
 </main>
-<?php include "pagination.php"; ?>
 <?php include "footer.php"; ?>
