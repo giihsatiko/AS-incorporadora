@@ -8,10 +8,12 @@
       <span></span>
     </div>
   </div>
-  <div class="container">
-    <?php include "formulario.php"; ?>
+  <div class="formulario-box">
+    <div class="container">
+      <?php include "formulario.php"; ?>
 
-    <?php include "mapa.php"; ?>
+      <?php include "mapa.php"; ?>
+    </div>
   </div>
 </main>
 

@@ -1,56 +1,57 @@
-<?php include "header.php"; ?>
+<?php include "./php-pages/header.php"; ?>
 
 <main>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="bg-vermelho">
+          <img src="images/sombra-vermelha.png" alt="sombra">
+          <div class="intro-index">
+            <div class="texto-intro">
+              <img src="images/logo-lote.png" alt="selo lote">
+              <div class="link-intro">
+                <h1>Últimos Lotes Disponíveis</h1>
+                <h2>Não perca a chance de viver bem!</h2>
+                <p>OSVALDO CRUZ – SP • 110 LOTES</p>
+                <div><a href="">CLIQUE E CONHEÇA</a></div>
+              </div>
+            </div>
+            <div class="botao-swiper-vertical">
+              <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="26" cy="26" r="25.4" stroke="white" stroke-width="1.2" />
+                  <path d="M29 19L22 26L29 33" stroke="white" stroke-width="1.2" />
+                </svg>
+              </div>
+              <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="white" stroke-width="1.2" />
+                  <path d="M23 33L30 26L23 19" stroke="white" stroke-width="1.2" />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+    </div>
+  </div>
   <div class="container">
     <div class="box">
       <h2>PRÓXIMOS <b>LANÇAMENTOS</b></h2>
       <span></span>
     </div>
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="lotes-item">
-            <a href="">
-              <img src="images/veredas3.png" alt="veredas 3" class="img-fluid">
-              <div>
-                <span>DE 156 A 369m² • 110 LOTES</span>
-                <h3>Loteamento Veredas 3</h3>
-                <p>Presidente Prudente - SP</p>
-                <p>Bairro Centro</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="lotes-item">
-            <a href="">
-              <img src="images/rubi.png" alt="rubi" class="img-fluid">
-              <div>
-                <span>DE 156 A 369m² • 110 LOTES</span>
-                <h3>Loteamento Veredas 3</h3>
-                <p>Presidente Prudente - SP</p>
-                <p>Bairro Centro</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="lotes-item">
-            <a href="">
-              <img src="images/veredas2.png" alt="veredas 2" class="img-fluid">
-              <div>
-                <span>DE 156 A 369m² • 110 LOTES</span>
-                <h3>Loteamento Veredas 3</h3>
-                <p>Presidente Prudente - SP</p>
-                <p>Bairro Centro</p>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="lotes-item">
-            <a href="">
-              <div>
+    <div class="box-swiper">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="lotes-item">
+              <a href="">
                 <img src="images/veredas3.png" alt="veredas 3" class="img-fluid">
                 <div>
                   <span>DE 156 A 369m² • 110 LOTES</span>
@@ -58,8 +59,49 @@
                   <p>Presidente Prudente - SP</p>
                   <p>Bairro Centro</p>
                 </div>
-              </div>
-            </a>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="lotes-item">
+              <a href="">
+                <img src="images/rubi.png" alt="rubi" class="img-fluid">
+                <div>
+                  <span>DE 156 A 369m² • 110 LOTES</span>
+                  <h3>Loteamento Veredas 3</h3>
+                  <p>Presidente Prudente - SP</p>
+                  <p>Bairro Centro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="lotes-item">
+              <a href="">
+                <img src="images/veredas2.png" alt="veredas 2" class="img-fluid">
+                <div>
+                  <span>DE 156 A 369m² • 110 LOTES</span>
+                  <h3>Loteamento Veredas 3</h3>
+                  <p>Presidente Prudente - SP</p>
+                  <p>Bairro Centro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="lotes-item">
+              <a href="">
+                <div>
+                  <img src="images/veredas3.png" alt="veredas 3" class="img-fluid">
+                  <div>
+                    <span>DE 156 A 369m² • 110 LOTES</span>
+                    <h3>Loteamento Veredas 3</h3>
+                    <p>Presidente Prudente - SP</p>
+                    <p>Bairro Centro</p>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -287,4 +329,4 @@
   </div>
 </main>
 
-<?php include "footer.php"; ?>
+<?php include "./php-pages/footer.php"; ?>

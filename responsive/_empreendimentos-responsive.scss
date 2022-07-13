@@ -1,4 +1,8 @@
 @media (max-width:768px) {
+  .categorias {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
   .lotes-box {
     justify-content: center;
   }
@@ -8,8 +12,11 @@
 }
 
 @media (max-width:576px) {
-  .categorias {
-    flex-wrap: wrap;
-    justify-content: center;
+  .box-titulo {
+    div {
+      h1 {
+        font-size: 25px;
+      }
+    }
   }
 }

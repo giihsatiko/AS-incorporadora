@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>AS Incorporadora</title>
   </head>
   <body>
@@ -34,10 +34,10 @@
             </div>
             <div class="offcanvas-body">
               <ul>
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="listagem.php">EMPREENDIMENTOS</a></li>
-                <li><a href="blog.php">BLOG</a></li>
-                <li><a href="contato.php">CONTATO</a></li>
+                <li><a href="/index.php">HOME</a></li>
+                <li><a href="/php-pages/listagem.php">EMPREENDIMENTOS</a></li>
+                <li><a href="/php-pages/blog.php">BLOG</a></li>
+                <li><a href="/php-pages/contato.php">CONTATO</a></li>
               </ul>
               <ul class="botao-nav">
                 <li class="botao-preto"><a href=""><img src="images/grupo.png" alt="grupo">COLABORADOR</a></li>
@@ -47,9 +47,9 @@
           </div>
           <ul class="desktop-list">
             <li><a href="index.php">HOME</a></li>
-            <li><a href="listagem.php">EMPREENDIMENTOS</a></li>
-            <li><a href="blog.php">BLOG</a></li>
-            <li><a href="contato.php">CONTATO</a></li>
+            <li><a href="/php-pages/listagem.php">EMPREENDIMENTOS</a></li>
+            <li><a href="/php-pages/blog.php">BLOG</a></li>
+            <li><a href="/php-pages/contato.php">CONTATO</a></li>
           </ul>
           <ul class="botao-nav">
             <li class="botao-preto"><a href=""><img src="images/grupo.png" alt="grupo">COLABORADOR</a></li>

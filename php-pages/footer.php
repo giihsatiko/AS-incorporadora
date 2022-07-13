@@ -104,7 +104,7 @@
     <!-- Initialize Swiper -->
     <script>
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3,
+        // slidesPerView: 3,
         spaceBetween: 30,
         navigation: {
           nextEl: ".botao-swiper .button-next",

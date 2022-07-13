@@ -7,7 +7,7 @@
           <h2>14</h2>
           <p>Ago | 2021</p>
         </div>
-        <div class="texto-blog">
+        <div class="titulo-blog">
           <h3>Empreendimentos</h3>
           <h4>Alugar ou comprar "imóveis de Lego": conheça a moradia modular, que cresce no Brasil.</h4>
           <a href=""><img src="images/seta-baixo.png" alt="seta para baixo">Descer página</a>
@@ -45,7 +45,29 @@
         </div>
         <div class="formulario-blog">
           <h2 class="titulo-h2">DEIXE SEU COMENTÁRIO</h2>
-          <?php include "formulario.php"; ?>
+          <div class="formulario">
+            <form>
+              <div class="formulario-itens2">
+                <div class="nome-email">
+                  <div>
+                    <input type="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="Seu nome">
+                  </div>
+                  <div>
+                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Seu e-mail">
+                  </div>
+                </div>
+                <div>
+                  <textarea class="form-control" id="texto" placeholder="Escreva seu comentário"></textarea>
+                </div>
+                <div class="texto-enviar">
+                  <div>
+                    <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
+                  </div>
+                  <div><button type="submit" class="botao-vermelho">ENVIAR COMENTÁRIO</button></div>
+                </div>
+              </div>
+            </form>
+          </div>
         </div>
         <div class="comentarios-blog">
           <h2>COMENTÁRIOS</h2>
@@ -68,9 +90,17 @@
         </div>
       </div>
       <div class="links-noticia">
-        <div class="box">
-          <h2>ASSUNTOS</h2>
-          <span></span>
+        <div class="assuntos">
+          <div class="box">
+            <h2>ASSUNTOS</h2>
+            <span></span>
+          </div>
+          <div class="assuntos-link">
+            <a href="" class="categorias-item">IMÓVEIS</a>
+            <a href="" class="categorias-item">CONSTRUÇÃO</a>
+            <a href="" class="categorias-item">ARQUITETURA</a>
+            <a href="" class="categorias-item">EMPREENDIMENTOS</a>
+          </div>
         </div>
         <div class="veja-mais">
           <div class="box">
@@ -152,8 +182,8 @@
             </a>
           </div>
         </div>
-        <div class="swiper-slide">
-          <div class="galeria-item">
+        <div class="swiper-slide ">
+          <div class="galeria-item ">
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/multidao.png" alt="multidao">

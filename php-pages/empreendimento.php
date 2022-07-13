@@ -81,8 +81,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/galeria-img.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>
@@ -93,8 +93,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/galeria-img2.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>
@@ -105,8 +105,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/lote5.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>
@@ -117,8 +117,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/galeria-img.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>
@@ -129,8 +129,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/galeria-img2.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>
@@ -141,8 +141,8 @@
             <a href="">
               <div class="sobrepor-link">
                 <img src="images/lote5.png" alt="rua">
-                <div>
-                  <img src="images/lupa.png" alt="lupa" class="img-fluid" class="img-fluid">
+                <div class="lupa">
+                  <img src="images/lupa.png" alt="lupa" class="img-fluid">
                 </div>
               </div>
             </a>

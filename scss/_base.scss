@@ -102,16 +102,16 @@ i {
     height: 9px;
     background-color: black;
     margin-top: 29px;
-    margin-bottom: 62px;
   }
   iframe {
+    padding-top: 23px;
     height: 435px;
     width: 100%;
   }
   .contato-mapa {
     background-color: black;
     border-radius: 3px;
-    height: 188px;
+    min-height: 188px;
     margin: 113px 0;
     display: flex;
     justify-content: space-around;
@@ -184,27 +184,107 @@ i {
   }
 }
 
+.categorias-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid $cinza-escuro;
+  border-radius: 100px;
+  width: fit-content;
+  height: 34px;
+  padding: 9px 18px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 13px;
+  text-align: center;
+  color: $cinza-escuro;
+  &:hover {
+    color: $cinza-escuro;
+    background-color: #DADADA;
+  }
+  &:active {
+    background-color: black;
+    color: white;
+  }
+}
+
+.lotes-item {
+  padding-bottom: 40px;
+  a {
+    color: black;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    span {
+      display: block;
+      padding-top: 20px;
+      font-weight: 500;
+      font-size: 14px;
+    }
+    h3 {
+      padding-top: 15px;
+      font-weight: 500;
+      font-size: 22px;
+    }
+    p {
+      padding-top: 8px;
+      font-weight: 500; 
+      &:first-of-type {
+        font-size: 16px;
+      }
+      &:nth-of-type(2) {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
 .galeria-item {
   display: flex;
   justify-content: center;
+  padding-top: 60px;
+  &:hover {
+    .texto-blog {
+      h3, p {
+        text-decoration: underline;
+      }
+    }
+    .sobrepor-link>div {
+      background-color: #C61400;
+    }
+  }
   a {
     text-decoration: none;
-    position: relative;
     .sobrepor-link {
+      position: relative;
+      &:hover .lupa {
+        background-color: #C61400;
+      }
       & > div {
         position: absolute;
         color: $cinza-claro;
         background-color: $vermelho;
         width: 114px;
         height: 114px;
-        top: 20%;
+        bottom: 1.1875rem;
+        left: 1.25rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        &:hover {
-          background-color: #C61400;
-        }
+      }
+      .lupa {
+        position: absolute;
+        color: $cinza-claro;
+        background-color: $vermelho;
+        width: 65px;
+        height: 65px;
+        bottom: 1.1875rem;
+        left: 1.25rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         img {
           width: 22px;
           height: 22px;
@@ -224,7 +304,7 @@ i {
         font-weight: 400;
         font-size: 16px;
         line-height: 19.5px;
-        height: 80px;
+        height: 100px;
       }
       & > div {
         display: flex;
@@ -232,6 +312,9 @@ i {
         gap: 15px;
         color: $vermelho;
         padding-bottom: 89px;
+        &:hover {
+          text-decoration: none;
+        }
         img {
           height: 15px;
           width: 56px;
@@ -240,6 +323,7 @@ i {
     }
   }
 }
+
 svg:hover {
   stroke: #767676;
 }
@@ -248,6 +332,12 @@ svg:hover {
   padding-bottom: 80px;
   display: flex;
   gap: 20px;
+}
+.botao-swiper-vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  z-index: 10;
 }
 .titulo-h2 {
   font-weight: 600;
