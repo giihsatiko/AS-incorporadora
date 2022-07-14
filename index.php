@@ -1,4 +1,4 @@
-<?php include "./php-pages/header.php"; ?>
+<?php include "header.php"; ?>
 
 <main>
   <div class="swiper mySwiper">
@@ -329,4 +329,4 @@
   </div>
 </main>
 
-<?php include "./php-pages/footer.php"; ?>
+<?php include "footer.php"; ?>
