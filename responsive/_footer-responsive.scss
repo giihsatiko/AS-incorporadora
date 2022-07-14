@@ -12,13 +12,12 @@
       .form-item {
         width: 100%;
         justify-content: space-evenly;
-        gap: 0;
       }
       input {
         padding: 10px 20px;
       }
       button {
-        width: 90%;
+        width: 100%;
       }
     }
   }
@@ -43,6 +42,9 @@
   .botoes {
     div {
       margin-left: 0;
+      a {
+        display: block;
+      }
     }
   }
   .direitos {
@@ -90,10 +92,45 @@
       display: none;
     }
   }
-  .direitos p {
-    text-align: center;
+  .direitos {
+    p {
+      text-align: center;
+    }
   }
   .rodape {
     display: none;
+  }
+}
+
+@media (max-width: 320px) {
+  .form-item {
+    .form-item {
+      div {
+        width: 50%;
+      }
+    }
+  }
+  .box-ano {
+    .texto-ano span {
+      bottom: 25%;
+    }
+  }
+  .email h1 {
+    padding-top: 0;
+  }
+  .botoes {
+    div {
+      display: block;
+      width: 100%;
+      a {
+        text-align: center;
+      }
+    }
+  }
+  .links-itens {
+    width: 100%;
+  }
+  .direitos {
+    padding-bottom: 70px;
   }
 }

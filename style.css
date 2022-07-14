@@ -334,6 +334,9 @@ svg:hover {
   flex-direction: column;
   gap: 20px;
   z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 .titulo-h2 {
@@ -349,6 +352,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 91px;
+  background-color: white;
 }
 nav .btn {
   display: none;
@@ -362,6 +366,8 @@ nav ul {
   padding: 0;
   list-style: none;
   margin: 0;
+  font-weight: 500;
+  font-size: 16px;
 }
 nav .desktop-list {
   height: 100%;
@@ -380,6 +386,23 @@ nav .desktop-list a {
   color: black;
 }
 
+.fechar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fechar .botao-fechar {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
+.fechar .botao-fechar p {
+  margin: 0;
+}
+
 .botao-nav {
   display: flex;
   align-items: center;
@@ -387,9 +410,17 @@ nav .desktop-list a {
   gap: 30px;
 }
 
+.rodape-header {
+  display: none;
+}
+
 .swiper {
   width: 100%;
   height: 100%;
+}
+
+.swiper-wrapper {
+  overflow: hidden;
 }
 
 .swiper-slide {
@@ -450,12 +481,10 @@ nav .desktop-list a {
     height: 100%;
   }
 
-  .offcanvas-body {
-    height: 100%;
-  }
   .offcanvas-body ul:first-of-type {
     display: block;
     padding-bottom: 30px;
+    text-align: center;
   }
   .offcanvas-body ul:first-of-type li {
     padding: 30px;
@@ -467,11 +496,79 @@ nav .desktop-list a {
   }
   .offcanvas-body .botao-nav {
     display: flex;
+    justify-content: center;
   }
 }
 @media (max-width: 576px) {
   .botao-nav {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  .rodape-header {
+    background-color: #028a49;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+  }
+  .rodape-header .contato-rodape a:nth-of-type(2) {
+    border-right: none;
+  }
+  .rodape-header .contato-rodape a p, .rodape-header .contato-rodape span {
+    font-size: 14px;
+  }
+
+  body {
+    position: relative;
+  }
+
+  .nav-header {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    justify-content: space-around;
+  }
+  .nav-header .logo {
+    width: 68.25px;
+    height: 78px;
+    margin-bottom: 0;
+  }
+  .nav-header button {
+    order: -1;
+  }
+  .nav-header .rodape-header {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .nav-header .rodape-header .contato-rodape {
+    width: 100%;
+  }
+  .nav-header .offcanvas {
+    background-color: rgba(255, 255, 255, 0.85);
+  }
+  .nav-header .offcanvas-body {
+    padding: 0;
+  }
+  .nav-header .offcanvas-body .botao-nav {
+    flex-direction: column;
+  }
+  .nav-header .botao-preto, .nav-header .botao-vermelho {
+    width: 90%;
+  }
+  .nav-header .botao-preto a, .nav-header .botao-vermelho a {
+    justify-content: center;
+  }
+  .nav-header .fechar {
+    height: 91px;
+    margin-top: 30px;
+    border-radius: 20px 20px 0 0;
+    background-color: white;
+  }
+
+  .btn-close {
+    opacity: 1;
   }
 }
 @media (max-width: 768px) {
@@ -557,10 +654,9 @@ nav .desktop-list a {
   width: 770px;
 }
 .bg-vermelho .texto-intro {
-  margin-left: auto;
-  padding-top: 82px;
-  padding-right: 8.75rem;
   display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 .bg-vermelho .texto-intro img {
@@ -718,6 +814,42 @@ nav .desktop-list a {
   background-color: #c4c4c4;
 }
 
+@media (max-width: 768px) {
+  .box-ano .texto-sobre p {
+    width: fit-content;
+  }
+}
+@media (max-width: 320px) {
+  .button-prev, .button-next {
+    display: none;
+  }
+
+  .botao-swiper {
+    display: block;
+  }
+
+  .box-ano .texto-ano {
+    flex-direction: column;
+  }
+  .box-ano .texto-sobre {
+    padding-top: 10px;
+  }
+  .box-ano .texto-sobre p {
+    width: fit-content;
+    text-align: center;
+  }
+  .box-ano .texto-sobre .botoes-sobre {
+    height: 250px;
+    flex-direction: column;
+  }
+  .box-ano .texto-sobre .botoes-sobre div:nth-of-type(2) {
+    width: 100%;
+    text-align: center;
+  }
+  .box-ano .texto-sobre .botoes-sobre div:nth-of-type(2) a {
+    display: block;
+  }
+}
 .formulario-box {
   padding-top: 72px;
 }
@@ -1246,6 +1378,12 @@ nav .desktop-list a {
 .email h1 {
   padding-top: 128px;
   width: 400px;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+}
+.email h1 b {
+  font-weight: 700;
 }
 .email span {
   height: 9px;
@@ -1271,6 +1409,10 @@ nav .desktop-list a {
   color: white;
   background-color: #8A1002;
   width: 292px;
+}
+
+.contato {
+  background-color: #F6F6F6;
 }
 
 .links-rodape {
@@ -1366,11 +1508,12 @@ nav .desktop-list a {
   display: flex;
   align-items: center;
 }
-.rodape .contato-rodape {
+
+.contato-rodape {
   display: flex;
   justify-content: space-between;
 }
-.rodape .contato-rodape a {
+.contato-rodape a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1378,14 +1521,14 @@ nav .desktop-list a {
   text-decoration: none;
   width: 100%;
 }
-.rodape .contato-rodape a:nth-of-type(2) {
+.contato-rodape a:nth-of-type(2) {
   border-left: 1px solid rgba(255, 255, 255, 0.1);
   border-right: 1px solid rgba(255, 255, 255, 0.1);
 }
-.rodape .contato-rodape a:hover {
+.contato-rodape a:hover {
   background-color: rgba(0, 255, 133, 0.3);
 }
-.rodape .contato-rodape a p {
+.contato-rodape a p {
   padding-top: 15px;
   display: flex;
   flex-direction: column;
@@ -1394,7 +1537,7 @@ nav .desktop-list a {
   font-weight: 500;
   line-height: 21.94px;
 }
-.rodape .contato-rodape a p span {
+.contato-rodape a p span {
   font-weight: 700;
 }
 
@@ -1414,13 +1557,12 @@ nav .desktop-list a {
   .email form .form-item {
     width: 100%;
     justify-content: space-evenly;
-    gap: 0;
   }
   .email form input {
     padding: 10px 20px;
   }
   .email form button {
-    width: 90%;
+    width: 100%;
   }
 
   .links {
@@ -1446,6 +1588,9 @@ nav .desktop-list a {
 
   .botoes div {
     margin-left: 0;
+  }
+  .botoes div a {
+    display: block;
   }
 
   .direitos {
@@ -1502,5 +1647,34 @@ nav .desktop-list a {
 
   .rodape {
     display: none;
+  }
+}
+@media (max-width: 320px) {
+  .form-item .form-item div {
+    width: 50%;
+  }
+
+  .box-ano .texto-ano span {
+    bottom: 25%;
+  }
+
+  .email h1 {
+    padding-top: 0;
+  }
+
+  .botoes div {
+    display: block;
+    width: 100%;
+  }
+  .botoes div a {
+    text-align: center;
+  }
+
+  .links-itens {
+    width: 100%;
+  }
+
+  .direitos {
+    padding-bottom: 70px;
   }
 }

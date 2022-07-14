@@ -2,7 +2,7 @@
       <div class="box-email">
         <div class="container-fluid container-lg">
           <div class="email">
-            <h1>RECEBA NOVIDADES POR E-MAIL</h1>
+            <h1>RECEBA NOVIDADES <b>POR E-MAIL</b></h1>
             <span></span>
             <form action="">
               <div class="form-item">
@@ -98,11 +98,76 @@
           </div>
         </div>
       </div>
-    </footer>
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
+      var swiper = new Swiper(".mySwiper-lancamento ", {
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+        slidesPerView: 3,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          350: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1367: {
+            slidesPerView: 3,
+          },
+          1700: {
+            slidesPerView: 3,
+          },
+        },
+      });
+
+      var swiper = new Swiper(".mySwiper-blog", {
+        navigation: {
+          nextEl: ".button-next",
+          prevEl: ".button-prev",
+        },
+        slidesPerView: 2,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          579: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 2,
+          },
+          1367: {
+            slidesPerView: 2,
+          },
+          1700: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+    <!-- Initialize Swiper -->
+    <!-- <script>
       var swiper = new Swiper(".mySwiper", {
         // slidesPerView: 3,
         spaceBetween: 30,
@@ -113,7 +178,7 @@
           clickable: true,
         },
       });
-    </script>
+    </script> -->
     </body>
 
     </html>

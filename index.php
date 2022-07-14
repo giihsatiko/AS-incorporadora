@@ -16,18 +16,6 @@
                 <div><a href="">CLIQUE E CONHEÇA</a></div>
               </div>
             </div>
-            <div class="botao-swiper-vertical">
-              <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="26" cy="26" r="25.4" stroke="white" stroke-width="1.2" />
-                  <path d="M29 19L22 26L29 33" stroke="white" stroke-width="1.2" />
-                </svg>
-              </div>
-              <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="white" stroke-width="1.2" />
-                  <path d="M23 33L30 26L23 19" stroke="white" stroke-width="1.2" />
-                </svg>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -40,14 +28,26 @@
       <div class="swiper-slide">Slide 8</div>
       <div class="swiper-slide">Slide 9</div>
     </div>
+    <div class="botao-swiper-vertical">
+      <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="26" cy="26" r="25.4" stroke="white" stroke-width="1.2" />
+          <path d="M29 19L22 26L29 33" stroke="white" stroke-width="1.2" />
+        </svg>
+      </div>
+      <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="white" stroke-width="1.2" />
+          <path d="M23 33L30 26L23 19" stroke="white" stroke-width="1.2" />
+        </svg>
+      </div>
+    </div>
   </div>
-  <div class="container">
+  <div class="container-lg container-fluid">
     <div class="box">
       <h2>PRÓXIMOS <b>LANÇAMENTOS</b></h2>
       <span></span>
     </div>
     <div class="box-swiper">
-      <div class="swiper mySwiper">
+      <div class="swiper mySwiper mySwiper-lancamento">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="lotes-item">
@@ -140,7 +140,7 @@
       </div>
       <span class="pagination-span"></span>
     </div>
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mySwiper-lancamento" id="lancamento">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="lotes-item">
@@ -216,11 +216,9 @@
     <div class="container-lg container-fluid">
       <div class="texto-ano">
         <div class="titulo-ano">
-          <h1>MUITO MAIS DO QUE <b>UMA INCORPORADORA</b></h1>
+          <!-- <h1>MUITO MAIS DO QUE <b>UMA INCORPORADORA</b></h1> consertar responsivo -->
         </div>
-        <div class="imagem">
-          <img src="images/1997.png" alt=" ano 1997">
-        </div>
+        <div class="position-absolute top-0 w-100"><img src="images/1997.png" alt=" ano 1997" class="d-block mx-auto m-md-0 ms-md-auto img-fluid"></div>
         <span></span>
       </div>
       <div class="texto-sobre">
@@ -232,12 +230,12 @@
       </div>
     </div>
   </div>
-  <div class="container-lg">
+  <div class="container-lg container-fluid">
     <div class="box">
       <h2>NOVIDADES DO <b>BLOG</b></h2>
       <span></span>
     </div>
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mySwiper-blog">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <div class="galeria-item">

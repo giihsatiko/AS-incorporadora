@@ -13,6 +13,12 @@
   h1 {
     padding-top: 128px;
     width: 400px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;
+    b {
+      font-weight: 700;
+    }
   }
   span {
     height: 9px;
@@ -40,7 +46,9 @@
     }
   }
 }
-
+.contato {
+  background-color: #F6F6F6;
+}
 .links-rodape {
   display: flex;
   padding-top: 50px;
@@ -130,37 +138,38 @@
   height: fit-content;
   display: flex;
   align-items: center;
-  .contato-rodape {
-    display: flex;
-    justify-content: space-between;
-    a {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      text-decoration: none;
-      width: 100%;
-      &:nth-of-type(2) {
-        border-left: 1px solid rgba(255,255,255,0.1);
-        border-right: 1px solid rgba(255,255,255,0.1);
+}
 
-      }
-      &:hover {
-        background-color:  rgba(0,255,133,0.3);
-      }
-      p {
-        padding-top: 15px;
-        display: flex;
-        flex-direction: column;
-        padding-left: 10px;
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 21.94px;
-        span {
-          font-weight: 700;
-        }
-      }
-      
+.contato-rodape {
+  display: flex;
+  justify-content: space-between;
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    &:nth-of-type(2) {
+      border-left: 1px solid rgba(255,255,255,0.1);
+      border-right: 1px solid rgba(255,255,255,0.1);
+
     }
+    &:hover {
+      background-color:  rgba(0,255,133,0.3);
+    }
+    p {
+      padding-top: 15px;
+      display: flex;
+      flex-direction: column;
+      padding-left: 10px;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 21.94px;
+      span {
+        font-weight: 700;
+      }
+    }
+    
   }
 }

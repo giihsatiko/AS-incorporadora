@@ -1,0 +1,40 @@
+@media (max-width: 768px) {
+  .box-ano {
+    .texto-sobre p {
+      width: fit-content;
+    }
+  }
+
+}
+
+@media (max-width: 320px) {
+  .button-prev , .button-next {
+    display: none;
+  }
+  .botao-swiper {
+    display: block;
+  }
+  .box-ano {
+    .texto-ano {
+      flex-direction: column;
+    }
+    .texto-sobre {
+      padding-top: 10px;
+      p {
+        width: fit-content;
+        text-align: center;
+      }
+      .botoes-sobre {
+        height: 250px;
+        flex-direction: column;
+        div:nth-of-type(2) {
+          width: 100%;
+          text-align: center;
+          a {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

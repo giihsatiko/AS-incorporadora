@@ -3,6 +3,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   height: 91px;
+  background-color: white;
   .btn {
     display: none;
   }
@@ -15,6 +16,8 @@ nav {
   padding: 0;
   list-style: none;
   margin: 0;
+  font-weight: 500;
+  font-size: 16px;
  }
  .desktop-list {
   height: 100%;
@@ -33,10 +36,29 @@ nav {
   }
 }
 }
-
+.fechar {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  .botao-fechar {
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 700;
+    font-size: 20px;
+    p {
+      margin: 0;
+    }
+  }
+}
 .botao-nav {
   display: flex;
   align-items: center;
   list-style: none;
   gap: 30px;
+}
+
+.rodape-header {
+  display: none;
 }

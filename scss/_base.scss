@@ -327,18 +327,24 @@ i {
 svg:hover {
   stroke: #767676;
 }
+
 .botao-swiper {
   padding-top: 30px;
   padding-bottom: 80px;
   display: flex;
   gap: 20px;
 }
+
 .botao-swiper-vertical {
   display: flex;
   flex-direction: column;
   gap: 20px;
   z-index: 10;
+  position: absolute;
+  top: 0;
+  right: 0;
 }
+
 .titulo-h2 {
   font-weight: 600;
   font-size: 16px;
