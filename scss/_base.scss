@@ -35,6 +35,7 @@ i {
   color: white;
   a {
     display: flex;
+    justify-content: center;
     align-items: center;
     color: white;
     text-decoration: none;
@@ -213,10 +214,25 @@ i {
     color: black;
     text-decoration: none;
     &:hover {
+      color: #4A4A4A;
       text-decoration: underline;
+      &>div {
+        overflow: hidden;
+        span {
+          background-color: #C61400;
+        }
+      }
+      img {
+        animation: crescer 0.5s forwards;
+      }
     }
     span {
       display: block;
+      height: 8px;
+      width: 100%;
+      background-color: black;
+    }
+    h2 {
       padding-top: 20px;
       font-weight: 500;
       font-size: 14px;
@@ -238,6 +254,11 @@ i {
     }
   }
 }
+@keyframes crescer {
+  to {
+    transform: scale(1.2);
+  }
+}
 
 .galeria-item {
   display: flex;
@@ -246,8 +267,15 @@ i {
   &:hover {
     .texto-blog {
       h3, p {
+        color: #4A4A4A;
         text-decoration: underline;
       }
+      div {
+        color: #C61400;
+      }
+    }
+    svg {
+      stroke: #C61400;
     }
     .sobrepor-link>div {
       background-color: #C61400;
@@ -257,8 +285,10 @@ i {
     text-decoration: none;
     .sobrepor-link {
       position: relative;
-      &:hover .lupa {
-        background-color: #C61400;
+      &:hover {
+        .lupa {
+          background-color: #C61400;
+        }
       }
       & > div {
         position: absolute;
@@ -295,6 +325,9 @@ i {
       text-align: left;
       max-width: 412px;
       color: black;
+      &:hover {
+        color: #4A4A4A;
+      }
       h3 {
         padding-top: 31px;
         font-weight: 500;
@@ -315,34 +348,9 @@ i {
         &:hover {
           text-decoration: none;
         }
-        img {
-          height: 15px;
-          width: 56px;
-        }
       }
     }
   }
-}
-
-svg:hover {
-  stroke: #767676;
-}
-
-.botao-swiper {
-  padding-top: 30px;
-  padding-bottom: 80px;
-  display: flex;
-  gap: 20px;
-}
-
-.botao-swiper-vertical {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  z-index: 10;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 .titulo-h2 {

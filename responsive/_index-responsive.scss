@@ -11,9 +11,6 @@
   .button-prev , .button-next {
     display: none;
   }
-  .botao-swiper {
-    display: block;
-  }
   .box-ano {
     .texto-ano {
       flex-direction: column;
@@ -35,6 +32,73 @@
           }
         }
       }
+    }
+  }
+  .box {
+    text-align: center;
+    padding-top: 65px;
+  }
+  .botao-swiper {
+    flex-direction: column;
+    .setas {
+      justify-content: center;
+      padding-bottom: 31px;
+    }
+    div:hover {
+      background-color: aquamarine;
+      svg {
+        stroke: #767676;
+      }
+    }
+  }
+  .lotes-item {
+    padding-bottom: 28px;
+    a {
+      h2 {
+        font-weight: 600;
+        font-size: 14px;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 12px;
+      }
+      p:first-of-type, p {
+        font-size: 12px;
+      }
+    }
+  }
+  .galeria-item {
+    padding-top: 17px;
+  }
+  .status-obras-box {
+    padding-top: 19px;
+    .pagination-span {
+      display: none;
+    }
+    .status-obras {
+      flex-direction: column;
+      div {
+        text-align: center;
+        span {
+          display: none !important;
+        }
+        border-bottom: 2px solid #C4C4C4;
+        width: 100%;
+        padding: 20px 0;
+        &:active {
+          border-bottom: 2px solid black;
+          background-color: #C4C4C4;
+          a {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .texto-blog {
+    div {
+      padding-top: 15px;
+      padding-bottom: 31px !important;
     }
   }
 }

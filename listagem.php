@@ -19,9 +19,9 @@
     <div class="lotes-box">
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
             <p>Presidente Prudente - SP</p>
             <p>Bairro Centro</p>
@@ -30,9 +30,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote2.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote2.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -41,9 +41,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote3.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote3.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -52,9 +52,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote4.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote4.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -63,9 +63,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote5.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote5.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -74,9 +74,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote6.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote6.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -85,9 +85,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
             <p>Presidente Prudente - SP</p>
             <p>Bairro Centro</p>
@@ -96,9 +96,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote2.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote2.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>
@@ -107,9 +107,9 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <img src="images/lote3.png" alt="loteamento" class="img-fluid">
+          <div><img src="images/lote3.png" alt="loteamento" class="img-fluid"></div>
           <div>
-            <span>DE 156 A 369m² • 110 LOTES</span>
+            <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
             <p>Presidente Bernardes - SP</p>
             <p>Bairro Centro</p>

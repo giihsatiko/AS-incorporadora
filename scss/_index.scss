@@ -1,5 +1,5 @@
 .bg-vermelho {
-  background-image: url(images/bg-lote.png);
+  background-image: url(images/bg-vermelho.png);
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -1;
@@ -7,6 +7,7 @@
   width: 100%;
   height: 569px;
   position: relative;
+  justify-content: center;
   display: flex;
   &>img {
     position: absolute;
@@ -22,15 +23,18 @@
       height: 420px;
       width: 770px;
     }
-  }
-  .texto-intro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    img {
-      height: 294px;
-      width: 374px;
+    .texto-intro {
+      position: absolute;
+      right: 15%;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      img {
+        height: 294px;
+        width: 374px;
+      }
     }
   }
   .link-intro {
@@ -53,15 +57,17 @@
       font-size: 15px;
       padding-bottom: 20px;
     }
-    div {
+    a {
       border: 2px solid white;
+      border-radius: 3px;
       padding: 16px 26px;
-      text-align: center;
-      a {
-        text-decoration: none;
-        color: white;
-        font-weight: 500;
-        font-size: 15px;
+      text-decoration: none;
+      color: white;
+      font-weight: 500;
+      font-size: 15px;
+      &:hover {
+        color: black;
+        background-color: white;
       }
     }
   }

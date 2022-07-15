@@ -31,7 +31,11 @@
           <div class="texto-blog">
             <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
             <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...</p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -47,7 +51,11 @@
           <div class="texto-blog">
             <h3>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</h3>
             <p>Moradia modular e pré-fabricada é praticada por startups brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de imóveis...</p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -64,7 +72,11 @@
             <h3>65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h3>
             <p>A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.
             </p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -81,7 +93,11 @@
             <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
             <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...
             </p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -98,7 +114,11 @@
             <h3>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</h3>
             <p>Moradia modular e pré-fabricada é praticada por startups brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de imóveis...
             </p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -115,7 +135,11 @@
             <h3>65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h3>
             <p>A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.
             </p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -131,7 +155,11 @@
           <div class="texto-blog">
             <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
             <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...</p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -147,7 +175,11 @@
           <div class="texto-blog">
             <h3>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</h3>
             <p>Moradia modular e pré-fabricada é praticada por startups brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de imóveis...</p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>
@@ -164,7 +196,11 @@
             <h3>65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</h3>
             <p>A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados.
             </p>
-            <div>SAIBA MAIS <img src="images/seta-vermelha.png" alt="seta para lado direito"></div>
+            <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                <rect y="8" width="53" height="1" fill="#8A1002" />
+              </svg>
+            </div>
           </div>
         </a>
       </div>

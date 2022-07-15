@@ -103,20 +103,26 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
-      var swiper = new Swiper(".mySwiper-lancamento ", {
+      var swiper = new Swiper(".mySwiper-bg", {
+        slidesPerView: 1,
         navigation: {
-          nextEl: ".button-next",
-          prevEl: ".button-prev",
+          nextEl: ".botao-swiper-vertical .button-next",
+          prevEl: ".botao-swiper-vertical .button-prev",
         },
-        slidesPerView: 3,
-        spaceBetween: 10,
         pagination: {
           el: ".swiper-pagination",
-          clickable: true,
+        },
+      });
+
+      var swiper2 = new Swiper(".mySwiper-lancamento ", {
+        navigation: {
+          nextEl: ".botao-swiper .button-next-lancamento",
+          prevEl: ".botao-swiper .button-prev-lancamento",
         },
         breakpoints: {
-          350: {
-            slidesPerView: 1,
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 30,
           },
           640: {
             slidesPerView: 2,
@@ -125,27 +131,49 @@
             slidesPerView: 2,
           },
           1024: {
-            slidesPerView: 2,
+            slidesPerView: 3,
           },
           1367: {
             slidesPerView: 3,
           },
           1700: {
-            slidesPerView: 3,
+            slidesPerView: 4,
           },
         },
       });
 
-      var swiper = new Swiper(".mySwiper-blog", {
+      var swiper3 = new Swiper(".mySwiper-loteamento", {
         navigation: {
-          nextEl: ".button-next",
-          prevEl: ".button-prev",
+          nextEl: ".botao-swiper .button-next-loteamento",
+          prevEl: ".botao-swiper .button-prev-loteamento",
         },
-        slidesPerView: 2,
-        spaceBetween: 10,
-        pagination: {
-          el: ".swiper-pagination",
-          clickable: true,
+        breakpoints: {
+          320: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+          },
+          640: {
+            slidesPerView: 2,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+          1367: {
+            slidesPerView: 3,
+          },
+          1700: {
+            slidesPerView: 4,
+          },
+        },
+      });
+
+      var swiper4 = new Swiper(".mySwiper-blog", {
+        navigation: {
+          nextEl: ".botao-swiper .button-next-blog",
+          prevEl: ".botao-swiper .button-prev-blog",
         },
         breakpoints: {
           579: {
@@ -166,19 +194,7 @@
         },
       });
     </script>
-    <!-- Initialize Swiper -->
-    <!-- <script>
-      var swiper = new Swiper(".mySwiper", {
-        // slidesPerView: 3,
-        spaceBetween: 30,
-        navigation: {
-          nextEl: ".botao-swiper .button-next",
-          prevEl: ".botao-swiper .button-prev",
-          el: ".swiper-pagination",
-          clickable: true,
-        },
-      });
-    </script> -->
+
     </body>
 
     </html>

@@ -2,9 +2,7 @@
   width: 100%; 
   height: 100%;
 }
-.swiper-wrapper {
-  overflow: hidden;
-}
+
 .swiper-slide {
   background: #fff;
   width: 100%;
@@ -30,3 +28,47 @@
   object-fit: cover;
 }
 
+.botao-swiper {
+  padding-top: 30px;
+  padding-bottom: 80px;
+  display: flex;
+  .setas {
+    display: flex;
+    gap: 10px;
+  }
+  div:hover {
+    background-color: aquamarine;
+    svg {
+      stroke: #767676;
+    }
+  }
+}
+
+.botao-swiper-vertical {
+  gap: 20px;
+  z-index: 10;
+  position: absolute;
+  top: 3.23375rem;
+  right: 1.865rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .botao-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 19.19px;
+    margin-bottom: 2.73375rem;
+  }
+  .swiper-pagination {
+    position: static;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  .swiper-pagination-bullets {
+    width: fit-content;
+    .swiper-pagination-bullet {
+      background-color: white;
+    }
+  }
+}
