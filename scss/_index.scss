@@ -1,41 +1,23 @@
 .bg-vermelho {
-  background-image: url(images/bg-vermelho.png);
+  background-image: url(images/bg-lote-vermelho.png);
   background-size: cover;
   background-repeat: no-repeat;
-  z-index: -1;
+  z-index: -2;
   background-color: #767676;
   width: 100%;
   height: 569px;
   position: relative;
-  justify-content: center;
-  display: flex;
   &>img {
     position: absolute;
     top: 0;
-    z-index: 1;
+    z-index: -1;
   }
-  .intro-index {
-    width: 100%;
-    z-index: 2;
+  .texto-intro {
     display: flex;
-    &>img {
-      align-self: flex-end;
-      height: 420px;
-      width: 770px;
-    }
-    .texto-intro {
-      position: absolute;
-      right: 15%;
-      top: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: white;
-      img {
-        height: 294px;
-        width: 374px;
-      }
-    }
+    position: absolute;
+    left: 37%;
+    top: 15%;
+    color: white;
   }
   .link-intro {
     max-width: 22rem;
@@ -58,6 +40,7 @@
       padding-bottom: 20px;
     }
     a {
+      white-space: nowrap;
       border: 2px solid white;
       border-radius: 3px;
       padding: 16px 26px;
@@ -87,21 +70,22 @@
       font-size: 30px;
       line-height: 40px;
       color: white;
-      width: 31.25rem;
+      width: 100%;
       h1 {
         font-weight: 400;
+        max-width: 31.25rem;
       }
       b {
         font-weight: 700;
       }
+      span {
+        height: 9px;
+        width: 100%;
+        display: block;
+        background-color: rgba(255, 255, 255, 0.15);
+      }
     }
-    span {
-      height: 9px;
-      width: 100%;
-      background-color: rgba(255, 255, 255, 0.15);
-      position: absolute;
-      bottom: 40%;
-    }
+
   }
   .texto-sobre {
     color: white;
@@ -135,6 +119,7 @@
     }
   }
 }
+
 .box-swiper {
   padding-top: 50.64px;
 }

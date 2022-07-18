@@ -275,7 +275,13 @@ i {
       }
     }
     svg {
-      stroke: #C61400;
+      path{
+        stroke: blue;
+      }
+      rect{
+        fill: blue;
+      }
+      // stroke: #C61400;
     }
     .sobrepor-link>div {
       background-color: #C61400;
@@ -359,4 +365,17 @@ i {
   color: black;
   padding-bottom: 26px;
   border-bottom: 2px solid black;
+}
+
+.categorias {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+.lotes-box {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
