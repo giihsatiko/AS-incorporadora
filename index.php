@@ -1,7 +1,7 @@
 <?php include "header.php"; ?>
 
 <main>
-  <div class="swiper mySwiper mySwiper-bg">
+  <div class="swiper mySwiper-bg">
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="bg-vermelho">

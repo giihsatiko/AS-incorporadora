@@ -1,0 +1,12 @@
+.font48 {
+  font-size: 48px;
+}
+.titulo-pag-secudaria{
+  font-size: 48px;
+  @media (max-width:768px) {
+    font-size: 32px;
+  }
+  @media (max-width:575px) {
+    font-size: 23px;
+  }
+}

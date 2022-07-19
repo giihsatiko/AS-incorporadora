@@ -87,7 +87,7 @@
 
     </footer>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <script>
       var swiper = new Swiper(".mySwiper-bg", {
         slidesPerView: 1,
@@ -97,6 +97,7 @@
         },
         pagination: {
           el: ".swiper-pagination",
+          clickable: true,
         },
       });
 
