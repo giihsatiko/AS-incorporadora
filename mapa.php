@@ -6,21 +6,21 @@
     <div class="mapa-item">
       <h3>Atendimento</h3>
       <div>
-        <img src="images/local-branco.png" alt="pin localização">
+        <img src="assets/images/local-branco.png" alt="pin localização">
         <p>Seg à Sex das 8hs às 18hs</p>
       </div>
     </div>
     <div class="mapa-item">
       <h3>Central de Atendimento</h3>
       <div>
-        <img src="images/tel-branco.png" alt="telefone">
+        <img src="assets/images/tel-branco.png" alt="telefone">
         <p>18 3916 2287</p>
       </div>
     </div>
     <div class="mapa-item">
       <h3>Whatsapp</h3>
       <div>
-        <img src="images/whatsapp.png" alt="logo whatsapp">
+        <img src="assets/images/whatsapp.png" alt="logo whatsapp">
         <p>18 3916 2287</p>
       </div>
     </div>

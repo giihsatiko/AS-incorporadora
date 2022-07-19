@@ -17,23 +17,9 @@
 
 <body>
   <header>
-    <div class="rodape-header">
-      <div class="container-fluid container-lg">
-        <div class="contato-rodape">
-          <a href="">
-            <img src="images/tel2.png" alt="telefone">
-            <p><span>Vendas</span> 18 3916 2287</p>
-          </a>
-          <a href="">
-            <img src="images/whatsapp.png" alt="whatsapp">
-            <p><span>Whatsapp</span> 18 3916 2287</p>
-          </a>
-        </div>
-      </div>
-    </div>
     <div class="container-fluid">
       <nav class="nav-header">
-        <a href="" class="logo"><img src="images/logo.png" alt="logo AS incorporadora" class="img-fluid"></a>
+        <a href="" class="logo"><img src="assets/images/logo.png" alt="logo AS incorporadora" class="img-fluid"></a>
         <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
           <div class="burguer">
             <span></span>
@@ -47,11 +33,11 @@
             <div class="rodape-header">
               <div class="contato-rodape">
                 <a href="">
-                  <img src="images/tel2.png" alt="telefone">
+                  <img src="assets/images/tel2.png" alt="telefone">
                   <p><span>Vendas</span> 18 3916 2287</p>
                 </a>
                 <a href="">
-                  <img src="images/whatsapp.png" alt="whatsapp">
+                  <img src="assets/images/whatsapp.png" alt="whatsapp">
                   <p><span>Whatsapp</span> 18 3916 2287</p>
                 </a>
               </div>
@@ -63,15 +49,15 @@
               <li><a href="contato.php">CONTATO</a></li>
             </ul>
             <ul class="botao-nav">
-              <li class="botao-preto"><a href=""><img src="images/grupo.png" alt="grupo">COLABORADOR</a></li>
-              <li class="botao-vermelho"><a href=""><img src="images/usuario.png" alt="usuário">CLIENTE</a></li>
+              <li class="botao-preto"><a href=""><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
+              <li class="botao-vermelho"><a href=""><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
             </ul>
             <div class="fechar">
               <div class="botao-fechar">
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <p>FECHAR</p>
               </div>
-              <img src="images/logo.png" alt="logo AS" class="logo">
+              <img src="assets/images/logo.png" alt="logo AS" class="logo">
             </div>
           </div>
         </div>
@@ -82,8 +68,8 @@
           <li><a href="contato.php">CONTATO</a></li>
         </ul>
         <ul class="botao-nav">
-          <li class="botao-preto"><a href=""><img src="images/grupo.png" alt="grupo">COLABORADOR</a></li>
-          <li class="botao-vermelho"><a href=""><img src="images/usuario.png" alt="usuário">CLIENTE</a></li>
+          <li class="botao-preto"><a href=""><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
+          <li class="botao-vermelho"><a href=""><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
         </ul>
       </nav>
     </div>

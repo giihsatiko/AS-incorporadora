@@ -1,5 +1,5 @@
 .introducao-lote {
-  background-image: url(images/bg-lote.png);
+  background-image: url(assets/images/bg-lote.png);
   height: 360px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -44,7 +44,7 @@
     padding-top: 17px;
     color: white;
     font-weight: 600;
-    font-size: 14px
+    font-size: 14px;
   }
   .progresso {
     padding-top: 16px;
@@ -133,7 +133,6 @@
     }
   }
 }
-
 
 .paragrafo-form {
   padding: 36px 0;

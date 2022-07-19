@@ -64,10 +64,10 @@ nav {
 }
 
 @media (max-width: 990px) {
-  ul:first-of-type {
-    display: none;
-  }
   nav {
+    ul:first-of-type {
+      display: none;
+    }
     .btn {
       display: flex;
       align-items: center;
@@ -96,7 +96,6 @@ nav {
     height: 100%;
   }
   .offcanvas-body {
-    // height: 100%;
     ul:first-of-type {
       display: block;
       padding-bottom: 30px;
@@ -117,32 +116,19 @@ nav {
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 767.9px) {
   .botao-nav {
     display: none;
   }
 }
 
-@media (max-width: 320px) {
-  .rodape-header {
-    background-color: $verde;
-    height: fit-content;
-    display: flex;
-    align-items: center;
-    .contato-rodape {
-      a:nth-of-type(2) {
-        border-right: none;
-      }
-      a p, span {
-        font-size: 14px;
-      }
-    }
-  }
+@media (max-width: 575.9px) {
   body {
     position: relative;
   }
   .nav-header {
-    position: absolute;
+    position: fixed;
+    z-index: 1000;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -156,17 +142,11 @@ nav {
     button {
       order: -1;
     }
-    .rodape-header {
-      width: 100%;
-      justify-content: space-around;
-      .contato-rodape {
-        width: 100%;
-      }
-    }
     .offcanvas {
       background-color: rgba(255, 255, 255, 0.85);
     }
     .offcanvas-body {
+      margin-top: 80px;
       padding: 0;
       .botao-nav {
         flex-direction: column;

@@ -19,7 +19,7 @@
     <div class="lotes-box">
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
@@ -30,7 +30,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote2.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote2.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
@@ -41,7 +41,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote3.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote3.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
@@ -52,7 +52,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote4.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote4.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
@@ -63,7 +63,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote5.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote5.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
@@ -74,7 +74,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote6.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote6.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
@@ -85,7 +85,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 3</h3>
@@ -96,7 +96,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote2.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote2.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Rubi</h3>
@@ -107,7 +107,7 @@
       </div>
       <div class="lotes-item">
         <a href="">
-          <div><img src="images/lote3.png" alt="loteamento" class="img-fluid"></div>
+          <div><img src="assets/images/lote3.png" alt="loteamento" class="img-fluid"></div>
           <div>
             <h2>DE 156 A 369m² • 110 LOTES</h2>
             <h3>Loteamento Veredas 2</h3>
@@ -117,8 +117,16 @@
         </a>
       </div>
     </div>
-    <?php include "pagination.php"; ?>
+    <div class="pagination-box">
+      <span></span>
+      <div>
+        <a href="">1</a>
+        <a href="">2</a>
+        <a href="">3</a>
+        <a href="">></a>
+      </div>
+    </div>
   </div>
 </main>
-
+<?php include "email.php"; ?>
 <?php include "footer.php"; ?>

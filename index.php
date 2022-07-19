@@ -5,10 +5,10 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="bg-vermelho">
-          <img src="images/sombra-vermelha.png" alt="sombra">
+          <img src="assets/images/sombra-vermelha.png" alt="sombra">
           <div class="container-fluid">
             <div class="texto-intro">
-              <img src="images/logo-lote.png" alt="selo lote" class="img-fluid">
+              <img src="assets/images/logo-lote.png" alt="selo lote" class="img-fluid">
               <div class="link-intro">
                 <h1>Últimos Lotes Disponíveis</h1>
                 <h2>Não perca a chance de viver bem!</h2>
@@ -21,10 +21,10 @@
       </div>
       <div class="swiper-slide">
         <div class="bg-vermelho">
-          <img src="images/sombra-vermelha.png" alt="sombra">
+          <img src="assets/images/sombra-vermelha.png" alt="sombra">
           <div class="container-fluid">
             <div class="texto-intro">
-              <img src="images/logo-lote.png" alt="selo lote" class="img-fluid">
+              <img src="assets/images/logo-lote.png" alt="selo lote" class="img-fluid">
               <div class="link-intro">
                 <h1>Últimos Lotes Disponíveis</h1>
                 <h2>Não perca a chance de viver bem!</h2>
@@ -37,10 +37,10 @@
       </div>
       <div class="swiper-slide">
         <div class="bg-vermelho">
-          <img src="images/sombra-vermelha.png" alt="sombra">
+          <img src="assets/images/sombra-vermelha.png" alt="sombra">
           <div class="container-fluid">
             <div class="texto-intro">
-              <img src="images/logo-lote.png" alt="selo lote">
+              <img src="assets/images/logo-lote.png" alt="selo lote">
               <div class="link-intro">
                 <h1>Últimos Lotes Disponíveis</h1>
                 <h2>Não perca a chance de viver bem!</h2>
@@ -53,10 +53,10 @@
       </div>
       <div class="swiper-slide">
         <div class="bg-vermelho">
-          <img src="images/sombra-vermelha.png" alt="sombra">
+          <img src="assets/images/sombra-vermelha.png" alt="sombra">
           <div class="container-fluid">
             <div class="texto-intro">
-              <img src="images/logo-lote.png" alt="selo lote">
+              <img src="assets/images/logo-lote.png" alt="selo lote">
               <div class="link-intro">
                 <h1>Últimos Lotes Disponíveis</h1>
                 <h2>Não perca a chance de viver bem!</h2>
@@ -69,10 +69,10 @@
       </div>
       <div class="swiper-slide">
         <div class="bg-vermelho">
-          <img src="images/sombra-vermelha.png" alt="sombra">
+          <img src="assets/images/sombra-vermelha.png" alt="sombra">
           <div class="container-fluid">
             <div class="texto-intro">
-              <img src="images/logo-lote.png" alt="selo lote">
+              <img src="assets/images/logo-lote.png" alt="selo lote">
               <div class="link-intro">
                 <h1>Últimos Lotes Disponíveis</h1>
                 <h2>Não perca a chance de viver bem!</h2>
@@ -87,13 +87,13 @@
     <div class="botao-swiper-vertical">
       <div class="botao-vertical">
         <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="26" cy="26" r="25.4" stroke="white" stroke-width="1.2" />
-            <path d="M29 19L22 26L29 33" stroke="white" stroke-width="1.2" />
+            <circle cx="26" cy="26" r="25.4" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
+            <path d="M29 19L22 26L29 33" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
           </svg>
         </div>
         <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="white" stroke-width="1.2" />
-            <path d="M23 33L30 26L23 19" stroke="white" stroke-width="1.2" />
+            <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
+            <path d="M23 33L30 26L23 19" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
           </svg>
         </div>
       </div>
@@ -112,7 +112,7 @@
           <div class="swiper-slide">
             <div class="lotes-item">
               <a href="">
-                <div><img src="images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
+                <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
                 <div>
                   <h2>DE 156 A 369m² • 110 LOTES</h2>
                   <h3>Loteamento Rubi</h3>
@@ -125,7 +125,7 @@
           <div class="swiper-slide">
             <div class="lotes-item">
               <a href="">
-                <div><img src="images/rubi.png" alt="rubi" class="img-fluid"></div>
+                <div><img src="assets/images/rubi.png" alt="rubi" class="img-fluid"></div>
                 <div>
                   <h2>DE 156 A 369m² • 110 LOTES</h2>
                   <h3>Loteamento Rubi</h3>
@@ -138,7 +138,7 @@
           <div class="swiper-slide">
             <div class="lotes-item">
               <a href="">
-                <div><img src="images/veredas2.png" alt="veredas 2" class="img-fluid"></div>
+                <div><img src="assets/images/veredas2.png" alt="veredas 2" class="img-fluid"></div>
                 <div>
                   <h2>DE 156 A 369m² • 110 LOTES</h2>
                   <h3>Loteamento Rubi</h3>
@@ -151,7 +151,7 @@
           <div class="swiper-slide">
             <div class="lotes-item">
               <a href="">
-                <div><img src="images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
+                <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
                 <div>
                   <h2>DE 156 A 369m² • 110 LOTES</h2>
                   <h3>Loteamento Rubi</h3>
@@ -205,7 +205,7 @@
         <div class="swiper-slide">
           <div class="lotes-item">
             <a href="">
-              <div><img src="images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
+              <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
               <div>
                 <span></span>
                 <h2>DE 156 A 369m² • 110 LOTES</h2>
@@ -219,7 +219,7 @@
         <div class="swiper-slide">
           <div class="lotes-item">
             <a href="">
-              <div><img src="images/rubi.png" alt="rubi" class="img-fluid"></div>
+              <div><img src="assets/images/rubi.png" alt="rubi" class="img-fluid"></div>
               <div>
                 <span></span>
                 <h2>DE 156 A 369m² • 110 LOTES</h2>
@@ -233,7 +233,7 @@
         <div class="swiper-slide">
           <div class="lotes-item">
             <a href="">
-              <div><img src="images/veredas2.png" alt="veredas 2" class="img-fluid"></div>
+              <div><img src="assets/images/veredas2.png" alt="veredas 2" class="img-fluid"></div>
               <div>
                 <span></span>
                 <h2>DE 156 A 369m² • 110 LOTES</h2>
@@ -247,7 +247,7 @@
         <div class="swiper-slide">
           <div class="lotes-item">
             <a href="">
-              <div><img src="images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
+              <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
               <div>
                 <span></span>
                 <h2>DE 156 A 369m² • 110 LOTES</h2>
@@ -283,7 +283,7 @@
           <h1>MUITO MAIS DO QUE <b>UMA INCORPORADORA</b></h1>
           <span></span>
         </div>
-        <div class="position-absolute top-0 w-100"><img src="images/1997.png" alt=" ano 1997" class="d-block mx-auto m-md-0 ms-md-auto img-fluid"></div>
+        <div class="position-absolute top-0 w-100"><img src="assets/images/1997.png" alt=" ano 1997" class="d-block mx-auto m-md-0 ms-md-auto img-fluid"></div>
       </div>
       <div class="texto-sobre">
         <p>A <span>AS Incorporadora</span> lançou seu primeiro loteamento em 1997, em Presidente Prudente - SP e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.</p>
@@ -305,7 +305,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/multidao.png" alt="multidao">
+                <img src="assets/images/multidao.png" alt="multidao">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -326,7 +326,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/casa.png" alt="casa">
+                <img src="assets/images/casa.png" alt="casa">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -347,7 +347,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/casa.png" alt="casa">
+                <img src="assets/images/casa.png" alt="casa">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -368,7 +368,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/multidao.png" alt="multidao">
+                <img src="assets/images/multidao.png" alt="multidao">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -404,5 +404,5 @@
     </div>
   </div>
 </main>
-
+<?php include "email.php"; ?>
 <?php include "footer.php"; ?>

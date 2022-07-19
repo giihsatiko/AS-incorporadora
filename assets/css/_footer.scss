@@ -56,6 +56,9 @@
 .links {
   display: flex;
   gap: 90px;
+  .lista-mobile {
+    display: none;
+  }
 }
 .atendimento {
   padding-bottom: 80px;
@@ -86,7 +89,7 @@
   div {
     display: flex;
     flex-direction: column;
-    width: 210px;
+    width: fit-content;
     a {
       color: black;
       font-weight: 500;
@@ -186,7 +189,7 @@
   }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 990px) {
   .email {
     justify-content: center;
     align-items: center;
@@ -223,7 +226,8 @@
     }
   }
 }
-@media (max-width:576px) {
+
+@media (max-width:767.9px) {
   input {
     padding: 10px 20px;
   }
@@ -231,6 +235,12 @@
     padding-bottom: 77px;
   }
   .botoes {
+    width: 100%;
+    justify-content: space-between;
+    ul {
+      width: 30%;
+      justify-content: space-between;
+    }
     div {
       margin-left: 0;
       a {
@@ -240,16 +250,10 @@
   }
   .direitos {
     flex-direction: column;
-    img {
-      padding-bottom: 18.77px;
-    }
   }
 }
 
 @media (max-width:575.9px) {
-  .email {
-    height: 500px;
-  }
   .form-item {
     flex-direction: column;
     gap: 15px;
@@ -265,8 +269,14 @@
   .links {
     flex-direction: column-reverse;
     gap: 0;
+    .lista-mobile {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+    }
   }
   .links-itens {
+    width: 100%;
     gap: 0;
     order: 1;
     div {
@@ -279,7 +289,7 @@
     a {
       width: 100%;
     }
-    i {
+    ul {
       display: none;
     }
   }
@@ -289,11 +299,20 @@
     }
   }
   .rodape {
-    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    .contato-rodape a {
+      &:first-of-type {
+        display: none;
+      }
+      &:nth-of-type(2) {
+        border-left: none;
+      }
+    }
   }
-}
 
-@media (max-width: 320px) {
   .box-ano {
     .texto-ano span {
       bottom: 25%;
@@ -306,6 +325,7 @@
     line-height: 18.29px;
   }
   .email {
+    height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -313,7 +333,7 @@
       gap: 20px;
     }
     h1 {
-      width: 80%;
+      width: 70%;
       padding-top: 0;
     }
     span {
@@ -337,10 +357,8 @@
       }
     }
   }
-  .links-itens {
-    width: 100%;
-  }
   .direitos {
     padding-bottom: 70px;
   }
 }
+

@@ -10,7 +10,7 @@
         <div class="titulo-blog">
           <h3>Empreendimentos</h3>
           <h4>Alugar ou comprar "imóveis de Lego": conheça a moradia modular, que cresce no Brasil.</h4>
-          <a href=""><img src="images/seta-baixo.png" alt="seta para baixo">Descer página</a>
+          <a href=""><img src="assets/images/seta-baixo.png" alt="seta para baixo">Descer página</a>
         </div>
         <span></span>
       </div>
@@ -37,10 +37,10 @@
         <div class="noticia-redes">
           <h2 class="titulo-h2">COMPARTILHE NAS REDES</h2>
           <ul>
-            <li><a href=""><img src="images/logo-pinterest.png" alt="logo pinterest"></a></li>
-            <li><a href=""><img src="images/logo-twitter.png" alt="logo twitter"></a></li>
-            <li><a href=""><img src="images/logo-facebook.png" alt="logo facebook"></a></li>
-            <li><a href=""><img src="images/logo-linkedin.png" alt="logo linkedin"></a></li>
+            <li><a href=""><img src="assets/images/logo-pinterest.png" alt="logo pinterest"></a></li>
+            <li><a href=""><img src="assets/images/logo-twitter.png" alt="logo twitter"></a></li>
+            <li><a href=""><img src="assets/images/logo-facebook.png" alt="logo facebook"></a></li>
+            <li><a href=""><img src="assets/images/logo-linkedin.png" alt="logo linkedin"></a></li>
           </ul>
         </div>
         <div class="formulario-blog">
@@ -73,14 +73,14 @@
           <h2>COMENTÁRIOS</h2>
           <div class="comentario-user">
             <div class="user">
-              <img src="images/modelo1.png" alt="modelo">
+              <img src="assets/images/modelo1.png" alt="modelo">
               <div>
                 <h3>Usuário 02</h3>
                 <p>Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
               </div>
             </div>
             <div class="user">
-              <img src="images/modelo2.png" alt="modelo">
+              <img src="assets/images/modelo2.png" alt="modelo">
               <div>
                 <h3>Usuário 03</h3>
                 <p>Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
@@ -132,7 +132,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/multidao.png" alt="multidao">
+                <img src="assets/images/multidao.png" alt="multidao">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -153,7 +153,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/casa.png" alt="casa">
+                <img src="assets/images/casa.png" alt="casa">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -174,7 +174,7 @@
           <div class="galeria-item">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/casa.png" alt="casa">
+                <img src="assets/images/casa.png" alt="casa">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -195,7 +195,7 @@
           <div class="galeria-item ">
             <a href="">
               <div class="sobrepor-link">
-                <img src="images/multidao.png" alt="multidao">
+                <img src="assets/images/multidao.png" alt="multidao">
                 <div>
                   <h2>15</h2>
                   <p>Ago | 2021</p>
@@ -230,5 +230,5 @@
   </div>
 
 </main>
-
+<?php include "email.php"; ?>
 <?php include "footer.php"; ?>

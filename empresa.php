@@ -15,20 +15,20 @@
     </div>
     <div class="empresa">
       <div>
-        <img src="images/empresa.png" alt="frente da empresa">
+        <img src="assets/images/empresa.png" alt="frente da empresa">
         <p>As Incorporadora, tem uma marca de confiabilidade nos projetos que apresenta, fazendo da mesma um conceito sobre investimentos seguros. As obras de infraestrutura dos loteamentos da As Incorporadora são prioridade da empresa. Somente a execução da energia elétrica e iluminação pública que são empreitadas. As demais obras, a própria empresa quem executa.</p>
         <a href="">Ver todos os empreendimentos</a>
       </div>
       <div>
         <p>Em 1997, As Incorporadora lançou seu primeiro loteamento, em Presidente Prudente e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.
         </p>
-        <img src="images/empresa.png" alt="frente da empresa">
+        <img src="assets/images/empresa.png" alt="frente da empresa">
       </div>
     </div>
     <div class="vantagens">
       <div class="box-vantagem">
         <div>
-          <img src="images/missao.png" alt="topo montanha">
+          <img src="assets/images/missao.png" alt="topo montanha">
           <h4>MISSÃO</h4>
         </div>
         <div>
@@ -37,7 +37,7 @@
       </div>
       <div class="box-vantagem">
         <div>
-          <img src="images/visao.png" alt="olho">
+          <img src="assets/images/visao.png" alt="olho">
           <h4>VISÃO</h4>
         </div>
         <div>
@@ -46,7 +46,7 @@
       </div>
       <div class="box-vantagem">
         <div>
-          <img src="images/valores.png" alt="aperto de mão">
+          <img src="assets/images/valores.png" alt="aperto de mão">
           <h4>VALORES</h4>
         </div>
         <div>
@@ -65,5 +65,5 @@
     <?php include "mapa.php"; ?>
   </div>
 </main>
-
+<?php include "email.php"; ?>
 <?php include "footer.php"; ?>

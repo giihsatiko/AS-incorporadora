@@ -16,5 +16,5 @@
     </div>
   </div>
 </main>
-
+<?php include "email.php"; ?>
 <?php include "footer.php"; ?>
