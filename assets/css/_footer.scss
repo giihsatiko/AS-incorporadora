@@ -119,6 +119,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    li a {
+      padding: 20px;
+    }
   }
   div {
     display: flex;
@@ -296,11 +299,6 @@
     }
   }
 
-  .box-ano {
-    .texto-ano span {
-      bottom: 25%;
-    }
-  }
   .botao-vermelho,
   .botoes {
     width: 100%;

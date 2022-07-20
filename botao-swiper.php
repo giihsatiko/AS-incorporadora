@@ -9,5 +9,5 @@
       <path d="M23 33L30 26L23 19" stroke="black" stroke-width="1.2" />
     </svg>
   </div>
-  <div class="botao-vermelho ms-auto"><a href="">ENTRAR EM CONTATO</a></div>
+  <a href="" class="botao-vermelho ms-auto">ENTRAR EM CONTATO</a>
 </div>

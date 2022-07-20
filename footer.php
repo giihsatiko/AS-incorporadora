@@ -5,10 +5,10 @@
             <div class="links">
               <div>
                 <div class="atendimento">
-                  <h4 class="fw-600">Atendimento</h4>
+                  <h4 class="fw600">Atendimento</h4>
                   <div>
                     <img src="assets/images/local.png" alt="pin localização">
-                    <p class="fw-400">Seg à Sex das 8h às 18hrs</p>
+                    <p class="fw400">Seg à Sex das 8h às 18hrs</p>
                   </div>
                 </div>
                 <div class="atendimento">
@@ -43,12 +43,8 @@
                 </div>
               </div>
               <div class="botoes">
-                <div class="botao-preto">
-                  <a href=""><img src="assets/images/grupo.png" alt="grupo"> COLABORADOR</a>
-                </div>
-                <div class="botao-vermelho">
-                  <a href=""><img src="assets/images/usuario.png" alt="usuario"> CLIENTE</a>
-                </div>
+                <a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo"> COLABORADOR</a>
+                <a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuario"> CLIENTE</a>
                 <ul>
                   <li><a href=""><img src="assets/images/youtube.png" alt="logo youtube" class="img-fluid"></a></li>
                   <li><a href=""><img src="assets/images/facebook.png" alt="logo facebook" class="img-fluid"></a></li>
@@ -59,7 +55,7 @@
           </div>
           <div class="direitos">
             <img src="assets/images/logo-horizontal.png" alt="logo">
-            <p class="fw-500">
+            <p class="fw500">
               Todos os direitos reservados © 2021 | AS Incorporadora - CRECI 021030-J - Criação
               <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
             </p>
@@ -71,15 +67,15 @@
           <div class="contato-rodape">
             <a href="">
               <img src="assets/images/carta.png" alt="carta">
-              <p class="fw-500"><span class="fw-700">Formulário</span> de contato</p>
+              <p class="fw500"><span class="fw700">Formulário</span> de contato</p>
             </a>
             <a href="">
               <img src="assets/images/tel2.png" alt="telefone">
-              <p class="fw-500"><span class="fw-700">Vendas</span> 18 3916 2287</p>
+              <p class="fw500"><span class="fw700">Vendas</span> 18 3916 2287</p>
             </a>
             <a href="">
               <img src="assets/images/whatsapp.png" alt="whatsapp">
-              <p class="fw-500"><span class="fw-700">Whatsapp</span> 18 3916 2287</p>
+              <p class="fw500"><span class="fw700">Whatsapp</span> 18 3916 2287</p>
             </a>
           </div>
         </div>

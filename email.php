@@ -2,7 +2,7 @@
   <div class="box-email">
     <div class="container-fluid container-lg">
       <div class="email">
-        <h1 class="fw-400">RECEBA NOVIDADES <b class="fw-700">POR E-MAIL</b></h1>
+        <h1 class="fw400">RECEBA NOVIDADES <b class="fw700">POR E-MAIL</b></h1>
         <span></span>
         <form action="">
           <div class="form-item">

@@ -37,11 +37,11 @@
               <li><a href="contato.php">CONTATO</a></li>
             </ul>
             <ul class="botao-nav">
-              <li class="botao-preto"><a href=""><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-              <li class="botao-vermelho"><a href=""><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
+              <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
+              <li><a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
             </ul>
             <div class="fechar">
-              <div class="botao-fechar fw-700">
+              <div class="botao-fechar fw700">
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <p>FECHAR</p>
               </div>
@@ -56,8 +56,8 @@
           <li><a href="contato.php">CONTATO</a></li>
         </ul>
         <ul class="botao-nav">
-          <li class="botao-preto"><a href=""><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-          <li class="botao-vermelho"><a href=""><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
+          <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
+          <a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a>
         </ul>
       </nav>
     </div>

@@ -10,7 +10,7 @@
       <span></span>
       <div class="texto-erro">
         <p class="fw500">Não encontramos a página solicitada, mas você pode continuar navegando normalmente em nosso site.</p>
-        <div class="botao-vermelho"><a href="index.php">VOLTA PARA A PÁGINA INICIAL</a></div>
+        <a href="index.php" class="botao-vermelho">VOLTA PARA A PÁGINA INICIAL</a>
       </div>
     </div>
   </div>

@@ -105,7 +105,7 @@
           </svg>
         </div>
       </div>
-      <div class="botao-vermelho ms-sm-auto"><a href="">VER TODAS AS NOTÍCIAS</a></div>
+      <a href="" class="botao-vermelho ms-sm-auto">VER TODAS AS NOTÍCIAS</a>
     </div>
     <div class="box">
       <h2 class="fw400">FALE COM UM <b>CORRETOR</b></h2>

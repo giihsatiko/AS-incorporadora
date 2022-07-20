@@ -63,7 +63,7 @@
                   <div>
                     <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
                   </div>
-                  <div><button type="submit" class="botao-vermelho">ENVIAR COMENTÁRIO</button></div>
+                  <button type="submit" class="botao-vermelho">ENVIAR COMENTÁRIO</button>
                 </div>
               </div>
             </form>
@@ -224,7 +224,7 @@
             <path d="M23 33L30 26L23 19" stroke="black" stroke-width="1.2" />
           </svg>
         </div>
-        <div class="botao-vermelho ms-auto"><a href="">VER TODAS AS NOTÍCIAS</a></div>
+        <a href="" class="botao-vermelho ms-auto">VER TODAS AS NOTÍCIAS</a>
       </div>
     </div>
   </div>

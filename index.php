@@ -24,12 +24,12 @@
     </div>
     <div class="botao-swiper-vertical">
       <div class="botao-vertical">
-        <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="button-prev"><svg width="65.16" height="65.16" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="26" cy="26" r="25.4" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
             <path d="M29 19L22 26L29 33" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
           </svg>
         </div>
-        <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <div class="button-next"><svg width="65.16" height="65.16" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
             <path d="M23 33L30 26L23 19" stroke="rgba(255,255,255,0.2)" stroke-width="1.2" />
           </svg>
@@ -78,7 +78,7 @@
           </svg>
         </div>
       </div>
-      <div class="botao-vermelho ms-auto"><a href="">VER TODOS OS LANÇAMENTOS</a></div>
+      <a href="" class="botao-vermelho ms-auto">VER TODOS OS LANÇAMENTOS</a>
     </div>
     <div class="box">
       <h2 class="fw400">ENCONTRE O SEU <b>LOTEAMENTO</b></h2>
@@ -86,16 +86,16 @@
     </div>
     <div class="status-obras-box">
       <div class="status-obras">
-        <div>
-          <a href="" class="f600">OBRAS CONCLUÍDAS</a>
+        <div class="col-4">
+          <a href="" class="fw600">OBRAS CONCLUÍDAS</a>
           <span></span>
         </div>
-        <div>
-          <a href="" class="f600">OBRAS EM ANDAMENTO</a>
+        <div class="col-4">
+          <a href="" class="fw600">OBRAS EM ANDAMENTO</a>
           <span></span>
         </div>
-        <div>
-          <a href="" class="f600">TODAS AS OBRAS</a>
+        <div class="col-4">
+          <a href="" class="fw600">TODAS AS OBRAS</a>
           <span></span>
         </div>
       </div>
@@ -134,7 +134,7 @@
           </svg>
         </div>
       </div>
-      <div class="botao-vermelho ms-auto"><a href="">VER TODOS OS EMPREENDIMENTOS</a></div>
+      <a href="" class="botao-vermelho ms-auto">VER TODOS OS EMPREENDIMENTOS</a>
     </div>
   </div>
   <div class="box-ano">
@@ -149,7 +149,7 @@
       <div class="texto-sobre fw400">
         <p>A <span class="fw700">AS Incorporadora</span> lançou seu primeiro loteamento em 1997, em Presidente Prudente - SP e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.</p>
         <div class="botoes-sobre">
-          <div class="botao-vermelho"><a href="">CONHEÇA A INCORPORADORA</a></div>
+          <a href="" class="botao-vermelho">CONHEÇA A INCORPORADORA</a>
           <div><a href="">ENTRE EM CONTATO</a></div>
         </div>
       </div>
@@ -200,7 +200,7 @@
           </svg>
         </div>
       </div>
-      <div class="botao-vermelho ms-sm-auto"><a href="">VER TODAS AS NOTÍCIAS</a></div>
+      <a href="" class="botao-vermelho ms-auto">VER TODAS AS NOTÍCIAS</a>
     </div>
   </div>
 </main>
