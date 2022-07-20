@@ -22,12 +22,6 @@
       height: 114px;
       width: 114px;
       color: white;
-      h2 {
-        font-size: 48px;
-      }
-      p {
-        font-size: 13px;
-      }
     }
     .titulo-blog {
       align-self: center;
@@ -35,7 +29,6 @@
       h3 {
         width: fit-content;
         color: $cinza-escuro;
-        font-size: 17px;
         border: 1px solid $cinza-escuro;
         padding: 8px 15px;
         border-radius: 100px;
@@ -45,13 +38,11 @@
         padding-bottom: 24px;
         max-width: 478px;
         color: white;
-        font-size: 24px;
         line-height: 29px;
       }
       a {
         text-decoration: none;
         color: white;
-        font-size: 17px;
         display: flex;
         align-items: center;
         gap: 9px;
@@ -70,7 +61,6 @@
 .titulo-blog {
   padding-top: 38px;
   padding-bottom: 72px;
-  font-size: 17px;
   text-align: center;
   color: $cinza;
 }
@@ -84,12 +74,10 @@
     flex-direction: column;
     align-items: center;
     h1 {
-      font-size: 30px;
       line-height: 40px;
       padding-bottom: 38px;
     }
     p {
-      font-size: 18px;
       line-height: 26.77px;
       padding-bottom: 20px;
       color: $cinza-escuro;
@@ -97,7 +85,6 @@
     ul {
       padding-top: 56px;
       padding-bottom: 41px;
-      font-size: 18px;
       color: #0d0d0d;
     }
     .noticia-redes {
@@ -128,11 +115,9 @@
           align-items: center;
           gap: 15px;
           h3 {
-            font-size: 20px;
             color: black;
           }
           p {
-            font-size: 18px;
             color: $cinza-escuro;
           }
         }
@@ -154,11 +139,9 @@
       a {
         text-decoration: none;
         h3 {
-          font-size: 16px;
           color: black;
         }
         p {
-          font-size: 16px;
           line-height: 24px;
           color: black;
         }

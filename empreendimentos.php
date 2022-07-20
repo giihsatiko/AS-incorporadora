@@ -22,10 +22,10 @@
           <a href="" class="d-block">
             <div><img src="assets/images/lote.png" alt="loteamento" class="img-fluid w-100"></div>
             <div>
-              <h2 class="fw500">DE 156 A 369m² • 110 LOTES</h2>
-              <h3>Loteamento Veredas 3</h3>
-              <p class="fw500">Presidente Prudente - SP</p>
-              <p class="fw500">Bairro Centro</p>
+              <h2 class="fw500 fs14">DE 156 A 369m² • 110 LOTES</h2>
+              <h3 class="fs14">Loteamento Veredas 3</h3>
+              <p class="fw500 fs16">Presidente Prudente - SP</p>
+              <p class="fw500 fs14">Bairro Centro</p>
             </div>
           </a>
         </div>

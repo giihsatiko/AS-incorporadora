@@ -10,7 +10,6 @@
   h1 {
     padding-top: 128px;
     width: 400px;
-    font-size: 30px;
     line-height: 40px;
   }
   span {
@@ -55,16 +54,12 @@
 }
 .atendimento {
   padding-bottom: 80px;
-  h4 {
-    font-size: 18px;
-  }
   div {
     display: flex;
     align-items: center;
     gap: 10px;
     p {
       padding-top: 15px;
-      font-size: 18px;
       line-height: 21.94px;
       &:first-of-type {
         width: 110px;
@@ -137,7 +132,6 @@
   border-top: 1px solid $cinza-medio;
   p {
     color: $cinza;
-    font-size: 14px;
   }
 }
 .rodape {
@@ -169,7 +163,6 @@
       display: flex;
       flex-direction: column;
       padding-left: 10px;
-      font-size: 18px;
       line-height: 21.94px;
     }
   }

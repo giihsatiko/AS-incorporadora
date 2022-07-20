@@ -5,14 +5,14 @@
             <div class="links">
               <div>
                 <div class="atendimento">
-                  <h4 class="fw600">Atendimento</h4>
+                  <h4 class="fw600 fs18">Atendimento</h4>
                   <div>
                     <img src="assets/images/local.png" alt="pin localização">
-                    <p class="fw400">Seg à Sex das 8h às 18hrs</p>
+                    <p class="fw400 fs18">Seg à Sex das 8h às 18hrs</p>
                   </div>
                 </div>
                 <div class="atendimento">
-                  <h4>Central de Atendimento</h4>
+                  <h4 class="fw600 fs18">Central de Atendimento</h4>
                   <div>
                     <img src="assets/images/tel.png" alt="telefone">
                     <p>18 3916 2287</p>
@@ -32,7 +32,7 @@
                   <a href="">> TRABALHE CONOSCO</a>
                 </div>
                 <div>
-                  <a href="listagem.php">> EMPREENDIMENTOS</a>
+                  <a href="empreendimentos.php">> EMPREENDIMENTOS</a>
                   <a href="">> OBRAS CONCLUÍDAS</a>
                   <a href="empreendimento.php">> OBRAS EM ANDAMENTOS</a>
                   <a href="">> OFEREÇA SUA ÁREA</a>
@@ -55,7 +55,7 @@
           </div>
           <div class="direitos">
             <img src="assets/images/logo-horizontal.png" alt="logo">
-            <p class="fw500">
+            <p class="fw500 fs14">
               Todos os direitos reservados © 2021 | AS Incorporadora - CRECI 021030-J - Criação
               <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
             </p>
@@ -67,15 +67,15 @@
           <div class="contato-rodape">
             <a href="">
               <img src="assets/images/carta.png" alt="carta">
-              <p class="fw500"><span class="fw700">Formulário</span> de contato</p>
+              <p class="fw500 fs18"><span class="fw700">Formulário</span> de contato</p>
             </a>
             <a href="">
               <img src="assets/images/tel2.png" alt="telefone">
-              <p class="fw500"><span class="fw700">Vendas</span> 18 3916 2287</p>
+              <p class="fw500 fs18"><span class="fw700">Vendas</span> 18 3916 2287</p>
             </a>
             <a href="">
               <img src="assets/images/whatsapp.png" alt="whatsapp">
-              <p class="fw500"><span class="fw700">Whatsapp</span> 18 3916 2287</p>
+              <p class="fw500 fs18"><span class="fw700">Whatsapp</span> 18 3916 2287</p>
             </a>
           </div>
         </div>

@@ -89,24 +89,52 @@
     flex-direction: column;
     gap: 50px;
   }
-  .swiper-pagination-bullets {
-    width: fit-content;
-    .swiper-pagination-bullet {
-      padding: 18px;
-      position: relative;
+  // .swiper-pagination-bullets {
+  //   width: fit-content;
+  //   .swiper-pagination-bullet {
+  //     padding: 18px;
+  //     position: relative;
+  //     &::after {
+  //       content: "";
+  //       display: block;
+  //       position: absolute;
+  //       top: 50%;
+  //       right: 50%;
+  //       background-color: blue;
+  //       width: 8px;
+  //       height: 8px;
+  //       padding: 5px;
+  //       border-radius: 100%;
+  //     }
+  //     &:active {
+  //       background-color: white;
+  //     }
+  //   }
+
+  // }
+}
+
+.swiper-pagination {
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: solid 3px transparent;
+    display: block;
+    position: relative;
+    &::after {
+      position: absolute;
+      left: 6px;
+      top: 6px;
+      width: 8px;
+      height: 8px;
       background-color: white;
-      &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        top: 50%;
-        right: 50%;
-        background-color: blue;
-        width: 8px;
-        height: 8px;
-        padding: 5px;
-        border-radius: 100%;
-      }
+    }
+    &:not(.active):hover {
+      border: solid 3px white;
+    }
+    &.active {
+      background-color: gray;
     }
   }
 }
@@ -187,7 +215,6 @@
       align-items: center;
       p {
         max-width: 730px;
-        font-size: 14px;
         line-height: 18.3px;
         color: #808080;
       }
@@ -205,11 +232,7 @@
     height: 582px;
     .message-error {
       padding-left: 130px;
-      h1 {
-        font-size: 48px;
-      }
       p {
-        font-size: 17px;
         color: $cinza;
       }
     }
@@ -223,7 +246,6 @@
       align-self: center;
       max-width: 31.25rem;
       p {
-        font-size: 24px;
         line-height: 29px;
         padding-bottom: 18px;
       }

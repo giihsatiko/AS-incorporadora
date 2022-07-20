@@ -25,7 +25,7 @@
       </div>
     </div>
     <div class="separar-form2">
-      <p class="fw500">*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
+      <p class="fw500 fs14">*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
       <button type="submit" class="botao-vermelho">ENVIAR MENSAGEM*</button>
     </div>
   </form>

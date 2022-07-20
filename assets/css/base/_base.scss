@@ -101,6 +101,17 @@ i {
     height: 435px;
     width: 100%;
   }
+  .box-endereco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 66px;
+    p {
+      max-width: 550px;
+      text-align: center;
+      color: #0D0D0D;
+    }
+  }
   .contato-mapa {
     background-color: black;
     border-radius: 3px;
@@ -111,25 +122,26 @@ i {
     align-items: center;
     .mapa-item {
       color: $cinza-claro;
+      max-height: 74px;
       &:last-of-type {
         background-color: $verde;
         border-radius: 3px;
         max-width: 239px;
         width: 100%;
-        padding-top: 10px;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        padding-left: 28px;
       }
       div {
         display: flex;
-        align-items: center;
-        font-size: 18px;
         h3 {
           margin: 0;
         }
         img {
-          padding-bottom: 10px;
+          padding-right: 6px;
+        }
+        p {
+          margin: 0;
         }
       }
     }
@@ -231,12 +243,6 @@ i {
     }
     p {
       padding-top: 8px;
-      &:first-of-type {
-        font-size: 16px;
-      }
-      &:nth-of-type(2) {
-        font-size: 14px;
-      }
     }
   }
 }
@@ -272,9 +278,8 @@ i {
   }
   a {
     text-decoration: none;
-    .sobrepor-link {
-      position: relative;
-      &:hover {
+    &:hover {
+      .sobrepor-link {
         .lupa {
           background-color: $vermelho-claro;
         }
@@ -282,6 +287,12 @@ i {
           background-color: $vermelho-claro;
         }
       }
+      .texto-blog {
+        color: #4a4a4a;
+      }
+    }
+    .sobrepor-link {
+      position: relative;
       & > div {
         position: absolute;
         color: $cinza-claro;
@@ -316,9 +327,6 @@ i {
     .texto-blog {
       text-align: left;
       color: black;
-      &:hover {
-        color: #4a4a4a;
-      }
       h3 {
         padding-top: 31px;
         font-weight: 500;
@@ -336,9 +344,9 @@ i {
         gap: 15px;
         color: $vermelho;
         padding-bottom: 89px;
-        &:hover {
-          text-decoration: none;
-        }
+        // &:hover {
+        //   text-decoration: none;
+        // }
       }
     }
   }

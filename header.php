@@ -30,9 +30,9 @@
         </button>
         <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
           <div class="offcanvas-body">
-            <ul class="fw500">
+            <ul class="fw500 fs16">
               <li><a href="index.php">HOME</a></li>
-              <li><a href="listagem.php">EMPREENDIMENTOS</a></li>
+              <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
               <li><a href="blog.php">BLOG</a></li>
               <li><a href="contato.php">CONTATO</a></li>
             </ul>
@@ -41,7 +41,7 @@
               <li><a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
             </ul>
             <div class="fechar">
-              <div class="botao-fechar fw700">
+              <div class="botao-fechar fw700 fs20">
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <p>FECHAR</p>
               </div>
@@ -49,9 +49,9 @@
             </div>
           </div>
         </div>
-        <ul class="desktop-list">
+        <ul class="desktop-list fw500 fs16">
           <li><a href="index.php">HOME</a></li>
-          <li><a href="listagem.php">EMPREENDIMENTOS</a></li>
+          <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
           <li><a href="blog.php">BLOG</a></li>
           <li><a href="contato.php">CONTATO</a></li>
         </ul>

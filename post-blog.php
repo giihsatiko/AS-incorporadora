@@ -4,13 +4,13 @@
     <div class="container-fluid">
       <div class="texto-casa">
         <div class="data">
-          <h2 class="fw700">14</h2>
-          <p class="fw600">Ago | 2021</p>
+          <h2 class="fw700 fs48">14</h2>
+          <p class="fw600 fs13">Ago | 2021</p>
         </div>
         <div class="titulo-blog">
-          <h3 class="fw500">Empreendimentos</h3>
-          <h4 class="fw500">Alugar ou comprar "imóveis de Lego": conheça a moradia modular, que cresce no Brasil.</h4>
-          <a href="" class="fw600"><img src="assets/images/seta-baixo.png" alt="seta para baixo">Descer página</a>
+          <h3 class="fw500 fs17">Empreendimentos</h3>
+          <h4 class="fw500 fs24">Alugar ou comprar "imóveis de Lego": conheça a moradia modular, que cresce no Brasil.</h4>
+          <a href="" class="fw600 fs17"><img src="assets/images/seta-baixo.png" alt="seta para baixo">Descer página</a>
         </div>
         <span></span>
       </div>
@@ -22,12 +22,12 @@
     </p>
     <div class="box-noticia">
       <div class="noticia">
-        <h1 class="fw500">65% DAS PESSOAS QUE GUARDAM DINHEIRO ESCOLHEM POUPANÇA, DIZ PESQUISA; MEDO E COSTUME ESTÃO ENTRE AS JUSTIFICATIVAS</h1>
-        <p class="fw400">Apesar dos rendimentos menores na comparação com outros investimentos, a poupança continua sendo a modalidade favorita entre os brasileiros que guardam algum dinheiro. Segundo pesquisa da Confederação Nacional de Dirigentes Lojistas (CNDL) e do Serviço de Proteção ao Crédito (SPC Brasil), essa é a escolha de 65% das pessoas.</p>
-        <p>A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados – ainda que a prática seja motivo de alerta entre especialistas por questões de segurança. Já deixar dinheiro parado na conta corrente é a opção de 20%. Apenas 8% dizem que investem em previdência privada e 8%, no Tesouro Direto.</p>
-        <p>
+        <h1 class="fw500 fs30">65% DAS PESSOAS QUE GUARDAM DINHEIRO ESCOLHEM POUPANÇA, DIZ PESQUISA; MEDO E COSTUME ESTÃO ENTRE AS JUSTIFICATIVAS</h1>
+        <p class="fw400 fs18">Apesar dos rendimentos menores na comparação com outros investimentos, a poupança continua sendo a modalidade favorita entre os brasileiros que guardam algum dinheiro. Segundo pesquisa da Confederação Nacional de Dirigentes Lojistas (CNDL) e do Serviço de Proteção ao Crédito (SPC Brasil), essa é a escolha de 65% das pessoas.</p>
+        <p class="fw400 fs18">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados – ainda que a prática seja motivo de alerta entre especialistas por questões de segurança. Já deixar dinheiro parado na conta corrente é a opção de 20%. Apenas 8% dizem que investem em previdência privada e 8%, no Tesouro Direto.</p>
+        <p class="fw400 fs18">
           O levantamento, antecipado ao G1, aponta que o perfil conservador do brasileiro ajuda a explicar esses números. Entre as justificativas para não procurar investimentos com rendimentos considerados mais vantajosos estão:</p>
-        <ul class="fw500">
+        <ul class="fw500 fs18">
           <li>Preferência por aplicação que permita sacar com facildade (28%)</li>
           <li>Não ter sobras para procurar outros investimentos (28%)</li>
           <li>Costume (20%)</li>
@@ -75,8 +75,8 @@
             <div class="user">
               <img src="assets/images/modelo1.png" alt="modelo">
               <div>
-                <h3 class="fw500">Usuário 02</h3>
-                <p class="fw400">Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
+                <h3 class="fw500 fs20">Usuário 02</h3>
+                <p class="fw400 fs18">Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
               </div>
             </div>
             <div class="user">
@@ -108,16 +108,16 @@
             <span></span>
           </div>
           <a href="">
-            <h3 class="fw700">13 | Ago | 2021</h3>
-            <p class="fw500">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</p>
+            <h3 class="fw700 fs16">13 | Ago | 2021</h3>
+            <p class="fw500 fs16">Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</p>
           </a>
           <a href="">
-            <h3>12 | Ago | 2021</h3>
-            <p>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</p>
+            <h3 class="fw700 fs16">12 | Ago | 2021</h3>
+            <p class="fw500 fs16">Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</p>
           </a>
           <a href="">
-            <h3>11 | Ago | 2021</h3>
-            <p>65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</p>
+            <h3 class="fw700 fs16">11 | Ago | 2021</h3>
+            <p class="fw500 fs16">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</p>
           </a>
         </div>
       </div>
@@ -126,103 +126,44 @@
       <h2>LEIA <b>TAMBÉM</b></h2>
       <span></span>
     </div>
-    <div class="swiper mySwiper">
+    <div class="swiper mySwiper mySwiper-blog">
       <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <div class="galeria-item">
-            <a href="">
-              <div class="sobrepor-link">
-                <img src="assets/images/multidao.png" alt="multidao">
-                <div>
-                  <h2>15</h2>
-                  <p>Ago | 2021</p>
+        <?php for ($i = 0; $i < 9; $i++) : ?>
+          <div class="swiper-slide">
+            <div class="galeria-item">
+              <a href="">
+                <div class="sobrepor-link">
+                  <img src="assets/images/multidao.png" alt="multidao">
+                  <div>
+                    <h2>15</h2>
+                    <p>Ago | 2021</p>
+                  </div>
                 </div>
-              </div>
-              <div class="texto-blog">
-                <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
-                <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...</p>
-                <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
-                    <rect y="8" width="53" height="1" fill="#8A1002" />
-                  </svg></div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="galeria-item">
-            <a href="">
-              <div class="sobrepor-link">
-                <img src="assets/images/casa.png" alt="casa">
-                <div>
-                  <h2>15</h2>
-                  <p>Ago | 2021</p>
+                <div class="texto-blog">
+                  <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
+                  <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...</p>
+                  <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
+                      <rect y="8" width="53" height="1" fill="#8A1002" />
+                    </svg></div>
                 </div>
-              </div>
-              <div class="texto-blog">
-                <h3>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</h3>
-                <p>Moradia modular e pré-fabricada é praticada por startups brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de imóveis...</p>
-                <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
-                    <rect y="8" width="53" height="1" fill="#8A1002" />
-                  </svg></div>
-              </div>
-            </a>
+              </a>
+            </div>
           </div>
-        </div>
-        <div class="swiper-slide">
-          <div class="galeria-item">
-            <a href="">
-              <div class="sobrepor-link">
-                <img src="assets/images/casa.png" alt="casa">
-                <div>
-                  <h2>15</h2>
-                  <p>Ago | 2021</p>
-                </div>
-              </div>
-              <div class="texto-blog">
-                <h3>Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil</h3>
-                <p>Moradia modular e pré-fabricada é praticada por startups brasileiras como Ambar e Brasil ao Cubo; no futuro, chegará ao mercado de locação de imóveis...</p>
-                <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
-                    <rect y="8" width="53" height="1" fill="#8A1002" />
-                  </svg></div>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="swiper-slide ">
-          <div class="galeria-item ">
-            <a href="">
-              <div class="sobrepor-link">
-                <img src="assets/images/multidao.png" alt="multidao">
-                <div>
-                  <h2>15</h2>
-                  <p>Ago | 2021</p>
-                </div>
-              </div>
-              <div class="texto-blog">
-                <h3>Empresa investe R$ 2,5 milhões e lança movimento para reinventar a vida das pessoas #ReinventaSP</h3>
-                <p>Com criação de novas praças, quadras esportivas e estações de mobilidade pela capital paulista, #ReinventaSP reforça “novo normal” para mostrar que modo de viver e trabalhar...</p>
-                <div>SAIBA MAIS <svg width="54" height="17" viewBox="0 0 54 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M45 1L53 8.5L45 16" stroke="#8A1002" stroke-width="1.25" />
-                    <rect y="8" width="53" height="1" fill="#8A1002" />
-                  </svg></div>
-              </div>
-            </a>
-          </div>
-        </div>
+        <?php endfor; ?>
       </div>
       <div class="botao-swiper">
-        <div class="button-prev"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="26" cy="26" r="25.4" stroke="black" stroke-width="1.2" />
-            <path d="M29 19L22 26L29 33" stroke="black" stroke-width="1.2" />
-          </svg>
-        </div>
-        <div class="button-next"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="black" stroke-width="1.2" />
-            <path d="M23 33L30 26L23 19" stroke="black" stroke-width="1.2" />
-          </svg>
+        <div class="setas">
+          <div class="button-prev-blog"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="26" cy="26" r="25.4" stroke="black" stroke-width="1.2" />
+              <path d="M29 19L22 26L29 33" stroke="black" stroke-width="1.2" />
+            </svg>
+          </div>
+          <div class="button-next-blog"><svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="26" cy="26" r="25.4" transform="rotate(-180 26 26)" stroke="black" stroke-width="1.2" />
+              <path d="M23 33L30 26L23 19" stroke="black" stroke-width="1.2" />
+            </svg>
+          </div>
         </div>
         <a href="" class="botao-vermelho ms-auto">VER TODAS AS NOTÍCIAS</a>
       </div>

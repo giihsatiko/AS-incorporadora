@@ -11,10 +11,10 @@
               <div class="texto-intro">
                 <img src="assets/images/logo-lote.png" alt="selo lote" class="img-fluid">
                 <div class="link-intro">
-                  <h1 class="fw800">Últimos Lotes Disponíveis</h1>
-                  <h2 class="fw400">Não perca a chance de viver bem!</h2>
-                  <p class="fw600">OSVALDO CRUZ – SP • 110 LOTES</p>
-                  <a href="" class="fw500">CLIQUE E CONHEÇA</a>
+                  <h1 class="fw800 fs33">Últimos Lotes Disponíveis</h1>
+                  <h2 class="fw400 fs33">Não perca a chance de viver bem!</h2>
+                  <p class="fw600 fs15">OSVALDO CRUZ – SP • 110 LOTES</p>
+                  <a href="" class="fw500 fs15">CLIQUE E CONHEÇA</a>
                 </div>
               </div>
             </div>
@@ -53,10 +53,10 @@
                 <a href="">
                   <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
                   <div>
-                    <h2 class="fw600">DE 156 A 369m² • 110 LOTES</h2>
-                    <h3 class="fw500">Loteamento Rubi</h3>
-                    <p class="fw500">Presidente Prudente - SP</p>
-                    <p class="fw500">Bairro Centro</p>
+                    <h2 class="fw600 fs14">DE 156 A 369m² • 110 LOTES</h2>
+                    <h3 class="fw500 fs12">Loteamento Rubi</h3>
+                    <p class="fw500 fs16">Presidente Prudente - SP</p>
+                    <p class="fw500 fs14">Bairro Centro</p>
                   </div>
                 </a>
               </div>
@@ -110,10 +110,10 @@
                 <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
                 <div>
                   <span></span>
-                  <h2 class="fw600">DE 156 A 369m² • 110 LOTES</h2>
-                  <h3 class="fw500">Loteamento Veredas 3</h3>
-                  <p>Presidente Prudente - SP</p>
-                  <p>Bairro Centro</p>
+                  <h2 class="fw600 fs14">DE 156 A 369m² • 110 LOTES</h2>
+                  <h3 class="fw500 fs12">Loteamento Rubi</h3>
+                  <p class="fw500 fs16">Presidente Prudente - SP</p>
+                  <p class="fw500 fs14">Bairro Centro</p>
                 </div>
               </a>
             </div>
@@ -140,13 +140,13 @@
   <div class="box-ano">
     <div class="container-lg container-fluid">
       <div class="texto-ano">
-        <div class="titulo-ano">
+        <div class="titulo-ano fs30">
           <h1 class="fw400">MUITO MAIS DO QUE <b class="fw700">UMA INCORPORADORA</b></h1>
           <span></span>
         </div>
         <div class="position-absolute top-0 w-100"><img src="assets/images/1997.png" alt=" ano 1997" class="d-block mx-auto m-md-0 ms-md-auto img-fluid"></div>
       </div>
-      <div class="texto-sobre fw400">
+      <div class="texto-sobre fw400 fs18">
         <p>A <span class="fw700">AS Incorporadora</span> lançou seu primeiro loteamento em 1997, em Presidente Prudente - SP e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.</p>
         <div class="botoes-sobre">
           <a href="" class="botao-vermelho">CONHEÇA A INCORPORADORA</a>

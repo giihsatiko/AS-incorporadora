@@ -16,7 +16,6 @@ nav {
   padding: 0;
   list-style: none;
   margin: 0;
-  font-size: 16px;
  }
  .desktop-list {
   height: 100%;
@@ -24,8 +23,6 @@ nav {
     border-right: 1px solid rgba(0, 0, 0, 0.25);
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 16px;
     &:hover {
       background-color: $cinza-claro;
     }
@@ -46,7 +43,6 @@ nav {
     display: flex;
     align-items: center;
     color: black;
-    font-size: 20px;
     p {
       margin: 0;
     }
