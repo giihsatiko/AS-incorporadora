@@ -3,7 +3,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   z-index: -2;
-  background-color: #767676;
+  background-color: $cinza;
   width: 100%;
   height: 569px;
   position: relative;
@@ -23,19 +23,16 @@
     max-width: 22rem;
     h1 {
       color: #ffae5c;
-      font-weight: 800;
       font-size: 33px;
       line-height: 40.23px;
       padding-bottom: 13px;
     }
     h2 {
-      font-weight: 400;
       font-size: 33px;
       line-height: 40.23px;
       padding-bottom: 24px;
     }
     p {
-      font-weight: 600;
       font-size: 15px;
       padding-bottom: 20px;
     }
@@ -46,7 +43,6 @@
       padding: 16px 26px;
       text-decoration: none;
       color: white;
-      font-weight: 500;
       font-size: 15px;
       &:hover {
         color: black;
@@ -72,11 +68,7 @@
       color: white;
       width: 100%;
       h1 {
-        font-weight: 400;
         max-width: 31.25rem;
-      }
-      b {
-        font-weight: 700;
       }
       span {
         height: 9px;
@@ -88,16 +80,12 @@
   }
   .texto-sobre {
     color: white;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26px;
     padding-top: 96px;
     p {
       width: 37.625rem;
       margin: auto;
-      span {
-        font-weight: 700;
-      }
     }
     .botoes-sobre {
       padding-top: 74px;
@@ -137,14 +125,14 @@
         position: absolute;
         display: block;
         height: 2px;
-        background-color: #c4c4c4;
+        background-color: $cinza-medio;
       }
       &:hover {
         a {
-          color: #767676;
+          color: $cinza;
         }
         span {
-          background-color: #767676;
+          background-color: $cinza;
         }
       }
       &:active {
@@ -157,8 +145,7 @@
       }
       a {
         text-decoration: none;
-        color: #767676;
-        font-weight: 600;
+        color: $cinza;
         font-size: 16px;
         &:hover {
           span {
@@ -174,6 +161,6 @@
     display: block;
     height: 2px;
     width: 100%;
-    background-color: #c4c4c4;
+    background-color: $cinza-medio;
   }
 }

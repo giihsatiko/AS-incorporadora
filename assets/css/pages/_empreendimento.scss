@@ -25,7 +25,6 @@
   align-items: center;
   p {
     width: 734px;
-    font-weight: 400;
     font-size: 18px;
     line-height: 26.77px;
   }
@@ -43,7 +42,6 @@
   h3 {
     padding-top: 17px;
     color: white;
-    font-weight: 600;
     font-size: 14px;
   }
   .progresso {
@@ -100,7 +98,6 @@
     p {
       padding-top: 5px;
       text-align: center;
-      font-weight: 500;
       font-size: 14px;
       color: black;
       span {
@@ -125,12 +122,6 @@
     font-size: 20px;
     height: 100%;
     padding: 0 3.9375rem;
-    h3 {
-      font-weight: 600;
-    }
-    p {
-      font-weight: 400;
-    }
     &:nth-of-type(2) {
       border-left: 1px solid rgba(255, 255, 255, 0.2);
       border-right: 1px solid rgba(255, 255, 255, 0.2);

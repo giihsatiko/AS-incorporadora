@@ -1,11 +1,7 @@
-$vermelho: #8a1002;
-$cinza-claro: #f6f6f6;
-$cinza-escuro: #4a4a4a;
-$verde: #028a49;
 i {
   color: black;
   &:hover {
-    color: #767676;
+    color: $cinza;
   }
 }
 .botao-preto {
@@ -23,7 +19,7 @@ i {
     }
   }
   &:hover {
-    box-shadow: 0px 10px 20px #767676;
+    box-shadow: 0px 10px 20px $cinza;
   }
 }
 .botao-vermelho {
@@ -44,7 +40,7 @@ i {
     }
   }
   &:hover {
-    background: #c61400;
+    background: $vermelho;
     box-shadow: 0px 10px 20px rgba(198, 20, 0, 0.7);
     border-radius: 3px;
   }
@@ -67,18 +63,16 @@ i {
     width: 100%;
     h1 {
       color: white;
-      font-weight: 700;
       font-size: 48px;
       text-align: center;
       line-height: 40px;
       padding-bottom: 18px;
     }
     p {
-      font-weight: 500;
       font-size: 17px;
       text-align: center;
       line-height: 20.72px;
-      color: #767676;
+      color: $cinza;
     }
     span {
       width: 80%;
@@ -94,7 +88,6 @@ i {
   padding-top: 89px;
   h2 {
     color: $vermelho;
-    font-weight: 400;
     font-size: 30px;
   }
   span {
@@ -134,11 +127,7 @@ i {
         align-items: center;
         font-size: 18px;
         h3 {
-          font-weight: 600;
           margin: 0;
-        }
-        p {
-          font-weight: 400;
         }
         img {
           padding-bottom: 10px;
@@ -200,7 +189,7 @@ i {
   color: $cinza-escuro;
   &:hover {
     color: $cinza-escuro;
-    background-color: #DADADA;
+    background-color: #dadada;
   }
   &:active {
     background-color: black;
@@ -214,13 +203,10 @@ i {
     color: black;
     text-decoration: none;
     &:hover {
-      color: #4A4A4A;
+      color: #4a4a4a;
       text-decoration: underline;
-      &>div {
+      & > div {
         overflow: hidden;
-        span {
-          background-color: #C61400;
-        }
       }
       img {
         animation: crescer 0.5s forwards;
@@ -234,7 +220,6 @@ i {
     }
     h2 {
       padding-top: 20px;
-      font-weight: 500;
       font-size: 14px;
     }
     h3 {
@@ -244,7 +229,6 @@ i {
     }
     p {
       padding-top: 8px;
-      font-weight: 500; 
       &:first-of-type {
         font-size: 16px;
       }
@@ -266,24 +250,25 @@ i {
   padding-top: 60px;
   &:hover {
     .texto-blog {
-      h3, p {
-        color: #4A4A4A;
+      h3,
+      p {
+        color: #4a4a4a;
         text-decoration: underline;
       }
       div {
-        color: #C61400;
+        color: $vermelho;
       }
     }
     svg {
-      path{
-        stroke: #C61400;
+      path {
+        stroke: $vermelho;
       }
-      rect{
-        fill: #C61400;
+      rect {
+        fill: $vermelho;
       }
     }
-    .sobrepor-link>div {
-      background-color: #C61400;
+    .sobrepor-link > div {
+      background-color: $vermelho;
     }
   }
   a {
@@ -292,7 +277,7 @@ i {
       position: relative;
       &:hover {
         .lupa {
-          background-color: #C61400;
+          background-color: $vermelho;
         }
       }
       & > div {
@@ -328,10 +313,9 @@ i {
     }
     .texto-blog {
       text-align: left;
-      max-width: 412px;
       color: black;
       &:hover {
-        color: #4A4A4A;
+        color: #4a4a4a;
       }
       h3 {
         padding-top: 31px;
@@ -359,7 +343,6 @@ i {
 }
 
 .titulo-h2 {
-  font-weight: 600;
   font-size: 16px;
   color: black;
   padding-bottom: 26px;
@@ -371,10 +354,4 @@ i {
   justify-content: space-between;
   align-items: center;
   padding-top: 40px;
-}
-.lotes-box {
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
 }

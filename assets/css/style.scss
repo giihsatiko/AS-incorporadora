@@ -5,6 +5,8 @@
   box-sizing: border-box;
 }
 @import "base/normalize";
+@import "base/tipografia";
+@import "base/variaveis";
 @import "base/base";
 @import "header";
 @import "swiper";
@@ -54,7 +56,7 @@
     div svg:hover {
       circle,
       path {
-        stroke: #767676;
+        stroke: $cinza;
       }
     }
   }
@@ -171,7 +173,6 @@
       align-items: center;
       p {
         max-width: 730px;
-        font-weight: 500;
         font-size: 14px;
         line-height: 18.3px;
         color: #808080;
@@ -191,13 +192,11 @@
     .message-error {
       padding-left: 130px;
       h1 {
-        font-weight: 700;
         font-size: 48px;
       }
       p {
-        font-weight: 500;
         font-size: 17px;
-        color: #767676;
+        color: $cinza;
       }
     }
     span {
@@ -210,7 +209,6 @@
       align-self: center;
       max-width: 31.25rem;
       p {
-        font-weight: 500;
         font-size: 24px;
         line-height: 29px;
         padding-bottom: 18px;
@@ -272,9 +270,6 @@
   }
   .categorias {
     flex-wrap: wrap;
-    justify-content: center;
-  }
-  .lotes-box {
     justify-content: center;
   }
   .pagination-box div {
@@ -343,11 +338,9 @@
     padding-bottom: 28px;
     a {
       h2 {
-        font-weight: 600;
         font-size: 14px;
       }
       h3 {
-        font-weight: 500;
         font-size: 12px;
       }
       p:first-of-type,
@@ -371,12 +364,12 @@
         span {
           display: none !important;
         }
-        border-bottom: 2px solid #c4c4c4;
+        border-bottom: 2px solid $cinza-medio;
         width: 100%;
         padding: 20px 0;
         &:active {
           border-bottom: 2px solid black;
-          background-color: #c4c4c4;
+          background-color: $cinza-medio;
           a {
             color: black;
           }

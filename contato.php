@@ -3,8 +3,8 @@
 <main>
   <div class="box-titulo">
     <div>
-      <h1>CONTATO</h1>
-      <p>Home | Contato</p>
+      <h1 class="fw700">CONTATO</h1>
+      <p class="fw500">Home | Contato</p>
       <span></span>
     </div>
   </div>

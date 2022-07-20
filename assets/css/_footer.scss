@@ -10,12 +10,8 @@
   h1 {
     padding-top: 128px;
     width: 400px;
-    font-weight: 400;
     font-size: 30px;
     line-height: 40px;
-    b {
-      font-weight: 700;
-    }
   }
   span {
     height: 9px;
@@ -33,18 +29,18 @@
     }
     input {
       padding: 10px 80px;
-      color: #DADADA;
+      color: #dadada;
       background-color: black;
     }
     button {
       color: white;
-      background-color: #8A1002;
+      background-color: #8a1002;
       width: 292px;
     }
   }
 }
 .contato {
-  background-color: #F6F6F6;
+  background-color: $cinza-claro;
 }
 .links-rodape {
   display: flex;
@@ -60,7 +56,6 @@
 .atendimento {
   padding-bottom: 80px;
   h4 {
-    font-weight: 600;
     font-size: 18px;
   }
   div {
@@ -69,7 +64,6 @@
     gap: 10px;
     p {
       padding-top: 15px;
-      font-weight: 400;
       font-size: 18px;
       line-height: 21.94px;
       &:first-of-type {
@@ -93,27 +87,26 @@
       font-size: 15px;
       line-height: 35px;
       &:hover {
-        color: #767676;
+        color: $cinza;
         text-decoration: underline;
       }
     }
     &:nth-of-type(1) a {
       text-decoration: none;
       &:hover {
-        color: #767676;
+        color: $cinza;
         text-decoration: underline;
       }
     }
     &:nth-of-type(2) a {
       text-decoration: none;
       &:hover {
-        color: #767676;
+        color: $cinza;
         text-decoration: underline;
       }
     }
   }
 }
-
 
 .botoes {
   display: flex;
@@ -138,10 +131,9 @@
   justify-content: space-between;
   align-items: center;
   padding: 40px 0;
-  border-top: 1px solid #C4C4C4;
+  border-top: 1px solid $cinza-medio;
   p {
-    color: #767676;
-    font-weight: 500;
+    color: $cinza;
     font-size: 14px;
   }
 }
@@ -163,12 +155,11 @@
     text-decoration: none;
     width: 100%;
     &:nth-of-type(2) {
-      border-left: 1px solid rgba(255,255,255,0.1);
-      border-right: 1px solid rgba(255,255,255,0.1);
-
+      border-left: 1px solid rgba(255, 255, 255, 0.1);
+      border-right: 1px solid rgba(255, 255, 255, 0.1);
     }
     &:hover {
-      background-color:  rgba(0,255,133,0.3);
+      background-color: rgba(0, 255, 133, 0.3);
     }
     p {
       padding-top: 15px;
@@ -176,13 +167,8 @@
       flex-direction: column;
       padding-left: 10px;
       font-size: 18px;
-      font-weight: 500;
       line-height: 21.94px;
-      span {
-        font-weight: 700;
-      }
     }
-    
   }
 }
 
@@ -224,7 +210,7 @@
   }
 }
 
-@media (max-width:767.9px) {
+@media (max-width: 767.9px) {
   input {
     padding: 10px 20px;
   }
@@ -250,7 +236,7 @@
   }
 }
 
-@media (max-width:575.9px) {
+@media (max-width: 575.9px) {
   .form-item {
     flex-direction: column;
     gap: 15px;
@@ -315,7 +301,8 @@
       bottom: 25%;
     }
   }
-  .botao-vermelho , .botoes {
+  .botao-vermelho,
+  .botoes {
     width: 100%;
     font-weight: 500;
     font-size: 15px;
@@ -358,4 +345,3 @@
     padding-bottom: 70px;
   }
 }
-

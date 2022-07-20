@@ -5,10 +5,10 @@
             <div class="links">
               <div>
                 <div class="atendimento">
-                  <h4>Atendimento</h4>
+                  <h4 class="fw-600">Atendimento</h4>
                   <div>
                     <img src="assets/images/local.png" alt="pin localização">
-                    <p>Seg à Sex das 8h às 18hrs</p>
+                    <p class="fw-400">Seg à Sex das 8h às 18hrs</p>
                   </div>
                 </div>
                 <div class="atendimento">
@@ -59,7 +59,7 @@
           </div>
           <div class="direitos">
             <img src="assets/images/logo-horizontal.png" alt="logo">
-            <p>
+            <p class="fw-500">
               Todos os direitos reservados © 2021 | AS Incorporadora - CRECI 021030-J - Criação
               <img src="assets/images/oxigenweb.png" alt="logo oxigenweb">
             </p>
@@ -71,15 +71,15 @@
           <div class="contato-rodape">
             <a href="">
               <img src="assets/images/carta.png" alt="carta">
-              <p><span>Formulário</span> de contato</p>
+              <p class="fw-500"><span class="fw-700">Formulário</span> de contato</p>
             </a>
             <a href="">
               <img src="assets/images/tel2.png" alt="telefone">
-              <p><span>Vendas</span> 18 3916 2287</p>
+              <p class="fw-500"><span class="fw-700">Vendas</span> 18 3916 2287</p>
             </a>
             <a href="">
               <img src="assets/images/whatsapp.png" alt="whatsapp">
-              <p><span>Whatsapp</span> 18 3916 2287</p>
+              <p class="fw-500"><span class="fw-700">Whatsapp</span> 18 3916 2287</p>
             </a>
           </div>
         </div>

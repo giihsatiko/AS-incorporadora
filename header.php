@@ -30,19 +30,7 @@
         </button>
         <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
           <div class="offcanvas-body">
-            <div class="rodape-header">
-              <div class="contato-rodape">
-                <a href="">
-                  <img src="assets/images/tel2.png" alt="telefone">
-                  <p><span>Vendas</span> 18 3916 2287</p>
-                </a>
-                <a href="">
-                  <img src="assets/images/whatsapp.png" alt="whatsapp">
-                  <p><span>Whatsapp</span> 18 3916 2287</p>
-                </a>
-              </div>
-            </div>
-            <ul>
+            <ul class="fw500">
               <li><a href="index.php">HOME</a></li>
               <li><a href="listagem.php">EMPREENDIMENTOS</a></li>
               <li><a href="blog.php">BLOG</a></li>
@@ -53,7 +41,7 @@
               <li class="botao-vermelho"><a href=""><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
             </ul>
             <div class="fechar">
-              <div class="botao-fechar">
+              <div class="botao-fechar fw-700">
                 <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 <p>FECHAR</p>
               </div>
