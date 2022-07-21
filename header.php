@@ -30,22 +30,24 @@
         </button>
         <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
           <div class="offcanvas-body">
-            <ul class="fw500 fs16">
-              <li><a href="index.php">HOME</a></li>
-              <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
-              <li><a href="blog.php">BLOG</a></li>
-              <li><a href="contato.php">CONTATO</a></li>
-            </ul>
-            <ul class="botao-nav">
-              <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-              <li><a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
-            </ul>
-            <div class="fechar">
-              <div class="botao-fechar fw700 fs20">
-                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                <p>FECHAR</p>
+            <div class="container-fluid">
+              <ul class="fw500 fs16">
+                <li><a href="index.php">HOME</a></li>
+                <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
+                <li><a href="blog.php">BLOG</a></li>
+                <li><a href="contato.php">CONTATO</a></li>
+              </ul>
+              <ul class="botao-nav">
+                <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
+                <li><a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
+              </ul>
+              <div class="fechar">
+                <div class="botao-fechar fw700 fs20">
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <p>FECHAR</p>
+                </div>
+                <img src="assets/images/logo.png" alt="logo AS" class="logo">
               </div>
-              <img src="assets/images/logo.png" alt="logo AS" class="logo">
             </div>
           </div>
         </div>
