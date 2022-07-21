@@ -9,7 +9,6 @@
 @import "base/variaveis";
 @import "base/base";
 @import "header";
-@import "swiper";
 @import "index";
 @import "pages/empresa";
 @import "pages/empreendimento";
@@ -66,7 +65,7 @@
   gap: 20px;
   z-index: 10;
   position: absolute;
-  top: 3.23375rem;
+  top: 45.74px;
   right: 1.865rem;
   display: flex;
   flex-direction: column;
@@ -75,7 +74,7 @@
     display: flex;
     flex-direction: column;
     gap: 19.19px;
-    margin-bottom: 2.73375rem;
+    padding-bottom: 43.74px;
     div svg:hover {
       circle,
       path {
@@ -87,57 +86,36 @@
     position: static;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 48px;
   }
-  // .swiper-pagination-bullets {
-  //   width: fit-content;
-  //   .swiper-pagination-bullet {
-  //     padding: 18px;
-  //     position: relative;
-  //     &::after {
-  //       content: "";
-  //       display: block;
-  //       position: absolute;
-  //       top: 50%;
-  //       right: 50%;
-  //       background-color: blue;
-  //       width: 8px;
-  //       height: 8px;
-  //       padding: 5px;
-  //       border-radius: 100%;
-  //     }
-  //     &:active {
-  //       background-color: white;
-  //     }
-  //   }
+  .swiper-pagination-bullets {
+    width: fit-content;
+    .swiper-pagination-bullet {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      background-color: transparent;
+      display: block;
+      position: relative;
+      &::after {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 20%;
+        right: 20%;
+        background-color: white;
+        width: 8px;
+        height: 8px;
+        border-radius: 100%;
+      }
+      &:hover {
+        border: solid 3px white;
+      }
+    }
 
-  // }
-}
-
-.swiper-pagination {
-  .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    border: solid 3px transparent;
-    display: block;
-    position: relative;
-    &::after {
-      position: absolute;
-      left: 6px;
-      top: 6px;
-      width: 8px;
-      height: 8px;
-      background-color: white;
-    }
-    &:not(.active):hover {
-      border: solid 3px white;
-    }
-    &.active {
-      background-color: gray;
-    }
   }
 }
+
 
 .formulario-box {
   padding-top: 72px;
