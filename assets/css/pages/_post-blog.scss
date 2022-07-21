@@ -97,6 +97,9 @@
         display: flex;
         gap: 25px;
         padding-top: 33px;
+        a:hover img {
+          filter: brightness(120%);
+        }
       }
     }
     .formulario-blog {

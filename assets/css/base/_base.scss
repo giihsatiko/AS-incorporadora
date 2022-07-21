@@ -24,6 +24,7 @@ i {
   }
 }
 .botao-vermelho {
+  white-space: nowrap;
   background-color: $vermelho;
   border: none;
   max-height: 51px;
@@ -211,6 +212,7 @@ i {
 }
 
 .lotes-item {
+  display: block;
   padding-bottom: 40px;
   a {
     color: black;
