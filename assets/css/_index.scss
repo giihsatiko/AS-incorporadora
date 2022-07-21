@@ -88,11 +88,17 @@
       align-items: center;
       justify-content: center;
       a:not(.botao-vermelho) {
+        white-space: nowrap;
+        max-height: 51px;
+        width: 217px;
         border: 2px solid $vermelho;
         border-radius: 3px;
         color: white;
         text-decoration: none;
-        padding: 14px 26px;
+        padding: 16px 26px 17px 31px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
         &:hover {
           border: 2px solid white;
         }

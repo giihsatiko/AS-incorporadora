@@ -3,7 +3,7 @@
 <main>
   <div class="swiper mySwiper-bg">
     <div class="swiper-wrapper">
-      <?php for ($i = 0; $i < 6; $i++) : ?>
+      <?php for ($i = 0; $i < 5; $i++) : ?>
         <div class="swiper-slide">
           <div class="bg-vermelho">
             <img src="assets/images/sombra-vermelha.png" alt="sombra">
@@ -87,15 +87,15 @@
     <div class="status-obras-box">
       <div class="status-obras">
         <div class="col-4">
-          <a href="" class="fw600">OBRAS CONCLUÍDAS</a>
+          <a href="" class="fw600 d-block">OBRAS CONCLUÍDAS</a>
           <span></span>
         </div>
         <div class="col-4">
-          <a href="" class="fw600">OBRAS EM ANDAMENTO</a>
+          <a href="" class="fw600 d-block">OBRAS EM ANDAMENTO</a>
           <span></span>
         </div>
         <div class="col-4">
-          <a href="" class="fw600">TODAS AS OBRAS</a>
+          <a href="" class="fw600 d-block">TODAS AS OBRAS</a>
           <span></span>
         </div>
       </div>
@@ -150,7 +150,7 @@
         <p>A <span class="fw700">AS Incorporadora</span> lançou seu primeiro loteamento em 1997, em Presidente Prudente - SP e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.</p>
         <div class="botoes-sobre">
           <a href="" class="botao-vermelho">CONHEÇA A INCORPORADORA</a>
-          <div><a href="">ENTRE EM CONTATO</a></div>
+          <a href="">ENTRE EM CONTATO</a>
         </div>
       </div>
     </div>

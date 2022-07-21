@@ -6,11 +6,13 @@ i {
 }
 .botao-preto {
   background-color: black;
+  max-height: 51px;
   padding: 14px 20px;
   border-radius: 3px;
   text-align: center;
   display: flex;
   align-items: center;
+  justify-content: center;
   color: white;
   text-decoration: none;
   img {
@@ -25,7 +27,7 @@ i {
   background-color: $vermelho;
   border: none;
   max-height: 51px;
-  padding: 14px 20px;
+  padding: 16px 30px 17px 30px;
   border-radius: 3px;
   text-align: center;
   color: white;

@@ -1,6 +1,5 @@
 nav {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 91px;
   background-color: white;
@@ -52,6 +51,7 @@ nav {
   display: flex;
   align-items: center;
   list-style: none;
+  margin-left: auto;
   gap: 30px;
 }
 

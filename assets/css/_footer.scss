@@ -48,6 +48,9 @@
 .links {
   display: flex;
   gap: 90px;
+  svg:hover path {
+    fill: $cinza;
+  }
   .lista-mobile {
     display: none;
   }
