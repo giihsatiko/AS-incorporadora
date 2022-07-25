@@ -297,6 +297,9 @@ i {
     }
     .sobrepor-link {
       position: relative;
+      &>img {
+        width: 100%;
+      }
       & > div {
         position: absolute;
         color: $cinza-claro;

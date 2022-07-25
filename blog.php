@@ -20,7 +20,7 @@
   <div class="container-lg container-fluid">
     <div class="row">
       <?php for ($i = 0; $i < 9; $i++) : ?>
-        <div class="galeria-item col-4">
+        <div class="galeria-item col-12 col-md-4">
           <a href="">
             <div class="sobrepor-link">
               <img src="assets/images/multidao.png" alt="multidao" class="img-fluid">

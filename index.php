@@ -86,15 +86,15 @@
     </div>
     <div class="status-obras-box">
       <div class="status-obras">
-        <div class="col-4">
+        <div>
           <a href="" class="fw600 d-block">OBRAS CONCLUÍDAS</a>
           <span></span>
         </div>
-        <div class="col-4">
+        <div>
           <a href="" class="fw600 d-block">OBRAS EM ANDAMENTO</a>
           <span></span>
         </div>
-        <div class="col-4">
+        <div>
           <a href="" class="fw600 d-block">TODAS AS OBRAS</a>
           <span></span>
         </div>

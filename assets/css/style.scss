@@ -97,6 +97,7 @@
       background-color: transparent;
       display: block;
       position: relative;
+      border: solid 3px transparent;
       &::after {
         content: "";
         display: block;
@@ -229,7 +230,13 @@
     }
   }
 }
-@media (max-width: 991.9px) {
+
+@media (max-width: 1250px) {
+  .desktop-list li a {
+    padding: 34px 39px;
+  }
+}
+@media (max-width: 1199.9px) {
   nav {
     justify-content: space-around;
     ul:first-of-type {

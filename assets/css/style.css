@@ -484,6 +484,7 @@ i:hover {
 }
 
 .botao-vermelho {
+  white-space: nowrap;
   background-color: #8a1002;
   border: none;
   max-height: 51px;
@@ -671,6 +672,7 @@ i:hover {
 }
 
 .lotes-item {
+  display: block;
   padding-bottom: 40px;
 }
 .lotes-item a {
@@ -747,6 +749,9 @@ i:hover {
 }
 .galeria-item a .sobrepor-link {
   position: relative;
+}
+.galeria-item a .sobrepor-link > img {
+  width: 100%;
 }
 .galeria-item a .sobrepor-link > div {
   position: absolute;
@@ -944,6 +949,7 @@ nav .desktop-list a {
   justify-content: space-between;
 }
 .box-ano .texto-ano .titulo-ano {
+  z-index: 2;
   line-height: 40px;
   color: white;
   width: 100%;
@@ -1000,7 +1006,7 @@ nav .desktop-list a {
 }
 .status-obras-box .status-obras {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .status-obras-box .status-obras div {
@@ -1031,6 +1037,7 @@ nav .desktop-list a {
   text-decoration: none;
   color: #767676;
   font-size: 16px;
+  padding: 0 70px;
 }
 .status-obras-box .status-obras div a:hover span {
   background-color: black;
@@ -1335,6 +1342,9 @@ nav .desktop-list a {
   display: flex;
   gap: 25px;
   padding-top: 33px;
+}
+.box-noticia .noticia .noticia-redes ul a:hover img {
+  filter: brightness(120%);
 }
 .box-noticia .noticia .formulario-blog {
   padding-top: 132px;
@@ -1645,6 +1655,7 @@ nav .desktop-list a {
   background-color: transparent;
   display: block;
   position: relative;
+  border: solid 3px transparent;
 }
 .botao-swiper-vertical .swiper-pagination-bullets .swiper-pagination-bullet::after {
   content: "";
@@ -1774,7 +1785,12 @@ nav .desktop-list a {
   padding-bottom: 18px;
 }
 
-@media (max-width: 991.9px) {
+@media (max-width: 1250px) {
+  .desktop-list li a {
+    padding: 34px 39px;
+  }
+}
+@media (max-width: 1199.9px) {
   nav {
     justify-content: space-around;
   }
@@ -1944,7 +1960,6 @@ nav .desktop-list a {
     flex-direction: column;
   }
   .box-ano .texto-ano .titulo-ano {
-    z-index: 2;
     padding-top: 110px;
     line-height: 35px;
     display: flex;
