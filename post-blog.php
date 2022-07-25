@@ -21,7 +21,7 @@
       Home | Blog | Alugar ou comprar “imóveis de Lego”: conheça a moradia modular, que cresce no Brasil.
     </p>
     <div class="box-noticia">
-      <div class="noticia">
+      <div class="noticia col-12 col-md-9">
         <h1 class="fw500 fs30">65% DAS PESSOAS QUE GUARDAM DINHEIRO ESCOLHEM POUPANÇA, DIZ PESQUISA; MEDO E COSTUME ESTÃO ENTRE AS JUSTIFICATIVAS</h1>
         <p class="fw400 fs18">Apesar dos rendimentos menores na comparação com outros investimentos, a poupança continua sendo a modalidade favorita entre os brasileiros que guardam algum dinheiro. Segundo pesquisa da Confederação Nacional de Dirigentes Lojistas (CNDL) e do Serviço de Proteção ao Crédito (SPC Brasil), essa é a escolha de 65% das pessoas.</p>
         <p class="fw400 fs18">A segunda forma de poupar mais comum entre os brasileiros é deixar dinheiro em casa, citada por 25% dos entrevistados – ainda que a prática seja motivo de alerta entre especialistas por questões de segurança. Já deixar dinheiro parado na conta corrente é a opção de 20%. Apenas 8% dizem que investem em previdência privada e 8%, no Tesouro Direto.</p>
@@ -34,68 +34,14 @@
           <li>Medo de perder dinheiro (17%)</li>
         </ul>
         <p>“É preciso que alguns paradigmas sejam abandonados, como a crença de deixar todos os recursos apenas em aplicações com as quais o brasileiro já está acostumado. Se a intenção é manter o dinheiro aplicado por muito tempo, a diferença de rendimento entre a tradicional poupança e outras modalidades pode ser relevante”, disse em nota o presidente do SPC Brasil, Roque Pellizzaro Junior.</p>
-        <div class="noticia-redes">
-          <h2 class="titulo-h2 fw600">COMPARTILHE NAS REDES</h2>
-          <ul>
-            <li><a href=""><img src="assets/images/logo-pinterest.png" alt="logo pinterest"></a></li>
-            <li><a href=""><img src="assets/images/logo-twitter.png" alt="logo twitter"></a></li>
-            <li><a href=""><img src="assets/images/logo-facebook.png" alt="logo facebook"></a></li>
-            <li><a href=""><img src="assets/images/logo-linkedin.png" alt="logo linkedin"></a></li>
-          </ul>
-        </div>
-        <div class="formulario-blog">
-          <h2 class="titulo-h2 fw600">DEIXE SEU COMENTÁRIO</h2>
-          <div class="formulario">
-            <form>
-              <div class="formulario-itens2">
-                <div class="nome-email">
-                  <div>
-                    <input type="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="Seu nome">
-                  </div>
-                  <div>
-                    <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Seu e-mail">
-                  </div>
-                </div>
-                <div>
-                  <textarea class="form-control" id="texto" placeholder="Escreva seu comentário"></textarea>
-                </div>
-                <div class="texto-enviar">
-                  <div>
-                    <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
-                  </div>
-                  <button type="submit" class="botao-vermelho">ENVIAR COMENTÁRIO</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="comentarios-blog">
-          <h2>COMENTÁRIOS</h2>
-          <div class="comentario-user">
-            <div class="user">
-              <img src="assets/images/modelo1.png" alt="modelo">
-              <div>
-                <h3 class="fw500 fs20">Usuário 02</h3>
-                <p class="fw400 fs18">Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
-              </div>
-            </div>
-            <div class="user">
-              <img src="assets/images/modelo2.png" alt="modelo">
-              <div>
-                <h3>Usuário 03</h3>
-                <p>Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
-      <div class="links-noticia">
+      <div class="links-noticia col-12 col-md-3">
         <div class="assuntos">
           <div class="box">
             <h2>ASSUNTOS</h2>
             <span></span>
           </div>
-          <div class="assuntos-link">
+          <div class="assuntos-link text-md-center">
             <a href="" class="categorias-item">IMÓVEIS</a>
             <a href="" class="categorias-item">CONSTRUÇÃO</a>
             <a href="" class="categorias-item">ARQUITETURA</a>
@@ -119,6 +65,62 @@
             <h3 class="fw700 fs16">11 | Ago | 2021</h3>
             <p class="fw500 fs16">65% das pessoas que guardam dinheiro escolhem poupança, diz pesquisa; medo e costume estão entre as justificativas.</p>
           </a>
+        </div>
+      </div>
+    </div>
+    <div class="blog-infos col-12 col-md-9">
+      <div class="noticia-redes">
+        <h2 class="titulo-h2 fw600">COMPARTILHE NAS REDES</h2>
+        <ul>
+          <li><a href=""><img src="assets/images/logo-pinterest.png" alt="logo pinterest"></a></li>
+          <li><a href=""><img src="assets/images/logo-twitter.png" alt="logo twitter"></a></li>
+          <li><a href=""><img src="assets/images/logo-facebook.png" alt="logo facebook"></a></li>
+          <li><a href=""><img src="assets/images/logo-linkedin.png" alt="logo linkedin"></a></li>
+        </ul>
+      </div>
+      <div class="formulario-blog">
+        <h2 class="titulo-h2 fw600">DEIXE SEU COMENTÁRIO</h2>
+        <div class="formulario py-4">
+          <form>
+            <div class="formulario-itens2">
+              <div class="nome-email">
+                <div>
+                  <input type="nome" class="form-control" id="nome" aria-describedby="nome" placeholder="Seu nome">
+                </div>
+                <div>
+                  <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Seu e-mail">
+                </div>
+              </div>
+              <div>
+                <textarea class="form-control" id="texto" placeholder="Escreva seu comentário"></textarea>
+              </div>
+              <div class="texto-enviar">
+                <div>
+                  <p>*Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tristique non augue ut mattis. Suspendisse potenti. In diam mauris, luctus accumsan commodo id, viverra non ante.</p>
+                </div>
+                <button type="submit" class="botao-vermelho">ENVIAR COMENTÁRIO</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="comentarios-blog">
+        <h2>COMENTÁRIOS</h2>
+        <div class="comentario-user">
+          <div class="user">
+            <img src="assets/images/modelo1.png" alt="modelo">
+            <div>
+              <h3 class="fw500 fs20">Usuário 02</h3>
+              <p class="fw400 fs18">Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
+            </div>
+          </div>
+          <div class="user">
+            <img src="assets/images/modelo2.png" alt="modelo">
+            <div>
+              <h3>Usuário 03</h3>
+              <p>Descrição lorem ipsum do advogado 01 lorem lorem ipsum</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

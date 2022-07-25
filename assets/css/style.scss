@@ -530,6 +530,16 @@
   .direitos {
     flex-direction: column;
   }
+
+  .box-noticia {
+    flex-direction: column;
+  }
+  .texto-enviar {
+    flex-direction: column;
+  }
+  .assuntos-link {
+    align-items: center;
+  }
 }
 
 @media (max-width: 575.9px) {

@@ -66,10 +66,8 @@
 }
 .box-noticia {
   display: flex;
-  justify-content: center;
   gap: 30px;
   .noticia {
-    max-width: 829px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -87,48 +85,8 @@
       padding-bottom: 41px;
       color: #0d0d0d;
     }
-    .noticia-redes {
-      align-self: flex-start;
-      padding-top: 129px;
-      width: 100%;
-      ul {
-        list-style: none;
-        padding-left: 0;
-        display: flex;
-        gap: 25px;
-        padding-top: 33px;
-        a:hover img {
-          filter: brightness(120%);
-        }
-      }
-    }
-    .formulario-blog {
-      padding-top: 132px;
-      width: 100%;
-    }
-    .comentarios-blog {
-      width: 100%;
-      .comentario-user {
-        padding-top: 35px;
-        display: flex;
-        flex-direction: column;
-        gap: 41px;
-        .user {
-          display: flex;
-          align-items: center;
-          gap: 15px;
-          h3 {
-            color: black;
-          }
-          p {
-            color: $cinza-escuro;
-          }
-        }
-      }
-    }
   }
   .links-noticia {
-    max-width: 257px;
     .assuntos-link {
       display: flex;
       flex-direction: column;
@@ -147,6 +105,48 @@
         p {
           line-height: 24px;
           color: black;
+        }
+      }
+    }
+  }
+}
+
+.blog-infos {
+  .noticia-redes {
+    align-self: flex-start;
+    padding-top: 129px;
+    width: 100%;
+    ul {
+      list-style: none;
+      padding-left: 0;
+      display: flex;
+      gap: 25px;
+      padding-top: 33px;
+      a:hover img {
+        filter: brightness(120%);
+      }
+    }
+  }
+  .formulario-blog {
+    padding-top: 132px;
+    width: 100%;
+  }
+  .comentarios-blog {
+    width: 100%;
+    .comentario-user {
+      padding-top: 35px;
+      display: flex;
+      flex-direction: column;
+      gap: 41px;
+      .user {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        h3 {
+          color: black;
+        }
+        p {
+          color: $cinza-escuro;
         }
       }
     }
