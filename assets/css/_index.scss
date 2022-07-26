@@ -123,6 +123,9 @@
     justify-content: center;
     align-items: center;
     div {
+      &:hover {
+        cursor: pointer;
+      }
       text-align: center;
       position: relative;
       span {
@@ -139,14 +142,6 @@
         }
         span {
           background-color: $cinza;
-        }
-      }
-      &:active {
-        a {
-          color: black;
-        }
-        span {
-          background-color: black;
         }
       }
       a {
@@ -171,3 +166,13 @@
     background-color: $cinza-medio;
   }
 }
+
+.ativo {
+  a {
+    color: black !important;
+  }
+  span {
+    background-color: black !important;
+  }
+}
+

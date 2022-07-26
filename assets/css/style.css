@@ -1438,7 +1438,6 @@ nav .desktop-list a {
 }
 
 .links-rodape {
-  display: flex;
   padding-top: 50px;
 }
 
@@ -1569,6 +1568,10 @@ nav .desktop-list a {
   flex-direction: column;
   padding-left: 10px;
   line-height: 21.94px;
+}
+
+.lista-mobile {
+  display: none;
 }
 
 .swiper {

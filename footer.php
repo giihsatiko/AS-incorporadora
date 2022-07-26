@@ -2,8 +2,8 @@
       <div class="contato">
         <div class="container-fluid container-lg">
           <div class="links-rodape">
-            <div class="links">
-              <div>
+            <div class="row">
+              <div class="col-md-3">
                 <div class="atendimento">
                   <h4 class="fw600 fs18">Atendimento</h4>
                   <div>
@@ -34,7 +34,7 @@
                     </a></li>
                 </ul>
               </div>
-              <div class="links-itens">
+              <div class="links-itens col-md-6">
                 <div>
                   <a href="index.php"><span>></span> HOME</a>
                   <a href="blog.php">> BLOG</a>
@@ -52,7 +52,7 @@
                   <a href="">Preferência de Cookies</a>
                 </div>
               </div>
-              <div class="botoes">
+              <div class="botoes col-md-3">
                 <a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo"> COLABORADOR</a>
                 <a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuario"> CLIENTE</a>
                 <ul>
@@ -104,6 +104,7 @@
     </footer>
 
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
       var swiper = new Swiper(".mySwiper-bg", {
         slidesPerView: 1,
@@ -208,6 +209,37 @@
             spaceBetween: 30,
           },
         },
+      });
+
+      jQuery(document).ready(function() {
+        jQuery('#todas-obras').on("click", function() {
+          jQuery('#todas-obras').addClass('ativo');
+          jQuery('.todas-obras').removeClass('d-none');
+          jQuery('#obras-andamento').removeClass('ativo');
+          jQuery('#obras-concluidas').removeClass('ativo');
+          jQuery('.obras-concluidas').addClass('d-none');
+          jQuery('.obras-andamento').addClass('d-none');
+
+        });
+
+        jQuery('#obras-concluidas').on("click", function() {
+          jQuery('#obras-concluidas').addClass('ativo');
+          jQuery('#obras-andamento').removeClass('ativo');
+          jQuery('.obras-concluidas').removeClass('d-none');
+          jQuery('#todas-obras').removeClass('ativo');
+          jQuery('.todas-obras').addClass('d-none');
+          jQuery('.obras-andamento').addClass('d-none');
+
+        });
+        
+        jQuery('#obras-andamento').on("click", function() {
+          jQuery('#obras-andamento').addClass('ativo');
+          jQuery('.obras-andamento').removeClass('d-none');
+          jQuery('#obras-concluidas').removeClass('ativo');
+          jQuery('#todas-obras').removeClass('ativo');
+          jQuery('.todas-obras').addClass('d-none');
+          jQuery('.obras-concluidas').addClass('d-none');
+        });
       });
     </script>
 

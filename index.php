@@ -86,17 +86,17 @@
     </div>
     <div class="status-obras-box">
       <div class="status-obras">
-        <div>
-          <a href="" class="fw600 d-block">OBRAS CONCLUÍDAS</a>
+        <div id="obras-concluidas">
+          <a class="fw600 d-block">OBRAS CONCLUÍDAS</a>
           <span></span>
         </div>
-        <div>
-          <a href="" class="fw600 d-block">OBRAS EM ANDAMENTO</a>
+        <div id="obras-andamento">
+          <a class="fw600 d-block">OBRAS EM ANDAMENTO</a>
           <span></span>
         </div>
-        <div>
-          <a href="" class="fw600 d-block">TODAS AS OBRAS</a>
-          <span></span>
+        <div id="todas-obras">
+          <a class="fw600 d-block ativo">TODAS AS OBRAS</a>
+          <span class="ativo"></span>
         </div>
       </div>
       <span class="pagination-span"></span>
@@ -104,10 +104,42 @@
     <div class="swiper mySwiper mySwiper-loteamento">
       <div class="swiper-wrapper">
         <?php for ($i = 0; $i < 6; $i++) : ?>
-          <div class="swiper-slide">
+          <div class="swiper-slide  d-none obras-concluidas">
             <div class="lotes-item w-100">
               <a href="">
                 <div><img src="assets/images/veredas3.png" alt="veredas 3" class="img-fluid"></div>
+                <div>
+                  <span></span>
+                  <h2 class="fw600 fs14">DE 156 A 369m² • 110 LOTES</h2>
+                  <h3 class="fw500 fs12">Loteamento Rubi</h3>
+                  <p class="fw500 fs16">Presidente Prudente - SP</p>
+                  <p class="fw500 fs14">Bairro Centro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        <?php endfor; ?>
+        <?php for ($i = 0; $i < 6; $i++) : ?>
+          <div class="swiper-slide d-none obras-andamento">
+            <div class="lotes-item w-100">
+              <a href="">
+                <div><img src="assets/images/veredas2.png" alt="veredas 3" class="img-fluid"></div>
+                <div>
+                  <span></span>
+                  <h2 class="fw600 fs14">DE 156 A 369m² • 110 LOTES</h2>
+                  <h3 class="fw500 fs12">Loteamento Rubi</h3>
+                  <p class="fw500 fs16">Presidente Prudente - SP</p>
+                  <p class="fw500 fs14">Bairro Centro</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        <?php endfor; ?>
+        <?php for ($i = 0; $i < 6; $i++) : ?>
+          <div class="swiper-slide todas-obras">
+            <div class="lotes-item w-100">
+              <a href="">
+                <div><img src="assets/images/casa.png" alt="veredas 3" class="img-fluid"></div>
                 <div>
                   <span></span>
                   <h2 class="fw600 fs14">DE 156 A 369m² • 110 LOTES</h2>

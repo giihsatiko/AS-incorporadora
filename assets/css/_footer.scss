@@ -42,7 +42,6 @@
   background-color: $cinza-claro;
 }
 .links-rodape {
-  display: flex;
   padding-top: 50px;
 }
 .links {
@@ -169,4 +168,9 @@
       line-height: 21.94px;
     }
   }
+
+}
+
+.lista-mobile {
+  display: none;
 }
