@@ -70,19 +70,24 @@
   }
 }
 .links-itens {
-  display: flex;
-  flex-wrap: wrap;
-  width: 50%;
-  gap: 40px;
+  // display: flex;
+  // flex-wrap: wrap;
+  // // width: 50%;
+  // gap: 15px;
+  @media (min-width: 768px) {
+    gap: 40px;
+  }
   div {
-    display: flex;
-    flex-direction: column;
-    width: fit-content;
+    // display: flex;
+    // flex-direction: column;
+    // width: fit-content;
     a {
       color: black;
       font-weight: 500;
       font-size: 15px;
       line-height: 35px;
+      display: block;
+      width: fit-content;
       &:hover {
         color: $cinza;
         text-decoration: underline;
@@ -168,7 +173,6 @@
       line-height: 21.94px;
     }
   }
-
 }
 
 .lista-mobile {
