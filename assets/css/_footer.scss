@@ -51,6 +51,9 @@
         order: 1;
       }
     }
+    .caixa-botoes {
+      width: 100% !important;
+    }
 }
 ul {
   list-style: none;
@@ -78,7 +81,7 @@ ul {
       padding-top: 15px;
       line-height: 21.94px;
       &:first-of-type {
-        width: 110px;
+        width: 137px;
       }
     }
   }
@@ -137,9 +140,12 @@ ul {
   padding-bottom: 26px;
   .row >div {
     height: 120px;
+    width: fit-content;
+    padding: 0;
     @media(min-width: 576px) {
       .botao-preto, .botao-vermelho {
-        width: 221px;
+        max-width: 221px;
+        width: 100%;
       }
     }
   }
@@ -149,8 +155,19 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    li a {
-      padding: 28.5px;
+    li {
+      &:first-of-type {
+        padding: 1.71875rem 1.71875rem 1.71875rem 0;
+      }
+      &:nth-of-type(2) {
+        padding: 1.71875rem;
+      }
+      &:nth-of-type(3) {
+        padding: 1.71875rem 0 1.71875rem 1.71875rem;
+      }
+      &:hover path {
+        fill: $cinza;
+      }
     }
   }
   div {

@@ -108,6 +108,9 @@
           border: 2px solid white;
         }
       }
+      a:first-of-type {
+        max-width: 302px;
+      }
     }
   }
 }

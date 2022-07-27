@@ -180,7 +180,7 @@
       </div>
       <div class="texto-sobre fw400 fs18">
         <p>A <span class="fw700">AS Incorporadora</span> lançou seu primeiro loteamento em 1997, em Presidente Prudente - SP e hoje conta com nove loteamentos já lançados, com sucesso de vendas em todos os empreendimentos e quatro loteamentos em fase de preparação para novos lançamentos. Esses empreendimentos surgiram com a necessidade do cliente em adquirir um lote, com a facilidade de pagamento e com o financiamento próprio da empresa.</p>
-        <div class="botoes-sobre">
+        <div class="botoes-sobre fs15 fw500">
           <a href="" class="botao-vermelho">CONHEÇA A INCORPORADORA</a>
           <a href="">ENTRE EM CONTATO</a>
         </div>

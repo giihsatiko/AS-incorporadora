@@ -5,7 +5,10 @@ i {
   }
 }
 .botao-preto {
+  white-space: nowrap;
   background-color: black;
+  font-size: 15px;
+  font-weight: 600;
   max-height: 51px;
   padding: 14px 20px;
   border-radius: 3px;
@@ -24,6 +27,8 @@ i {
   }
 }
 .botao-vermelho {
+  font-size: 15px;
+  font-weight: 500;
   white-space: nowrap;
   background-color: $vermelho;
   border: none;

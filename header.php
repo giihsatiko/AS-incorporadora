@@ -40,7 +40,7 @@
               </ul>
               <ul class="botao-nav">
                 <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-                <li><a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
+                <li><a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
               </ul>
               <div class="fechar">
                 <div class="botao-fechar fw700 fs20">
@@ -60,7 +60,7 @@
         </ul>
         <ul class="botao-nav">
           <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-          <a href="" class="botao-vermelho"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a>
+          <a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a>
         </ul>
       </nav>
     </div>
