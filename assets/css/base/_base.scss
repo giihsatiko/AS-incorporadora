@@ -229,7 +229,7 @@ i {
         overflow: hidden;
       }
       img {
-        animation: crescer 0.5s forwards;
+        animation: crescer 0.5s forwards alternate;
       }
       span {
         background-color: $vermelho-claro;

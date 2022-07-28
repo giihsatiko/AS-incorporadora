@@ -102,8 +102,8 @@
         content: "";
         display: block;
         position: absolute;
-        top: 20%;
-        right: 20%;
+        top: 24%;
+        right: 22%;
         background-color: white;
         width: 8px;
         height: 8px;
@@ -421,7 +421,8 @@
         height: 250px;
         flex-direction: column;
         padding-top: 0;
-        a:nth-of-type(2) {
+        a:first-of-type, a:nth-of-type(2) {
+          max-width: inherit;
           width: 100%;
         }
 
@@ -520,6 +521,9 @@
   }
   .direitos {
     flex-direction: column;
+    p {
+      padding-top: 18.77px;
+    }
   }
 
   .box-noticia {
@@ -568,7 +572,6 @@
     }
     .fechar {
       height: 91px;
-      margin-top: 30px;
       border-radius: 20px 20px 0 0;
       background-color: white;
     }

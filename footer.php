@@ -76,13 +76,13 @@
               </div>
 
             </div>
-            <div class="botoes col-12 col-lg-3">
-              <div class="row">
-                <div class="col-lg-12 col-sm-9 d-flex flex-lg-column caixa-botoes">
+            <div class="botoes col-12 col-lg-3 align-items-center">
+              <div class="row w-100 justify-content-between justify-content-lg-end">
+                <div class="col-lg-12 col-sm-9 d-flex flex-lg-column align-items-center caixa-botoes">
                   <a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo"> COLABORADOR</a>
                   <a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuario"> CLIENTE</a>
                 </div>
-                <div class="col-lg-12 col-sm-3">
+                <div class="col-lg-12 col-sm-3 d-none d-sm-flex">
                   <ul>
                     <li><a href=""><svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                           <path d="M10.4991 15C10.4974 15 10.4954 15 10.4933 15C9.85965 14.9955 4.25797 14.9452 2.67088 14.5211C1.56172 14.2266 0.686394 13.3618 0.387221 12.2654C-0.0282507 10.7243 -0.00153886 7.75733 0.0013378 7.52051C-0.00153886 7.28491 -0.0282507 4.2932 0.385988 2.73946C0.386399 2.73783 0.38681 2.73662 0.387221 2.73499C0.683106 1.65123 1.57816 0.759607 2.66841 0.464294C2.67088 0.463482 2.67375 0.46267 2.67663 0.462263C4.24564 0.0540255 9.85883 0.00446828 10.4937 0H10.5053C11.1406 0.00446828 16.7571 0.0548379 18.3298 0.47973C19.4361 0.773418 20.311 1.63701 20.6105 2.73215C21.0412 4.28711 21.0014 7.28491 20.9973 7.53798C21.0001 7.78739 21.0256 10.7275 20.6126 12.2764C20.6122 12.278 20.6118 12.2792 20.6114 12.2809C20.3122 13.3772 19.4369 14.2416 18.3265 14.5369C18.3248 14.5373 18.3236 14.5377 18.322 14.5381C16.7529 14.9456 11.1398 14.9955 10.5053 15C10.5032 15 10.5011 15 10.4991 15ZM1.97185 3.15501C1.60692 4.52636 1.64144 7.47989 1.64186 7.50955V7.53107C1.63117 8.34999 1.66939 10.7222 1.97185 11.8454C2.11856 12.3832 2.55047 12.8093 3.09786 12.9552C4.26907 13.2683 8.83104 13.3666 10.4987 13.3784C12.1704 13.3666 16.7398 13.2712 17.902 12.9706C18.4477 12.8248 18.878 12.3999 19.0259 11.8612C19.3292 10.7214 19.367 8.36096 19.3559 7.54692C19.3559 7.53839 19.3559 7.52986 19.3559 7.52133C19.3711 6.69226 19.3411 4.29279 19.0272 3.16029C19.0267 3.15907 19.0263 3.15826 19.0263 3.15704C18.8788 2.61678 18.4469 2.19067 17.8995 2.04485C16.7398 1.73166 12.17 1.63336 10.4987 1.62158C8.82775 1.63336 4.26331 1.72882 3.09745 2.029C2.56074 2.17646 2.11897 2.618 1.97185 3.15501ZM19.8191 12.07H19.8195H19.8191ZM8.40817 10.7836V4.21602L14.1504 7.4998L8.40817 10.7836Z" fill="black" />
@@ -116,15 +116,15 @@
           <div class="contato-rodape">
             <a href="">
               <img src="assets/images/carta.png" alt="carta">
-              <p class="fw500 fs18"><span class="fw700">Formulário</span> de contato</p>
+              <p class="fw500 fs18 fs14-sm"><span class="fw700">Formulário</span> de contato</p>
             </a>
             <a href="">
               <img src="assets/images/tel2.png" alt="telefone">
-              <p class="fw500 fs18"><span class="fw700">Vendas</span> 18 3916 2287</p>
+              <p class="fw500 fs18 fs14-sm"><span class="fw700">Vendas</span> 18 3916 2287</p>
             </a>
             <a href="">
               <img src="assets/images/whatsapp.png" alt="whatsapp">
-              <p class="fw500 fs18"><span class="fw700">Whatsapp</span> 18 3916 2287</p>
+              <p class="fw500 fs18 fs14-sm"><span class="fw700">Whatsapp</span> 18 3916 2287</p>
             </a>
           </div>
         </div>
@@ -136,6 +136,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script>
       var swiper = new Swiper(".mySwiper-bg", {
+        loop: true,
         slidesPerView: 1,
         navigation: {
           nextEl: ".botao-swiper-vertical .button-next",
@@ -148,6 +149,7 @@
       });
 
       var swiper2 = new Swiper(".mySwiper-lancamento ", {
+        loop: true,
         navigation: {
           nextEl: ".botao-swiper .button-next-lancamento",
           prevEl: ".botao-swiper .button-prev-lancamento",
@@ -213,6 +215,7 @@
       });
 
       var swiper4 = new Swiper(".mySwiper-blog", {
+        loop: true,
         navigation: {
           nextEl: ".botao-swiper .button-next-blog",
           prevEl: ".botao-swiper .button-prev-blog",

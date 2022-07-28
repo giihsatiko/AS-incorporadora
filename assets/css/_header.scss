@@ -34,10 +34,13 @@ nav {
 }
 }
 .fechar {
-  margin-top: 30px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   .botao-fechar {
     display: flex;
     align-items: center;
@@ -45,6 +48,11 @@ nav {
     p {
       margin: 0;
     }
+  }
+  .logo {
+    width: 68.25px;
+    height: 78px;
+    margin-bottom: 0;
   }
 }
 .botao-nav {
