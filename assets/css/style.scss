@@ -116,7 +116,6 @@
   }
 }
 
-
 .formulario-box {
   padding-top: 72px;
 }
@@ -269,6 +268,9 @@
   .offcanvas {
     height: 100%;
   }
+  .modal-backdrop.show {
+    z-index: 1;
+  }
   .offcanvas-body {
     ul:first-of-type {
       display: block;
@@ -284,7 +286,7 @@
       }
     }
   }
-  
+
   .botao-nav {
     margin-left: 0;
     display: flex;
@@ -381,9 +383,9 @@
 }
 
 @media (max-width: 767.9px) {
-  .botao-nav {
-    display: none;
-  }
+  // .botao-nav {
+  //   display: none;
+  // }
   .bg-vermelho {
     background-image: url(assets/images/bg-vermelho-sm.png);
     background-repeat: no-repeat;
@@ -421,11 +423,11 @@
         height: 250px;
         flex-direction: column;
         padding-top: 0;
-        a:first-of-type, a:nth-of-type(2) {
+        a:first-of-type,
+        a:nth-of-type(2) {
           max-width: inherit;
           width: 100%;
         }
-
       }
     }
   }

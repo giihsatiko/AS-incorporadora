@@ -44,7 +44,7 @@
               </ul>
               <div class="fechar">
                 <div class="botao-fechar fw700 fs20">
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/images/close.svg" alt="botao fechar"></button>
                   <p>FECHAR</p>
                 </div>
                 <img src="assets/images/logo.png" alt="logo AS" class="logo">
@@ -58,7 +58,7 @@
           <li><a href="blog.php">BLOG</a></li>
           <li><a href="contato.php">CONTATO</a></li>
         </ul>
-        <ul class="botao-nav">
+        <ul class="botao-nav d-md-flex d-none">
           <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
           <a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a>
         </ul>
