@@ -18,50 +18,32 @@
 
 <body>
   <header>
-    <div class="container-fluid">
-      <nav class="nav-header">
-        <a href="" class="logo"><img src="assets/images/logo.png" alt="logo AS incorporadora" class="img-fluid"></a>
-        <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">
-          <div class="burguer">
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-          <p>MENU</p>
-        </button>
-        <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-          <div class="offcanvas-body">
-            <div class="container-fluid">
-              <ul class="fw500 fs16">
-                <li><a href="index.php">HOME</a></li>
-                <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
-                <li><a href="blog.php">BLOG</a></li>
-                <li><a href="contato.php">CONTATO</a></li>
-              </ul>
-              <ul class="botao-nav">
-                <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-                <li><a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a></li>
-              </ul>
-              <div class="fechar">
-                <div class="botao-fechar fw700 fs20">
-                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"><img src="assets/images/close.svg" alt="botao fechar"></button>
-                  <p>FECHAR</p>
-                </div>
-                <img src="assets/images/logo.png" alt="logo AS" class="logo">
-              </div>
-            </div>
-          </div>
+    <div class="container-fluid w-100">
+      <div class="box-nav d-flex align-items-center">
+        <a href="#" class="logo d-none d-sm-block"><img src="assets/images/logo.svg" alt="logo"></a>
+        <div class="links-nav ps-lg-3 fs-16 fw500">
+          <a href="#">HOME</a>
+          <a href="#">EMPREENDIMENTOS</a>
+          <a href="#">BLOG</a>
+          <a href="#">CONTATO</a>
+          <a href="#" class="botao-preto"><img src="assets/images/grupo.png" alt="">COLABORADOR</a>
+          <a href="#" class="botao-vermelho"><img src="assets/images/usuario.png" alt="">CLIENTE</a>
         </div>
-        <ul class="desktop-list fw500 fs16">
-          <li><a href="index.php">HOME</a></li>
-          <li><a href="empreendimentos.php">EMPREENDIMENTOS</a></li>
-          <li><a href="blog.php">BLOG</a></li>
-          <li><a href="contato.php">CONTATO</a></li>
-        </ul>
-        <ul class="botao-nav d-md-flex d-none">
-          <li><a href="" class="botao-preto"><img src="assets/images/grupo.png" alt="grupo">COLABORADOR</a></li>
-          <a href="" class="botao-vermelho fw600"><img src="assets/images/usuario.png" alt="usuário">CLIENTE</a>
-        </ul>
-      </nav>
+        <div class="botoes-nav">
+          <a href="#" class="botao-preto"><img src="assets/images/grupo.png" alt="">COLABORADOR</a>
+          <a href="#" class="botao-vermelho"><img src="assets/images/usuario.png" alt="">CLIENTE</a>
+        </div>
+        <div class="menu-wrapper d-flex align-items-center">
+          <div class="menu ">
+            <div class="burgir">
+              <span class="top"></span>
+              <span class="mid"></span>
+              <span class="bot"></span>
+            </div>
+            <p>MENU</p>
+          </div>
+          <a href="#" class="logo d-sm-none"><img src="assets/images/logo.svg" alt="logo"></a>
+        </div>
+      </div>
     </div>
   </header>

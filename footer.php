@@ -243,6 +243,20 @@
         },
       });
 
+      jQuery('document').ready(function() {
+        jQuery('.menu').on('click', function() {
+          if (jQuery('.burgir').hasClass('active')) {
+            jQuery('.burgir').removeClass('active');
+            jQuery('.links-nav').removeClass('menu-aberto');
+            jQuery('.links-nav').addClass('d-none');
+          } else {
+            jQuery('.burgir').addClass('active');
+            jQuery('.links-nav').addClass('menu-aberto');
+            jQuery('.links-nav').removeClass('d-none');
+          }
+        });
+      });
+
       jQuery(document).ready(function() {
         jQuery('#todas-obras').on("click", function() {
           jQuery('#todas-obras').addClass('ativo');

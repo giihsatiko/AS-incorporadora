@@ -472,7 +472,7 @@ i:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: white !important;
   text-decoration: none;
 }
 .botao-preto img {
@@ -491,7 +491,7 @@ i:hover {
   padding: 16px 30px 17px 30px;
   border-radius: 3px;
   text-align: center;
-  color: white;
+  color: white !important;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2093,47 +2093,6 @@ nav .desktop-list a {
 @media (max-width: 575.9px) {
   body {
     position: relative;
-  }
-
-  .nav-header {
-    position: fixed;
-    z-index: 1000;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    border-radius: 20px 20px 0 0;
-    justify-content: space-around;
-  }
-  .nav-header .logo {
-    width: 68.25px;
-    height: 78px;
-    margin-bottom: 0;
-  }
-  .nav-header button {
-    order: -1;
-  }
-  .nav-header .offcanvas {
-    background-color: rgba(255, 255, 255, 0.85);
-  }
-  .nav-header .offcanvas-body {
-    margin-top: 80px;
-    padding: 0;
-  }
-  .nav-header .offcanvas-body .botao-nav {
-    flex-direction: column;
-  }
-  .nav-header .offcanvas-body li {
-    width: 100%;
-  }
-  .nav-header .fechar {
-    height: 91px;
-    margin-top: 30px;
-    border-radius: 20px 20px 0 0;
-    background-color: white;
-  }
-
-  .btn-close {
-    opacity: 1;
   }
 
   .bg-vermelho {
