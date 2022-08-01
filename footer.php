@@ -244,15 +244,20 @@
       });
 
       jQuery('document').ready(function() {
+        jQuery('.fechar').addClass('d-none');
         jQuery('.menu').on('click', function() {
           if (jQuery('.burgir').hasClass('active')) {
             jQuery('.burgir').removeClass('active');
             jQuery('.links-nav').removeClass('menu-aberto');
             jQuery('.links-nav').addClass('d-none');
+            jQuery('.aberto').removeClass('d-none');
+            jQuery('.fechar').addClass('d-none');
           } else {
             jQuery('.burgir').addClass('active');
             jQuery('.links-nav').addClass('menu-aberto');
             jQuery('.links-nav').removeClass('d-none');
+            jQuery('.fechar').removeClass('d-none');
+            jQuery('.aberto').addClass('d-none');
           }
         });
       });

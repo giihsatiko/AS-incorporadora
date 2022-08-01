@@ -40,7 +40,8 @@
               <span class="mid"></span>
               <span class="bot"></span>
             </div>
-            <p>MENU</p>
+            <p class="aberto">MENU</p>
+            <p class="fechar">FECHAR</p>
           </div>
           <a href="#" class="logo d-sm-none"><img src="assets/images/logo.svg" alt="logo"></a>
         </div>

@@ -1,4 +1,4 @@
-<main>
+<section>
   <div class="box-email">
     <div class="container-fluid container-lg">
       <div class="email">
@@ -18,4 +18,4 @@
       </div>
     </div>
   </div>
-</main>
+</section>

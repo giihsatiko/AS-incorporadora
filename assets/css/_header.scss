@@ -10,12 +10,13 @@ header {
 .box-nav {
   height: 91px;
   .logo {
+    z-index: 10000;
     margin-bottom: -90px;
   }
 
   .links-nav {
     display: flex;
-    a:not(.botao-preto, .botao-vermelho) {
+    &:not(.botao-preto, .botao-vermelho) a {
       display: block;
       text-decoration: none;
       color: black;
@@ -58,7 +59,7 @@ header {
   }
 
   .menu {
-    width: 112px;
+    width: 130px;
     height: 25px;
     .burgir {
       height: 100%;
@@ -120,10 +121,13 @@ header {
     backdrop-filter: blur(20px);
   }
   .menu-aberto {
-    margin-top: 115px;
+    padding-top: 115px !important;
   }
   .botoes-nav {
     margin: auto;
+  }
+  .menu-wrapper, .botao-preto , .botao-vermelho {
+    z-index: 9999;
   }
 }
 @media (min-width: 1081.9px) {
@@ -163,7 +167,6 @@ header {
     top: 0 !important;
   }
   .menu-wrapper {
-    z-index: 1000;
     height: 91px;
     position: fixed;
     bottom: 0;

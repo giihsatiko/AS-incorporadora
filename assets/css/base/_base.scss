@@ -16,7 +16,7 @@ i {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
+  color: white !important;
   text-decoration: none;
   img {
     padding-right: 8px;
@@ -36,7 +36,7 @@ i {
   padding: 16px 30px 17px 30px;
   border-radius: 3px;
   text-align: center;
-  color: white;
+  color: white !important;
   display: flex;
   justify-content: center;
   align-items: center;
