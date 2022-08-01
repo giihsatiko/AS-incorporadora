@@ -247,17 +247,21 @@
         jQuery('.fechar').addClass('d-none');
         jQuery('.menu').on('click', function() {
           if (jQuery('.burgir').hasClass('active')) {
+            jQuery('body').removeClass('overflow-hidden');
             jQuery('.burgir').removeClass('active');
             jQuery('.links-nav').removeClass('menu-aberto');
             jQuery('.links-nav').addClass('d-none');
             jQuery('.aberto').removeClass('d-none');
             jQuery('.fechar').addClass('d-none');
+            // jQuery('main, footer, section').removeClass('d-none');
           } else {
+            jQuery('body').addClass('overflow-hidden');
             jQuery('.burgir').addClass('active');
             jQuery('.links-nav').addClass('menu-aberto');
             jQuery('.links-nav').removeClass('d-none');
             jQuery('.fechar').removeClass('d-none');
             jQuery('.aberto').addClass('d-none');
+            // jQuery('main, footer, section').addClass('d-none');
           }
         });
       });

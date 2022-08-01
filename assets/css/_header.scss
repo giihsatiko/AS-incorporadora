@@ -34,12 +34,14 @@ header {
       display: flex;
       flex-direction: column;
       align-items: center;
-      position: absolute;
+      position: fixed;
       width: 100%;
-      top: 50px;
+      top: 70px;
       left: 0;
-      padding-left: 0;
+      padding: 15px;
       z-index: 900;
+      max-height: 100vh;
+      overflow: scroll;
       a {
         text-align: center;
         width: 100%;
@@ -55,6 +57,9 @@ header {
     margin-left: auto;
     .botao-preto {
       margin-right: 20px;
+    }
+    .botao-preto , .botao-vermelho {
+      z-index: 1000;
     }
   }
 
@@ -126,7 +131,7 @@ header {
   .botoes-nav {
     margin: auto;
   }
-  .menu-wrapper, .botao-preto , .botao-vermelho {
+  .menu-wrapper {
     z-index: 9999;
   }
 }
