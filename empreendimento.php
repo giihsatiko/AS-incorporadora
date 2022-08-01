@@ -2,7 +2,7 @@
 
 <main>
   <div class="box-titulo">
-    <div>
+    <div class="container">
       <h1 class="fw700">VEREDAS 3</h1>
       <p class="fw500">Home | Empreendimentos | Obras Concluídas | Veredas 3</p>
       <span></span>
@@ -65,7 +65,7 @@
         <p class="fw400">1km</p>
       </div>
       <div class="proximidade-item fs20">
-        <img src="assets/images/faculdade.svg" alt="chapeu formatura">
+        <img src="assets/images/pin-facul.svg" alt="chapeu formatura">
         <h3 class="fw600">Próximo à Faculdades</h3>
         <p class="fw400">5km</p>
       </div>

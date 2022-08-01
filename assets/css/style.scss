@@ -318,6 +318,19 @@
   .links {
     flex-wrap: wrap;
   }
+  .proximidade {
+    flex-direction: column;
+    height: fit-content;
+    .proximidade-item {
+      padding: 15px;
+      &:nth-of-type(2) {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        border-left: none;
+        border-right: none;
+      }
+    }
+  }
 }
 
 @media (max-width: 767.9px) {
@@ -473,11 +486,19 @@
   .assuntos-link {
     align-items: center;
   }
+
+  .obra-vantagens {
+    flex-direction: column;
+  }
+
+  .paragrafo-form {
+    text-align: center;
+  }
 }
 
 @media (max-width: 575.9px) {
-  body {
-    position: relative;
+  .box-titulo {
+    padding-top: 15px;
   }
 
   .bg-vermelho {

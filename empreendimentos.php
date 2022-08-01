@@ -2,7 +2,7 @@
 
 <main>
   <div class="box-titulo">
-    <div>
+    <div class="container">
       <h1 class="fw700">EMPREENDIMENTOS</h1>
       <p class="fw500">Home | Empreendimentos</p>
       <span></span>
@@ -18,7 +18,7 @@
     </div>
     <div class="row">
       <?php for ($i = 0; $i < 9; $i++) : ?>
-        <div class="lotes-item col-4">
+        <div class="lotes-item col-12 col-sm-4">
           <a href="" class="d-block">
             <div><img src="assets/images/lote.png" alt="loteamento" class="img-fluid w-100"></div>
             <div>

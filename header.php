@@ -22,10 +22,10 @@
       <div class="box-nav d-flex align-items-center">
         <a href="#" class="logo d-none d-sm-block"><img src="assets/images/logo.svg" alt="logo"></a>
         <div class="links-nav ps-lg-3 fs-16 fw500">
-          <a href="#">HOME</a>
-          <a href="#">EMPREENDIMENTOS</a>
-          <a href="#">BLOG</a>
-          <a href="#">CONTATO</a>
+          <a href="index.php">HOME</a>
+          <a href="empreendimentos.php">EMPREENDIMENTOS</a>
+          <a href="blog.php">BLOG</a>
+          <a href="contato.php">CONTATO</a>
           <a href="#" class="botao-preto"><img src="assets/images/grupo.png" alt="">COLABORADOR</a>
           <a href="#" class="botao-vermelho"><img src="assets/images/usuario.png" alt="">CLIENTE</a>
         </div>

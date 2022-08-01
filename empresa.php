@@ -2,7 +2,7 @@
 
 <main>
   <div class="box-titulo">
-    <div>
+    <div class="container">
       <h1 class="fw700">EMPRESA</h1>
       <p class="fw500">Home | Empresa</p>
       <span></span>

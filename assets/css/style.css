@@ -1236,7 +1236,8 @@ nav .desktop-list a {
   font-weight: 500;
   line-height: 23.53px;
   color: #4a4a4a;
-  width: 45.875rem;
+  max-width: 45.875rem;
+  width: 100%;
 }
 
 .bg-casa {

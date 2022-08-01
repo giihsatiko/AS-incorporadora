@@ -58,7 +58,6 @@ i {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
   height: 252px;
   z-index: -2;
   div {
@@ -68,6 +67,7 @@ i {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    position: relative;
     h1 {
       color: white;
       font-size: 48px;
@@ -82,7 +82,7 @@ i {
       color: $cinza;
     }
     span {
-      width: 80%;
+      width: 100%;
       height: 9px;
       background-color: $vermelho;
       position: absolute;
